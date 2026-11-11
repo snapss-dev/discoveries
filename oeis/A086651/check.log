@@ -1,0 +1,5 @@
+reproduces the 21 listed terms: True
+a(6k+3) = 2 for all 6k+3 <= 3000: True
+closed form matches for 3 <= n <= 3000: True
+a(n) = 18a(n-6) - a(n-12) - 32 for 15 <= n <= 3000: True
+the recurrence listed in the entry, for 16 <= n <= 3000: True

@@ -1,0 +1,4 @@
+A069097: sum_{k<=n} (-1)^(k+1) gcd(k,n)/cos(k pi/n)^2 = n for odd n <= 301; max error 2.82e-34
+A234307: a(n) = (1/4) sum_{k<=4n} (-1)^k gcd(k, 8n) for n <= 800: True
+A055210: a(n) = sigma_2(s)/sigma_1(s), s = n/core(n), for n <= 20000: True
+A023887: sigma_m(n) = sigma(n^m rad(n)^(m-1)) / sigma(rad(n)^(m-1)) for n <= 500, m <= 6: True

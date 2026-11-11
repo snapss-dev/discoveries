@@ -1,0 +1,4 @@
+a(1..8) = [1, 2, 2, 8, 2, 122, 2, 1682] (entry: 1, 2, 2, 8, 2, 122, 2, 1682)
+every middle term divisible by (n - d - n/d)! for n <= 600: True
+a(n) == 2 (mod k) for all 3 <= k <= 40 and (k+2)^2 <= n <= 2000: True
+last n with a(n) != 2 (mod k), for k = 3, 11, 37: {3: 1, 11: 10, 37: 36} (the bound (k+2)^2 is far from sharp)

@@ -1,0 +1,2 @@
+diagonal (A202194 lists 108, 640, 3500, 18144, ...): [108, 640, 3500, 18144]
+T(R, C) = 2RC*binomial(R+C-2, R-1) for all 3 <= R, C <= 7: True
