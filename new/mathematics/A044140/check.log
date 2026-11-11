@@ -1,0 +1,3 @@
+a(1..8) = [51, 100, 149, 198, 247, 296, 345, 357] (entry: 51, 100, 149, 198, 247, 296, 345, 357)
+recurrence holds for 10 <= n <= 57; first failure at n = 58: a(58) = 2499 = 10200 in base 7, predicted 2501
+number of failures among the first 459 terms: 38

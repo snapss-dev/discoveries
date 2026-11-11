@@ -1,0 +1,6 @@
+p = 16843: C(2p,p) mod p^4 = 2, C(3p,p) mod p^4 = 3  ->  Wolstenholme: both remarks fail at n = p^2
+p = 16831: C(2p,p) mod p^4 = 34600859186874089, C(3p,p) mod p^4 = 35330352290855313  ->  ordinary prime
+p = 10007: C(2p,p) mod p^4 = 5482497144246555, C(3p,p) mod p^4 = 9629193028525890  ->  ordinary prime
+A000846, composite n <= 600 with a(n) == 1 (mod n^2): [49]
+A051924, n <= 600 that are not odd primes with a(n) mod n^2 == n + 2: []
+n = 16843^2 = 283686649 | (3n-2)/(2n-1) mod n^2 == n + 2: True

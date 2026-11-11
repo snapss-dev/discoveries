@@ -27,6 +27,11 @@ Below each of these, pages are grouped by field.
 | [A100682](new/mathematics/A100682/README.md) | A 2012 conjecture lists six exceptions to a formula for the fourth roots of pentatope numbers. There are more: the next two are near 6 * 10^8 and 1.7 * 10^9, and 61 are listed. |
 | [A028576](new/mathematics/A028576/README.md) | A 2026 conjecture of F. Chapoton: n divides a(n) and n^2 divides 3 a(n), for a Möbius sum of squared central binomial coefficients. Proved, with exact bounds at each prime. |
 | [A121860, sharp onset](new/mathematics/A121860-sharp-onset/README.md) | lcm(1, ..., n) divides a(n) - 2 for every n except 4. This sharpens a conjecture already proved by others, and settles a form suggested by Peter Luschny. |
+| [A229324](new/mathematics/A229324/README.md) | "All terms are apparently multiple of 5" (2013) fails at 10419754, the first term with four prime factors. |
+| [A337385](new/mathematics/A337385/README.md) | "Apparently, all terms are divisible by 255255" (2020) fails at 8562829275. |
+| [A064169](new/mathematics/A064169/README.md) | A list of four exceptions "tested to 20000" misses five more inside that range. |
+| [A000846, A051924](new/mathematics/A000846-A051924/README.md) | Two "only for primes" remarks fail at 16843^2, the square of a Wolstenholme prime. |
+| [A044140](new/mathematics/A044140/README.md) | A recurrence guessed from 42 terms fails at the 58th. |
 | [A086651](new/mathematics/A086651/README.md) | "It appears that a(6k+3) is always 2. Is this easy to prove?" (2003). A closed form for every term, by induction. |
 | [A115066](new/mathematics/A115066/README.md) | Three congruences for the Chebyshev values T_n(n), observed in 2022. |
 | [A338857](new/mathematics/A338857/README.md) | The formula printed in the entry has the wrong sign; it agrees with the sequence up to 3000 and first fails at a 39-digit n. |
@@ -40,6 +45,8 @@ Below each of these, pages are grouped by field.
 | [A121860 conjecture](independent-rediscovery/mathematics/A121860-conjecture/README.md) | Modulo any k the sequence is eventually 2 | Haobo Ma and Wenlin Zhang, November 2026 |
 | [A202194, A202202](independent-rediscovery/mathematics/A202194/README.md) | Counting binary arrays that avoid 001 and 101 | Christian Krause, June 2026 |
 | [A023887](independent-rediscovery/mathematics/A023887/README.md) | An identity for sigma_m(n) | Sela Fried (m = 2); the omega-institute project, September 2026 |
+| [A190363](independent-rediscovery/mathematics/A190363/README.md) | A guessed recurrence fails at the 161st term | A contributor to Google DeepMind's formal-conjectures; Daniel Veljjanoski, November 2026 |
+| [A139394](independent-rediscovery/mathematics/A139394/README.md) | The conjecture a(n) > 0 fails near 6 * 10^11 | Bays and Hudson, 1978 |
 | [A092674](independent-rediscovery/mathematics/A092674/README.md) | A closed form showing the sequence is never negative | Implicit in the companion entry A092673 since 2007 |
 | [Arctic islands](independent-rediscovery/geography/arctic-islands/README.md) | Three islands exposed by glacier retreat, with area and elevation time series | Russia's Northern Fleet and the Russian Geographical Society; M. Pelto |
 | [TESS eclipsing binaries](independent-rediscovery/astronomy/tess-eclipsing-binaries/README.md) | Two bright eclipsing binaries | IJspeert et al. 2021 and 2024; Battley et al. 2022 |
@@ -69,9 +76,9 @@ Below each of these, pages are grouped by field.
 - **The novelty check.** Before a page goes under `new/`, the following are read: every page of the
   relevant revision history, including discussion threads; pending drafts; cross-referenced entries and
   the files attached to them; an in-depth web search with the identifier; and the current large-scale
-  efforts in the same area (for integer sequences: Epoch AI's OEIS Open benchmark and the
-  omega-institute project). Five results first filed as new were moved to `independent-rediscovery/`
-  by this check. It can still miss things.
+  efforts in the same area (for integer sequences: Epoch AI's OEIS Open benchmark, Google DeepMind's
+  formal-conjectures repository and the omega-institute project). Seven results first taken to be new
+  were filed under `independent-rediscovery/` because of this check. It can still miss things.
 - **Sensitive locations are withheld.** Positions of possible archaeological sites or wrecks are not
   published here.
 

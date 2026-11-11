@@ -1,0 +1,4 @@
+10419754 = 2 * 59 * 227 * 389: term True, n mod 5 = 4, n - phi(n) = 5333850, divisors required: [18, 75, 243, 405]
+188371849 = 17 * 29 * 137 * 2789: term True, n mod 5 = 4, n - phi(n) = 18504585, divisors required: [33, 45, 153, 2805]
+first terms: [115, 205, 295, 565, 655, 745, 835, 1195] (entry: 115, 205, 295, 565, 655, 745, 835, 1195)
+terms below 200000: 708; all multiples of 5: True
