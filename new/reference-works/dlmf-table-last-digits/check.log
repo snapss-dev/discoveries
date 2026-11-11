@@ -1,0 +1,62 @@
+Table 3.5.1 Gauss-Legendre n=5 values 6 bad 0 conventions ['ok-round']
+Table 3.5.2 Gauss-Legendre n=10 values 10 bad 0 conventions ['ok-round']
+Table 3.5.3 Gauss-Legendre n=20 values 20 bad 0 conventions ['ok-round']
+  NOT CORRECTLY ROUNDED Table 3.5.4 printed 0.070611647391286779696 x 10^0 | value 0.070611647391286779695483630855 | BAD | methods agree
+  NOT CORRECTLY ROUNDED Table 3.5.4 printed 0.027937006980023401099 x 10^0 | value 0.027937006980023401098489157508 | BAD | methods agree
+Table 3.5.4 Gauss-Legendre n=40 values 40 bad 2 conventions ['BAD', 'ok-round']
+  NOT CORRECTLY ROUNDED Table 3.5.5 printed 0.011624114120797826917 x 10^0 | value 0.011624114120797826916466769995 | BAD | methods agree
+Table 3.5.5 Gauss-Legendre n=80 values 80 bad 1 conventions ['BAD', 'ok-round']
+Table 3.5.6 Gauss-Laguerre n=5 values 10 bad 0 conventions ['ok-round']
+  NOT CORRECTLY ROUNDED Table 3.5.7 printed 0.308441115765020141 x 10^0 | value 0.30844111576502014154747083 | ok-trunc | methods agree
+  NOT CORRECTLY ROUNDED Table 3.5.7 printed 0.620874560986777475 x 10^-1 | value 0.62087456098677747392902129 | BAD | methods agree
+Table 3.5.7 Gauss-Laguerre n=10 values 20 bad 2 conventions ['BAD', 'ok-round', 'ok-trunc']
+Table 3.5.8 Gauss-Laguerre n=15 values 30 bad 0 conventions ['ok-round']
+Table 3.5.9 Gauss-Laguerre n=20 values 40 bad 0 conventions ['ok-round']
+Table 3.5.10 Gauss-Hermite n=5 values 6 bad 0 conventions ['ok-round']
+Table 3.5.11 Gauss-Hermite n=10 values 10 bad 0 conventions ['ok-round']
+Table 3.5.12 Gauss-Hermite n=15 values 16 bad 0 conventions ['ok-round']
+Table 3.5.13 Gauss-Hermite n=20 values 20 bad 0 conventions ['ok-round']
+Table 3.5.14 Gauss log-weight n=5 values 10 bad 0 conventions ['ok-round']
+Table 3.5.15 Gauss log-weight n=10 values 20 bad 0 conventions ['ok-round']
+Table 3.5.16 Gauss log-weight n=15 values 30 bad 0 conventions ['ok-round']
+Table 3.5.17 Gauss log-weight n=20 values 40 bad 0 conventions ['ok-round']
+  NOTE Table 7.13.3 y_5 printed 0.1906697324 e 0 value 0.190669732348850293 BAD
+Table 5.4.1 {'ok-round': 22}
+Table 7.13.1 {'ok-round': 10}
+Table 7.13.2 {'ok-round': 10}
+Table 7.13.3 {'ok-round': 9, 'BAD': 1}
+Table 7.13.4 {'ok-round': 10}
+Table 9.9.1 {'ok-round': 40}
+Table 9.9.2 {'ok-round': 40}
+Table 9.9.3 {'ok-round': 40}
+Table 9.9.4 {'ok-round': 40}
+Table 24.2.3 {'ok': 64, 'ok-round': 32}
+Table 24.2.4 {'ok': 31}
+Table 24.2.5 {'ok': 136}
+Table 24.2.6 {'ok': 136}
+Table 26.2.1 {'ok': 51}
+Table 26.5.1 {'ok': 21}
+Table 26.7.1 {'ok': 20}
+Table 26.6.2 {'ok': 20}
+Table 26.6.4 {'ok': 20}
+Table 26.12.1 {'ok': 51}
+Table 26.3.1 {'ok': 66}
+Table 26.3.2 {'ok': 81}
+Table 26.6.1 {'ok': 121}
+Table 26.6.3 {'ok': 66}
+Table 26.8.1 {'ok': 66}
+Table 26.8.2 {'ok': 66}
+Table 26.9.1 {'ok': 121}
+Table 26.14.1 {'ok': 56}
+Table 27.2.1 {'ok': 100}
+Table 27.2.2 {'ok': 156}
+Table 26.10.1 {'ok': 84}
+total values 1787
+
+SUMMARY: tables 47 values 2195 | not correctly rounded: 6
+   ('Table 3.5.4', '0.070611647391286779696', 0, 'BAD')
+   ('Table 3.5.4', '0.027937006980023401099', 0, 'BAD')
+   ('Table 3.5.5', '0.011624114120797826917', 0, 'BAD')
+   ('Table 3.5.7', '0.308441115765020141', 0, 'ok-trunc')
+   ('Table 3.5.7', '0.620874560986777475', -1, 'BAD')
+   ('Table 7.13.3', 'y_5', '0.1906697324', 'BAD')

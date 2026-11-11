@@ -1,0 +1,116 @@
+Standard normal table, revision 1353520618
+  WRONG     Phi(-1.36)                         printed 0.08692                value 0.08691496195
+  WRONG     Phi(0.16)                          printed 0.56360                value 0.56355946289
+  ok-trunc  Phi(1.36)                          printed 0.91308                value 0.91308503805
+  WRONG     1-Phi(0.16)                        printed 0.43640                value 0.43644053711
+  WRONG     1-Phi(1.36)                        printed 0.08692                value 0.08691496195
+  values recomputed: 1290
+Riemann zeta function, revision 1381421819 (table "First few nontrivial zeros", printed with an ellipsis)
+      zero  1 printed 14.134725141734693  true 14.13472514173469379046  IEEE double 14.134725141734695
+  WRONG     Im of zero number 2                printed 21.022039638771552     value 21.022039638771554992628
+      zero  2 printed 21.022039638771552  true 21.02203963877155499263  IEEE double 21.022039638771556
+      zero  3 printed 25.010857580145689  true 25.01085758014568876321  IEEE double 25.010857580145689
+  WRONG     Im of zero number 4                printed 30.424876125859512     value 30.424876125859513210312
+      zero  4 printed 30.424876125859512  true 30.42487612585951321031  IEEE double 30.424876125859512
+  WRONG     Im of zero number 5                printed 32.935061587739192     value 32.935061587739189690662
+      zero  5 printed 32.935061587739192  true 32.93506158773918969066  IEEE double 32.935061587739192
+  WRONG     Im of zero number 6                printed 37.586178158825668     value 37.586178158825671257218
+      zero  6 printed 37.586178158825668  true 37.58617815882567125722  IEEE double 37.586178158825675
+  WRONG     Im of zero number 7                printed 40.918719012147498     value 40.918719012147495187398
+      zero  7 printed 40.918719012147498  true 40.91871901214749518740  IEEE double 40.918719012147498
+  WRONG     Im of zero number 8                printed 43.327073280915002     value 43.327073280914999519496
+      zero  8 printed 43.327073280915002  true 43.32707328091499951950  IEEE double 43.327073280915002
+  WRONG     Im of zero number 9                printed 48.005150881167161     value 48.005150881167159727942
+      zero  9 printed 48.005150881167161  true 48.00515088116715972794  IEEE double 48.005150881167161
+  WRONG     Im of zero number 10               printed 49.773832477672300     value 49.773832477672302181917
+      zero 10 printed 49.773832477672300  true 49.77383247767230218192  IEEE double 49.773832477672300
+  values recomputed: 10
+Riemann-Siegel theta function, revision 1362805456 (table of Gram points; the table truncates)
+  WRONG     Gram point g_0                     printed 17.8455995405          value 17.8455995404108608
+  values recomputed: 18 (g_-2 is printed rounded, the rest truncated; only g_0 is wrong under both)
+Bickley-Naylor functions, revision 1315193899
+  WRONG     Ki_3(0)                            printed 0.785398162            value 0.785398163397448
+  ok-trunc  Ki_1(0.2)                          printed 1.023679877            value 1.023679877693423
+  WRONG     Ki_3(0.2)                          printed 0.612064472            value 0.612064471088985
+  WRONG     Ki_3(0.3)                          printed 0.541862953            value 0.541862954144607
+  WRONG     Ki_3(0.4)                          printed 0.480375442            value 0.480375441436925
+  WRONG     Ki_3(0.5)                          printed 0.426358257            value 0.426358256471346
+  ok-trunc  Ki_1(8.0)                          printed 0.000138841            value 0.000138841505453
+  ok-trunc  Ki_3(9.0)                          printed 0.000044509            value 4.4509746215e-5
+  values recomputed: 78
+Gauss-Kronrod quadrature formula, revision 1351865788
+  ok-trunc  K15 weight at 0.74153              printed 0.140653259715525      value 0.140653259715525918745
+  ok-trunc  K15 weight at 0.58608              printed 0.169004726639267      value 0.169004726639267902827
+  ok-trunc  K15 weight at 0.20778              printed 0.204432940075298      value 0.204432940075298892414
+  values recomputed: 20
+Single values
+  WRONG     Golden ratio: phi^3                printed 4.236067978            value 4.236067977499790
+  WRONG     Golden ratio: phi^4                printed 6.854101967            value 6.854101966249685
+  WRONG     Particular values of the gamma function: Gamma(3/2) printed 0.8862269254527580137  value 0.8862269254527580136490837
+  WRONG     Double exponential function: Vardi's constant printed 1.264084735305302      value 1.264084735305301113080
+  WRONG     List of numbers: e^pi              printed 23.14069263277925      value 23.14069263277926900573
+  WRONG     Feller's coin-tossing constants: beta_2 = 1 + 1/sqrt 5 printed 1.44721356             value 1.44721359549996
+  WRONG     Unary coding: phi                  printed 1.61803398879          value 1.61803398874989485
+  WRONG     Partial Euler Product: e           printed 2.718281728459         value 2.718281828459045235
+  WRONG     Deltoidal icositetrahedron: short/long edge = (4+sqrt 2)/7 printed 0.7731900694928638     value 0.7734590803390135784002
+  deltoidal icositetrahedron, short/long edge from coordinates: 0.773459080339013578 | the two lengths printed in the same sentence give 0.7734590823
+List of mathematical constants, revision 1381551884 (continued fraction printed for Brun's constant)
+  printed partial quotients: [1, 1, 9, 4, 1, 1, 8, 3, 4, 7, 1, 3, 3, 1, 2, 1, 1, 12, 4, 2, 1]
+  value of the printed finite fraction: 1.902160582300000
+  partial quotients fixed by the interval 1.902160583209 +- 0.000000000781: [1, 1, 9, 4, 1, 1, 8, 3, 4] (9 terms)
+  continued fraction of the decimal 1.9021605823       : [1, 1, 9, 4, 1, 1, 8, 3, 4, 7, 1, 3, 3, 1, 2, 1, 1, 12, 4, 2, 1, 2, 2]
+  continued fraction of the decimal 1.9021605831 (table): [1, 1, 9, 4, 1, 1, 8, 3, 4, 4, 2, 2, 1, 2, 5, 397, 2, 2]
+  the printed list agrees with the expansion of the terminating decimal 1.9021605823 in its first 21 terms
+Student's t-distribution, revision 1384902396 (table of critical values)
+  ok-trunc  df 23, one-sided 99.95%: printed 3.767 value 3.7676268
+  values recomputed: 396
+Chi-squared distribution, revision 1378642953 (table of chi-squared values against p-values)
+  WRONG     df 1, p = 0.50: printed 0.46 value 0.4549364
+  WRONG     df 4, p = 0.70: printed 2.20 value 2.194698
+  ok-trunc  df 5, p = 0.95: printed 1.14 value 1.145476
+  ok-trunc  df 6, p = 0.95: printed 1.63 value 1.635383
+  ok-trunc  df 9, p = 0.95: printed 3.32 value 3.325113
+  values recomputed: 110
+
+TOTAL values recomputed: 1937 | flagged: 41
+   ('normal', 'Phi(-1.36)', '0.08692', 'WRONG')
+   ('normal', 'Phi(0.16)', '0.56360', 'WRONG')
+   ('normal', 'Phi(1.36)', '0.91308', 'ok-trunc')
+   ('normal', '1-Phi(0.16)', '0.43640', 'WRONG')
+   ('normal', '1-Phi(1.36)', '0.08692', 'WRONG')
+   ('zeta', 'Im of zero number 2', '21.022039638771552', 'WRONG')
+   ('zeta', 'Im of zero number 4', '30.424876125859512', 'WRONG')
+   ('zeta', 'Im of zero number 5', '32.935061587739192', 'WRONG')
+   ('zeta', 'Im of zero number 6', '37.586178158825668', 'WRONG')
+   ('zeta', 'Im of zero number 7', '40.918719012147498', 'WRONG')
+   ('zeta', 'Im of zero number 8', '43.327073280915002', 'WRONG')
+   ('zeta', 'Im of zero number 9', '48.005150881167161', 'WRONG')
+   ('zeta', 'Im of zero number 10', '49.773832477672300', 'WRONG')
+   ('gram', 'Gram point g_0', '17.8455995405', 'WRONG')
+   ('bickley', 'Ki_3(0)', '0.785398162', 'WRONG')
+   ('bickley', 'Ki_1(0.2)', '1.023679877', 'ok-trunc')
+   ('bickley', 'Ki_3(0.2)', '0.612064472', 'WRONG')
+   ('bickley', 'Ki_3(0.3)', '0.541862953', 'WRONG')
+   ('bickley', 'Ki_3(0.4)', '0.480375442', 'WRONG')
+   ('bickley', 'Ki_3(0.5)', '0.426358257', 'WRONG')
+   ('bickley', 'Ki_1(8.0)', '0.000138841', 'ok-trunc')
+   ('bickley', 'Ki_3(9.0)', '0.000044509', 'ok-trunc')
+   ('kronrod', 'K15 weight at 0.74153', '0.140653259715525', 'ok-trunc')
+   ('kronrod', 'K15 weight at 0.58608', '0.169004726639267', 'ok-trunc')
+   ('kronrod', 'K15 weight at 0.20778', '0.204432940075298', 'ok-trunc')
+   ('golden', 'Golden ratio: phi^3', '4.236067978', 'WRONG')
+   ('golden', 'Golden ratio: phi^4', '6.854101967', 'WRONG')
+   ('gamma32', 'Particular values of the gamma function: Gamma(3/2)', '0.8862269254527580137', 'WRONG')
+   ('vardi', "Double exponential function: Vardi's constant", '1.264084735305302', 'WRONG')
+   ('gelfond', 'List of numbers: e^pi', '23.14069263277925', 'WRONG')
+   ('feller', "Feller's coin-tossing constants: beta_2 = 1 + 1/sqrt 5", '1.44721356', 'WRONG')
+   ('unary', 'Unary coding: phi', '1.61803398879', 'WRONG')
+   ('partial_euler', 'Partial Euler Product: e', '2.718281728459', 'WRONG')
+   ('deltoidal', 'Deltoidal icositetrahedron: short/long edge = (4+sqrt 2)/7', '0.7731900694928638', 'WRONG')
+   ('brun', 'continued fraction of Brun constant', '[1, 1, 9, 4, 1, 1, 8, 3, 4, 7, 1, 3, 3, 1, 2, 1, 1, 12, 4, 2, 1]', 'WRONG from term 10 on')
+   ('t_table', 'df 23, one-sided 99.95%', '3.767', 'ok-trunc')
+   ('chi2_table', 'df 1, p = 0.50', '0.46', 'WRONG')
+   ('chi2_table', 'df 4, p = 0.70', '2.20', 'WRONG')
+   ('chi2_table', 'df 5, p = 0.95', '1.14', 'ok-trunc')
+   ('chi2_table', 'df 6, p = 0.95', '1.63', 'ok-trunc')
+   ('chi2_table', 'df 9, p = 0.95', '3.32', 'ok-trunc')

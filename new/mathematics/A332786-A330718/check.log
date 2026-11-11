@@ -1,0 +1,29 @@
+1. mulmod against Python integers (10000 random pairs below 16843^3)
+    PASS
+2. first terms of A332786 and A330718 against the entries' data
+    PASS
+3. the modular method against exact rational arithmetic, n = p^2
+         A332786: v_p(a(p))  v_p(a(p^2))  modular   |  A330718: v_p(b(p))  v_p(b(p^2))  modular
+   p= 5            2           1           1       |            2           1           1     PASS
+   p= 7            3           2           2       |            2           1           1     PASS   <- 49 divides a(49)
+   p=11            2           1           1       |            2           1           1     PASS
+   p=13            2           1           1       |            2           1           1     PASS
+   p=17            2           1           1       |            2           1           1     PASS
+   p=19            2           1           1       |            2           1           1     PASS
+   p=23            2           1           1       |            2           1           1     PASS
+   p=29            2           1           1       |            2           1           1     PASS
+   p=31            2           1           1       |            2           1           1     PASS
+   p=37            2           1           1       |            2           1           1     PASS
+   p=41            2           1           1       |            2           1           1     PASS
+   p=43            2           1           1       |            2           1           1     PASS
+4. p = 16843 (the smaller Wolstenholme prime), n = p^2 = 283686649
+    A332786: v_p(T) = 4, T / p^4 = 808 (mod p), so v_p(a(n)) = 2      [45 s]
+    PASS: n divides a(n), n^2 does not
+    A330718: v_p(T') = 4, T' / p^4 = 7568 (mod p), so v_p(b(n)) = 2
+    PASS: n divides b(n), n^2 does not
+5. exhaustive search for composite m <= 20000 with m | a(m) or m | b(m), exact rational arithmetic
+    A332786, composite m <= 20000 dividing a(m): [49]      [4 s]
+    A330718, composite m <= 20000 dividing b(m): []
+    PASS: 49 is the only one for A332786, none for A330718, in this range
+
+ALL CHECKS PASSED

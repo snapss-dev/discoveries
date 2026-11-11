@@ -1,0 +1,11 @@
+p=5  A332786: v_p(a(p^2)) exact=1 modular=1   A330718: v_p(b(p^2)) exact=1 modular=1
+p=7  A332786: v_p(a(p^2)) exact=2 modular=2   A330718: v_p(b(p^2)) exact=1 modular=1
+p=11  A332786: v_p(a(p^2)) exact=1 modular=1   A330718: v_p(b(p^2)) exact=1 modular=1
+p=13  A332786: v_p(a(p^2)) exact=1 modular=1   A330718: v_p(b(p^2)) exact=1 modular=1
+p=17  A332786: v_p(a(p^2)) exact=1 modular=1   A330718: v_p(b(p^2)) exact=1 modular=1
+p=19  A332786: v_p(a(p^2)) exact=1 modular=1   A330718: v_p(b(p^2)) exact=1 modular=1
+p=23  A332786: v_p(a(p^2)) exact=1 modular=1   A330718: v_p(b(p^2)) exact=1 modular=1
+p=29  A332786: v_p(a(p^2)) exact=1 modular=1   A330718: v_p(b(p^2)) exact=1 modular=1
+p=31  A332786: v_p(a(p^2)) exact=1 modular=1   A330718: v_p(b(p^2)) exact=1 modular=1
+p=16843  A332786: v_p(T)=4  v_p(a(p^2))=2   A330718: v_p(T')=4  v_p(b(p^2))=2
+? 

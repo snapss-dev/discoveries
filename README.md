@@ -25,6 +25,10 @@ Below each of these, pages are grouped by field.
 | [ERC interface identifiers](new/software/erc-165-identifiers/README.md) | Twenty-seven interface identifiers and selectors printed in Ethereum ERC documents do not match the signatures printed beside them, seven of them in Final or Last Call standards. A contract written from the text and one using the compiler's value answer `supportsInterface` differently. |
 | [ERC-7857 storage slot](new/software/erc-7857-storage-slot/README.md) | The storage constant in a Final ERC's reference contract is not the ERC-7201 slot of the namespace it names. |
 | [SLIP-0132 prefixes](new/software/slip-0132-version-prefixes/README.md) | Three rows of a key-prefix registry print prefixes their version bytes cannot produce. |
+| [NIST DLMF table digits](new/reference-works/dlmf-table-last-digits/README.md) | Six entries in four tables of the NIST Digital Library of Mathematical Functions are not the correctly rounded values, and none is in its errata list. |
+| [Wikipedia: wrong digits](new/reference-works/wikipedia-decimal-values/README.md) | Wrong digits in 17 English Wikipedia articles, found by recomputation: the standard normal table at z = 0.16 (since 2014), eight of ten listed zeros of the zeta function, chi-squared critical values, and others. |
+| [Wikipedia: integer lists](new/reference-works/wikipedia-integer-tables/README.md) | Four integer lists that differ from recomputation: the count of five-digit prime quadruplets (26, not 27), a missing perfect totient number, a missing divisor, a repeated prime. |
+| [A332786 and A330718](new/mathematics/A332786-A330718/README.md) | 16843^2 answers the "weak pseudoprime" questions in both entries. A second, independent computation of the A332786 result filed separately, extended to A330718. |
 | [A246754](new/mathematics/A246754/README.md) | A listed term is one too large: 13993959^13993959 has exactly 10^8 digits. The entry's formula overshoots at the same places. |
 | [A320065](new/mathematics/A320065/README.md) | A 2025 Lambert W formula first fails at n = 3431, then at the end of every block. |
 | [A059923, A207976](new/mathematics/A059923-A207976/README.md) | Two formulas of the form floor(x^n), stated as fact, fail from n = 24 and n = 27. |
@@ -74,6 +78,9 @@ Below each of these, pages are grouped by field.
 
 | page | what |
 |---|---|
+| [Euclid Q1 lens candidates](candidates/astronomy/euclid-q1-lens-candidates/README.md) | Four possible strong gravitational lenses in Euclid early-release imaging; two plausible, two weak, none in the published lists. |
+| [Earthwork screening](candidates/archaeology/earthwork-screening/README.md) | Eight screens of open lidar and imagery for unrecorded earthworks, with calibration results and confidence. No positions are given. |
+| [Great Lakes bathymetry](candidates/archaeology/great-lakes-bathymetry-screening/README.md) | One wreck-shaped body in open lidar bathymetry, from an uncalibrated detector. Position withheld. |
 | [Tjibangara 1934 meteorite](candidates/history/tjibangara-1934-meteorite/README.md) | Newspaper reports and an observatory analysis of a 1934 fall in West Java that copies of the official register do not list. |
 | [Four possible outbursts on Harvard plates](candidates/astronomy/harvard-plate-outbursts/README.md) | GY Cet in 1943, V624 Peg in 1938, V355 UMa in 1930 and V4641 Sgr in 1901: bright images on old plates with no report found. Not re-measured. |
 | [Ring earthwork in Yonne](candidates/archaeology/yonne-ring-earthwork/README.md) | A bank and ditch 70 m across under forest in French lidar, on no map from 1750 to today. Undated, and the official register is closed. |
@@ -84,6 +91,9 @@ Below each of these, pages are grouped by field.
 
 | page | what |
 |---|---|
+| [Wide companions of planet hosts](dead-ends/astronomy/wide-companions-of-planet-hosts/README.md) | All 157 co-moving companions found in Gaia DR3 were already catalogued. Side note: some hosts listed as single in an archive have a catalogued companion. |
+| [Rock avalanches, 2026](dead-ends/geoscience/rock-avalanches-2026/README.md) | No unreported 2026 rock avalanche found on glaciers, with a detector that missed a known one. |
+| [Mexico G-LiHT lidar](dead-ends/archaeology/mexico-gliht-lidar/README.md) | No unrecorded platforms found in NASA lidar strips outside the Maya area; the search was partial. |
 | [Borger 1929 meteorite](dead-ends/history/borger-1929-meteorite/README.md) | A reported meteorite that a follow-up article identified as a weathered boulder. |
 | [Core EIP and BIP examples](dead-ends/software/eip-bip-test-vectors/README.md) | About 1,050 worked examples and test vectors in core Ethereum and Bitcoin proposals recomputed. None wrong. |
 | [A136616](dead-ends/mathematics/A136616/README.md) | A harmonic-number formula searched for a failure with the continued-fraction method, below 10^10000. None found; still unproved. |

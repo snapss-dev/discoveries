@@ -1,0 +1,21 @@
+Prime quadruplet, revision 1381299776
+  printed counts for n = 2, 3, ... digits: [1, 3, 7, 27, 128, 733, 3869, 23620, 152141, 1028789, 7188960, 51672312, 381226246, 2873279651]
+  sieve to 10^8, counts for 2..8 digits:   [1, 3, 7, 26, 128, 733, 3869]
+  direct test, counts for 2..6 digits:     [1, 3, 7, 26, 128]
+  the 5-digit quadruplets start at: [13001, 15641, 15731, 16061, 18041, 18911, 19421, 21011, 22271, 25301, 31721, 34841, 43781, 51341, 55331, 62981, 67211, 69491, 72221, 77261, 79691, 81041, 82721, 88811, 97841, 99131]
+  RESULT: the fourth printed term is 27; the count of 5-digit prime quadruplets is 26. Other terms up to 8 digits agree.
+Perfect totient number, revision 1379070377
+  printed exponents k: [0, 1, 2, 3, 6, 14, 15, 39, 201, 249, 1005, 1254, 1635]
+  k < 1700 with 4*3^k+1 prime (two libraries): [0, 1, 2, 3, 6, 14, 15, 39, 201, 249, 885, 1005, 1254, 1635]
+  missing from the printed list: [885]
+  4*3^885+1 (423 digits) is prime: Lucas test with base 5, a^(p-1) = 1 and gcd(a^((p-1)/q) - 1, p) = 1 for q = 2, 3
+  sum of the iterated totients of 3p equals 3p: True, so 3*(4*3^885+1) is a perfect totient number
+1002 (number), revision 1384107444
+  printed: [1, 2, 6, 167, 334, 501, 1002]
+  divisors: [1, 2, 3, 6, 167, 334, 501, 1002]
+  missing: [3]
+List of prime numbers, revision 1383567456 (happy primes)
+  printed tail: [563, 617, 653, 673, 683, 709, 739, 761, 863, 881, 907, 937, 1009, 1033, 1039, 1039, 1093]
+  happy primes from 563 to 1093: [563, 617, 653, 673, 683, 709, 739, 761, 863, 881, 907, 937, 1009, 1033, 1039, 1093]
+  repeated entries: [1039]
+ALL CHECKS PASSED

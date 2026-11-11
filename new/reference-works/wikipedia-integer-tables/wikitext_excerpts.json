@@ -1,0 +1,26 @@
+{
+ "quadruplet": {
+  "article": "Prime quadruplet",
+  "revid": 1381299776,
+  "timestamp": "2026-10-21T12:39:37Z",
+  "wikitext": "t it is consistent with current knowledge that there may be infinitely many pairs of twin primes and only finitely many prime quadruplets. However, it is conjectured that there are infinitely many prime quadruplets. The number of prime quadruplets with {{mvar|n}} digits in base 10 for {{nowrap|1={{mvar|n}} = 2, 3, 4, ...}} is \n:1, 3, 7, 27, 128, 733, 3869, 23620, 152141, 1028789, 7188960, 51672312, 381226246, 2873279651 {{OEIS|id=A120120}}.\n\nIt is conjectured th"
+ },
+ "totient": {
+  "article": "Perfect totient number",
+  "revid": 1379070377,
+  "timestamp": "2026-10-07T19:30:17Z",
+  "wikitext": " 3^k) = 2 \\times 3^{k-1}.</math>\n\nVenkataraman (1975) found another family of perfect totient numbers: if {{math|''p'' {{=}} 4 × 3<sup>''k''</sup>&nbsp;+&nbsp;1}} is [[prime number|prime]], then 3''p'' is a perfect totient number. The values of ''k'' leading to perfect totient numbers in this way are\n:0, 1, 2, 3, 6, 14, 15, 39, 201, 249, 1005, 1254, 1635, ... {{OEIS|id=A005537}}.\n\nMore generally if ''p'' is a prime numbe"
+ },
+ "n1002": {
+  "article": "1002 (number)",
+  "revid": 1384107444,
+  "timestamp": "2026-11-06T16:52:11Z",
+  "wikitext": "umber = 1002\n|cardinal = one thousand [and] two\n|ordinal text = one thousand [and] second\n|divisor = 1, 2, 6, 167, 334, 501, 1002\n|lang1 = [[Tamil numera"
+ },
+ "happy": {
+  "article": "List of prime numbers",
+  "revid": 1383567456,
+  "timestamp": "2026-11-03T11:10:46Z",
+  "wikitext": " [[223 (number)|223]], [[227 (number)|227]], [[251 (number)|251]], [[257 (number)|257]], [[269 (number)|269]], 307 ({{OEIS2C|A028388}})\n\n=== Happy primes ===\n{{see also|Happy number#Happy primes}}\nHappy primes are primes that are also happy numbers.\n\n[[7]], [[13 (number)|13]], [[19 (number)|19]], [[23 (number)|23]], [[31 (number)|31]], [[79 (number)|79]], [[97 (number)|97]], [[103 (number)|103]], [[109 (number)|109]], [[139 (number)|139]], [[167 (number)|167]], [[193 (number)|193]], [[239 (number)|239]], [[263 (number)|263]], [[293 (number)|293]], 313, 331, 367, 379, [[383 (number)|383]], 397, 409, 487, [[563 (number)|563]], 617, 653, 673, 683, 709, 739, 761, 863, 881, 907, 937, 1009, 1033, 1039, 1039, [[1093 (number)|1093]] ({{OEIS2C|A035497}})\n\n=== Harmonic "
+ }
+}
