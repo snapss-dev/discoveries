@@ -1,0 +1,23 @@
+| k | digits of n = q_k | b_(k+1) | mu | side | formula at n |
+|---:|---:|---:|---:|:---|:---|
+| 70 | 32 | 65 | -0.010939 | above a half-integer | holds (cannot fail on this side) |
+| 91 | 44 | 65 | +0.010867 | below a half-integer | holds |
+| 95 | 48 | 105 | +0.006854 | below a half-integer | holds |
+| 274 | 142 | 108 | -0.006596 | above a half-integer | holds (cannot fail on this side) |
+| 300 | 154 | 155 | -0.004625 | above a half-integer | holds (cannot fail on this side) |
+| 481 | 244 | 78 | +0.009126 | below a half-integer | holds |
+| 542 | 281 | 526 | -0.001368 | above a half-integer | holds (cannot fail on this side) |
+| 590 | 306 | 89 | -0.008004 | above a half-integer | holds (cannot fail on this side) |
+| 612 | 318 | 212 | -0.003387 | above a half-integer | holds (cannot fail on this side) |
+| 641 | 330 | 764 | +0.000943 | below a half-integer | **fails** |
+| 817 | 422 | 64 | +0.011007 | below a half-integer | holds |
+| 844 | 434 | 84 | -0.008465 | above a half-integer | holds (cannot fail on this side) |
+| 871 | 451 | 185 | +0.003883 | below a half-integer | **fails** |
+| 903 | 470 | 155 | +0.004617 | below a half-integer | holds |
+| 919 | 478 | 109 | +0.006537 | below a half-integer | holds |
+| 1059 | 542 | 140 | +0.005112 | below a half-integer | holds |
+| 1084 | 555 | 62 | -0.011470 | above a half-integer | holds (cannot fail on this side) |
+| 1231 | 630 | 158 | +0.004533 | below a half-integer | holds |
+| 1251 | 638 | 5491 | +0.000131 | below a half-integer | **fails** |
+| 1274 | 651 | 99 | -0.007215 | above a half-integer | holds (cannot fail on this side) |
+counterexample indices: [641, 871, 1251]

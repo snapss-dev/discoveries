@@ -1,0 +1,4 @@
+digits of n: 330
+R(F)   - 1 = -2.87907963530 E-663   (negative: m = F is too small)
+R(F+1) - 1 = 1.16341156346 E-330   (positive: hence a(n) = F + 1)
+formula = definition for n = 0..300: 1

@@ -1,0 +1,5 @@
+digits of n: 330
+(k + 1/2) - n/log 2 in [7.91398e-334, 7.91398e-334]  => round(n/log 2) = k, F = k + 1
+R(F)   <= 1 + (-2.8790796353e-663)     [tail bound 2.099e-783]
+R(F+1) >= 1 + (1.16341156346e-330)
+CERTIFIED: R(F) < 1 <= R(F+1), so a(n) = F + 1 = 2 + round(n/log 2)
