@@ -1,0 +1,79 @@
+0. Alpoge map: det = -2 | degrees [7, 6, 4] | three points with image {(-1/4, 0, 0)} | homogeneous of weights (-2,-1,1) for wt(x,y,z)=(1,-1,-2): True
+1. det JF = p{M,N} + r M{p,N} - s N{p,M} (with unknown coefficients): {(1, 1): True, (1, 2): True, (1, 3): True, (2, 3): True, (3, 3): True}
+2. route A (python-flint), all types (1,-r,-s) with 1 <= r <= s, degree <= 6
+   types scanned (r <= 8, s < r + 40): {'p constant by degree': 160, 'one-variable lemma': 136, 'Groebner': 24} | Groebner types: [(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (3, 8), (4, 4), (4, 5), (4, 6), (4, 7), (4, 8), (4, 9)]
+   (1,-1,-1) branch [quadratic part of p is u*v]: EMPTY  (24 unknowns, 9 splits, 9 leaves, 0.5s)
+   (1,-1,-1) branch [quadratic part of p is u^2]: EMPTY  (24 unknowns, 18 splits, 19 leaves, 10.5s)
+   (1,-1,-1) branch [p = 1 + u]: EMPTY  (24 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-1,-2) branch [p1_1=1]: EMPTY  (20 unknowns, 21 splits, 25 leaves, 1.8s)
+   (1,-1,-2) branch [p2_0=1,p1_1=0]: EMPTY  (20 unknowns, 34 splits, 29 leaves, 3.0s)
+   (1,-1,-2) branch [p0_1=1,p1_1=0,p2_0=0,p1_0=0]: EMPTY  (20 unknowns, 1 splits, 2 leaves, 0.1s)
+   (1,-1,-2) branch [p = 1 + u + v, 32 sub-branches on the top coefficients n4_0, n1_2, m2_1, m3_0, n2_1]: all EMPTY  (0.3s)
+   (1,-1,-2) branch [p1_0=1,p1_1=0,p2_0=0,p0_1=0]: EMPTY  (20 unknowns, 2 splits, 3 leaves, 0.2s)
+   (1,-1,-3) branch [p0_1=1]: EMPTY  (15 unknowns, 3 splits, 5 leaves, 0.2s)
+   (1,-1,-3) branch [p2_0=1,p0_1=0]: EMPTY  (15 unknowns, 1 splits, 2 leaves, 0.0s)
+   (1,-1,-3) branch [p1_0=1,p0_1=0,p2_0=0]: EMPTY  (15 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-1,-4) branch [p0_1=1]: EMPTY  (15 unknowns, 1 splits, 2 leaves, 0.1s)
+   (1,-1,-4) branch [p2_0=1,p0_1=0]: EMPTY  (15 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-1,-4) branch [p1_0=1,p0_1=0,p2_0=0]: EMPTY  (15 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-1,-5) branch [p2_0=1]: EMPTY  (11 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-1,-5) branch [p1_0=1,p2_0=0]: EMPTY  (11 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-1,-6) branch [p2_0=1]: EMPTY  (11 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-1,-6) branch [p1_0=1,p2_0=0]: EMPTY  (11 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-2,-2) branch [p = 1 + u]: EMPTY  (13 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-2,-3) branch [p0_1=1]: EMPTY  (13 unknowns, 0 splits, 1 leaves, 0.6s)
+   (1,-2,-3) branch [p1_0=1,p0_1=0]: EMPTY  (13 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-2,-4) branch [p0_1=1]: EMPTY  (12 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-2,-4) branch [p1_0=1,p0_1=0]: EMPTY  (12 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-2,-5) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-2,-6) branch [p1_0=1]: EMPTY  (9 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-2,-7) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-3,-3) branch [p = 1 + u]: EMPTY  (13 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-3,-4) branch [p0_1=1]: EMPTY  (11 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-3,-4) branch [p1_0=1,p0_1=0]: EMPTY  (11 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-3,-5) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-3,-6) branch [p1_0=1]: EMPTY  (9 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-3,-7) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-3,-8) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-4,-4) branch [p = 1 + u]: EMPTY  (13 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-4,-5) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-4,-6) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-4,-7) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-4,-8) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   (1,-4,-9) branch [p1_0=1]: EMPTY  (8 unknowns, 0 splits, 1 leaves, 0.0s)
+   route A: every branch run is empty: True
+   control, type (1,-1,-2) with component degrees <= (4,6,7):
+      p = 1 + u + v: non-empty sub-branches: [(1, 1, 1, 1, 0)]
+      p = 1 + u: non-empty sub-branches: []
+      p = 1 + v: non-empty sub-branches: []
+      its reduced Groebner basis: ['p0_0 - 1', 'm1_0 - 1', 'n0_1 - 1', 'p1_0 - 1', 'p0_1 - 1', 'n1_2', 't4', 'n0_3', 'm0_2', '4*m0_1 + 81*n3_1 - 12', '2*m1_1 - 81*n3_1', 'n0_2', '12*m2_0 - 297*n3_1 + 8', '3*m2_1 + 54*n3_1 + 4', '3*m3_0 + 54*n3_1 + 4', '12*n1_1 - 27*n3_1 + 16', '216*n2_0 - 189*n3_1 + 136', '9*n2_1 + 27*n3_1 - 4', '729*n3_1^2 + 432*n3_1 + 64', '108*n3_0 + 243*n3_1 - 40', 'n4_0 - n3_1', '24*t1 - 27*n3_1 - 14', '64*t0 + 729*n3_1 + 432', '24*t2 - 27*n3_1 - 14', '64*t3 + 729*n3_1 + 432']
+      the Alpoge map, normalised, satisfies the equations and every basis element; its n3_1 = -8/27 | so the solution set is this one point, with multiplicity 2: (27*n3_1 + 8)^2 = 0
+      the same branch p = 1 + u + v with all degrees <= 6: EMPTY (the 32 sub-branches above): True
+   overlap: degree-6 supports with deg p <= 1 lie in the Kistner-Shaska box (4,3,1): True; no member of the orbit of the Alpoge triple has degree <= 6: True
+3. route B (sympy, 3x3 determinant), branch by branch:
+   (1,-1,-1): branches empty: [True, True, True]  (29.9s)
+   (1,-1,-2): branches empty: [True, True, True, True, True]  (40.3s)
+   (1,-1,-3): branches empty: [True, True, True]  (9.8s)
+   (1,-1,-4): branches empty: [True, True, True]  (4.0s)
+   (1,-1,-5): branches empty: [True, True]  (0.0s)
+   (1,-1,-6): branches empty: [True, True]  (0.0s)
+   (1,-2,-2): branches empty: [True]  (0.0s)
+   (1,-2,-3): branches empty: [True, True]  (0.9s)
+   (1,-2,-4): branches empty: [True, True]  (0.1s)
+   (1,-2,-5): branches empty: [True]  (0.0s)
+   (1,-2,-6): branches empty: [True]  (0.0s)
+   (1,-2,-7): branches empty: [True]  (0.0s)
+   (1,-3,-3): branches empty: [True]  (0.0s)
+   (1,-3,-4): branches empty: [True, True]  (0.2s)
+   (1,-3,-5): branches empty: [True]  (0.0s)
+   (1,-3,-6): branches empty: [True]  (0.0s)
+   (1,-3,-7): branches empty: [True]  (0.0s)
+   (1,-3,-8): branches empty: [True]  (0.0s)
+   (1,-4,-4): branches empty: [True]  (0.0s)
+   (1,-4,-5): branches empty: [True]  (0.0s)
+   (1,-4,-6): branches empty: [True]  (0.0s)
+   (1,-4,-7): branches empty: [True]  (0.0s)
+   (1,-4,-8): branches empty: [True]  (0.0s)
+   (1,-4,-9): branches empty: [True]  (0.0s)
+ALL CHECKS PASSED
+exit code 0

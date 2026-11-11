@@ -46,6 +46,7 @@ Below each of these, pages are grouped by field.
 | [A165075](new/mathematics/A165075/README.md) | "All terms are multiples of 48" holds for odd lengths and fails for even ones. |
 | [A065751](new/mathematics/A065751/README.md) | An empirical generating function fails at the first six-digit term. |
 | [Seventeen short proofs](new/mathematics/short-proofs-2/README.md) | Short proofs of statements still marked as conjectures or questions in seventeen entries. |
+| [Graded Keller maps, degrees 5 and 6](new/mathematics/graded-keller-degree-6/README.md) | Within one graded family of polynomial maps of three variables, no counterexample to the Jacobian conjecture has degree 5 or 6, so the July 2026 counterexample of degrees (7, 6, 4) is the smallest in that family. A small extension of published results, checked by an independent referee; the general degree 5 and 6 question stays open. |
 | [A332786 and A330718](new/mathematics/A332786-A330718/README.md) | 16843^2 answers the "weak pseudoprime" questions in both entries. A second, independent computation of the A332786 result filed separately, extended to A330718. |
 | [A246754](new/mathematics/A246754/README.md) | A listed term is one too large: 13993959^13993959 has exactly 10^8 digits. The entry's formula overshoots at the same places. |
 | [A320065](new/mathematics/A320065/README.md) | A 2025 Lambert W formula first fails at n = 3431, then at the end of every block. |
