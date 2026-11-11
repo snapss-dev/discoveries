@@ -1,0 +1,3 @@
+k = 2352655113: smallest square-factor prime of k^2+j, j = 0..11: [3, 17, 19, 2, 13, 7, 5, 2, 11, 3, 23, 2]; k^2+12 squarefree: True
+k = 17546197568: smallest square-factor prime of k^2+j, j = 0..12: [2, 5, 3, 421, 2, 7, 31, 11, 2, 17, 59, 3, 2]; k^2+13 squarefree: True
+a(0..5) from the definition: [2, 7, 32, 41, 239, 13982] (entry: 2, 7, 32, 41, 239, 13982)

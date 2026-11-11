@@ -1,0 +1,3 @@
+k = 909764941 | offsets from 4k and smallest square-factor prime: [(-14, 5), (-10, 11), (-6, 1949), (-2, 13), (2, 3), (6, 23), (10, 7), (14, 19)]
+the next values outward are squarefree: True True
+a(0..2) from the definition: [13, 13, 1263] (entry: 13, 13, 1263)

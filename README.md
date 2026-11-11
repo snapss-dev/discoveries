@@ -25,6 +25,8 @@ Below each of these, pages are grouped by field.
 | [A072633, smallest counterexample](new/mathematics/A072633-smallest-counterexample/README.md) | The conjecture a(n) = 1 + round(n / log 2) fails at a 330-digit n found by Antonio Sanso. New here: a proof that this n is the smallest counterexample, the bound F(n) <= a(n) <= F(n) + 1, four further counterexamples, and the answer to an open remark in A332101. |
 | [A332102](new/mathematics/A332102/README.md) | The conjecture a(n) = round(n / log(3/2) + 3) fails at a 1614-digit n, certified with interval arithmetic. |
 | [A100682](new/mathematics/A100682/README.md) | A 2012 conjecture lists six exceptions to a formula for the fourth roots of pentatope numbers. There are more: the next two are near 6 * 10^8 and 1.7 * 10^9, and 61 are listed. |
+| [A271817](new/mathematics/A271817/README.md) | Three new terms of a sequence untouched since 2016: a(10) = a(11) = 2352655113 and a(12) = 17546197568. |
+| [A254069](new/mathematics/A254069/README.md) | A new term, a(4) = 909764941: the first run of eight consecutive odd numbers with no squarefree member, in the entry's terms. |
 | [A028576](new/mathematics/A028576/README.md) | A 2026 conjecture of F. Chapoton: n divides a(n) and n^2 divides 3 a(n), for a Möbius sum of squared central binomial coefficients. Proved, with exact bounds at each prime. |
 | [A121860, sharp onset](new/mathematics/A121860-sharp-onset/README.md) | lcm(1, ..., n) divides a(n) - 2 for every n except 4. This sharpens a conjecture already proved by others, and settles a form suggested by Peter Luschny. |
 | [A229324](new/mathematics/A229324/README.md) | "All terms are apparently multiple of 5" (2013) fails at 10419754, the first term with four prime factors. |
@@ -47,6 +49,7 @@ Below each of these, pages are grouped by field.
 | [A023887](independent-rediscovery/mathematics/A023887/README.md) | An identity for sigma_m(n) | Sela Fried (m = 2); the omega-institute project, September 2026 |
 | [A190363](independent-rediscovery/mathematics/A190363/README.md) | A guessed recurrence fails at the 161st term | A contributor to Google DeepMind's formal-conjectures; Daniel Veljjanoski, November 2026 |
 | [A139394](independent-rediscovery/mathematics/A139394/README.md) | The conjecture a(n) > 0 fails near 6 * 10^11 | Bays and Hudson, 1978 |
+| [A243013](independent-rediscovery/mathematics/A243013/README.md) | The seventh term of a count of graceful graphs should be 37, not 36 | Already listed correctly in A308544 |
 | [A092674](independent-rediscovery/mathematics/A092674/README.md) | A closed form showing the sequence is never negative | Implicit in the companion entry A092673 since 2007 |
 | [Arctic islands](independent-rediscovery/geography/arctic-islands/README.md) | Three islands exposed by glacier retreat, with area and elevation time series | Russia's Northern Fleet and the Russian Geographical Society; M. Pelto |
 | [TESS eclipsing binaries](independent-rediscovery/astronomy/tess-eclipsing-binaries/README.md) | Two bright eclipsing binaries | IJspeert et al. 2021 and 2024; Battley et al. 2022 |
@@ -77,7 +80,7 @@ Below each of these, pages are grouped by field.
   relevant revision history, including discussion threads; pending drafts; cross-referenced entries and
   the files attached to them; an in-depth web search with the identifier; and the current large-scale
   efforts in the same area (for integer sequences: Epoch AI's OEIS Open benchmark, Google DeepMind's
-  formal-conjectures repository and the omega-institute project). Seven results first taken to be new
+  formal-conjectures repository and the omega-institute project). Eight results first taken to be new
   were filed under `independent-rediscovery/` because of this check. It can still miss things.
 - **Sensitive locations are withheld.** Positions of possible archaeological sites or wrecks are not
   published here.
