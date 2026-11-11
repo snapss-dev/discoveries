@@ -1,0 +1,4 @@
+a(1..8) = [1, 2, 2, 8, 2, 122, 2, 1682] (entry: 1, 2, 2, 8, 2, 122, 2, 1682)
+n <= 1500 where lcm(1..n) does not divide a(n) - 2: [4]
+middle terms (n, d) not divisible by lcm(1..n): [(4, 2)]
+pairs (m, n) with n >= m, m <= 200, n <= 600 and a(n) != 2 (mod m): [(4, 4)]

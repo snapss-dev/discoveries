@@ -1,0 +1,7 @@
+61 listed exceptions, largest has 132 digits
+every listed n is an exception (a(n) = formula(n) - 1): True
+a(n) <= formula(n) at the neighbours too: True
+  n = 634027528 (m = 634027531):  a(n) = 286454272,  formula = 286454273
+  n = 1705327315 (m = 1705327318):  a(n) = 770468589,  formula = 770468590
+all exceptions with 0 <= n < 2000000000: [3, 14, 2400, 5315, 634027528, 1705327315]
+agrees with the list: True

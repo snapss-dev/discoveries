@@ -1,44 +1,61 @@
 # discoveries
 
-Small, checkable findings from open data, each with the code that verifies it.
+Small, checkable findings from open data, each with the code that verifies it, sorted by how new they
+are.
 
 The work here is done by AI agents (Anthropic's Claude models) under human direction: the agents search
 public data, propose a result, and then try to break it. Every finding has its own page with the
-evidence needed to check it, an honest label for how far it has been verified, and credit to whoever had
-it first. Rediscoveries and dead ends are kept too, labelled as such.
+evidence needed to check it and credit to whoever had it first.
 
-## Status labels
+## How the repository is sorted
 
-| label | meaning |
+| folder | what is in it |
 |---|---|
-| **verified** | Checked by at least two independent methods; the scripts are on the page. |
-| **new?** | No earlier record found in the relevant catalogue, its revision history, or a web search. That is a statement about the search, not a guarantee. |
-| **rediscovery** | Found independently here, but someone else had it first. Credit is on the page. |
-| **candidate** | Plausible, not confirmed. Needs an expert or data that could not be reached. |
-| **killed** | Claimed, then refuted on checking. Kept so the reason is on record. |
+| [`new/`](new) | Verified, and no earlier record found after the novelty check described below. That is a statement about the search, not a guarantee. |
+| [`independent-rediscovery/`](independent-rediscovery) | Found independently here, but someone else had it first. Each page names them and says how the earlier work was missed. |
+| [`candidates/`](candidates) | Plausible, not confirmed. Needs an expert or data that could not be reached. |
+| [`dead-ends/`](dead-ends) | Claimed and then refuted, or searched for and not found. Kept so the reason is on record. |
 
-## Findings
+Below each of these, pages are grouped by field.
 
-### Integer sequences (OEIS)
+## new
 
-| page | what | status |
+| page | what |
+|---|---|
+| [A072633, smallest counterexample](new/mathematics/A072633-smallest-counterexample/README.md) | The conjecture a(n) = 1 + round(n / log 2) fails at a 330-digit n found by Antonio Sanso. New here: a proof that this n is the smallest counterexample, the bound F(n) <= a(n) <= F(n) + 1, four further counterexamples, and the answer to an open remark in A332101. |
+| [A332102](new/mathematics/A332102/README.md) | The conjecture a(n) = round(n / log(3/2) + 3) fails at a 1614-digit n, certified with interval arithmetic. |
+| [A100682](new/mathematics/A100682/README.md) | A 2012 conjecture lists six exceptions to a formula for the fourth roots of pentatope numbers. There are more: the next two are near 6 * 10^8 and 1.7 * 10^9, and 61 are listed. |
+| [A028576](new/mathematics/A028576/README.md) | A 2026 conjecture of F. Chapoton: n divides a(n) and n^2 divides 3 a(n), for a Möbius sum of squared central binomial coefficients. Proved, with exact bounds at each prime. |
+| [A121860, sharp onset](new/mathematics/A121860-sharp-onset/README.md) | lcm(1, ..., n) divides a(n) - 2 for every n except 4. This sharpens a conjecture already proved by others, and settles a form suggested by Peter Luschny. |
+| [A086651](new/mathematics/A086651/README.md) | "It appears that a(6k+3) is always 2. Is this easy to prove?" (2003). A closed form for every term, by induction. |
+| [A115066](new/mathematics/A115066/README.md) | Three congruences for the Chebyshev values T_n(n), observed in 2022. |
+| [A338857](new/mathematics/A338857/README.md) | The formula printed in the entry has the wrong sign; it agrees with the sequence up to 3000 and first fails at a 39-digit n. |
+| [Three short proofs](new/mathematics/short-proofs/README.md) | A069097, A234307, A055210: identities still marked as conjectures in their entries. |
+
+## independent-rediscovery
+
+| page | what | who had it first |
 |---|---|---|
-| [A072633](oeis/A072633/README.md) | The conjecture a(n) = 1 + round(n / log 2) first fails at a 330-digit n, found by Antonio Sanso in July 2026. Added here: a proof that it is the smallest counterexample, the bound F(n) <= a(n) <= F(n) + 1, and the next four counterexamples. | counterexample: **rediscovery** (Sanso); minimality: **verified**, **new?** |
-| [A028576](oeis/A028576/README.md) | A 2026 conjecture of F. Chapoton: n divides a(n) and n^2 divides 3 a(n), for a Möbius sum of squared central binomial coefficients. Proved, with exact bounds at each prime. | **verified**, **new?** |
-| [A086651](oeis/A086651/README.md) | "It appears that a(6k+3) is always 2. Is this easy to prove?" (2003). Yes: closed form for every term, by induction. | **verified**, **new?** |
-| [A202194, A202202](oeis/A202194/README.md) | Binary arrays avoiding 001 and 101 in rows and columns number 2RC·binomial(R+C-2, R-1). Proves a 2020 conjecture and a 2011 empirical table. | **verified**, **new?** |
-| [A121860](oeis/A121860/README.md) | A 2025 conjecture: modulo any k the sequence is eventually constant, equal to 2. True for all n >= (k+2)^2. | **verified**, **new?** |
-| [A115066](oeis/A115066/README.md) | Three congruences for the Chebyshev values T_n(n), observed in 2022. | **verified**, **new?** |
-| [A092674](oeis/A092674/README.md) | A conjecture open in the entry since 2004 (a(n) is never negative), with the closed form a(n) = phi(n) - mu(n) + [n even] mu(n/2). | **verified**, **new?** |
-| [Four short proofs](oeis/short-proofs/README.md) | A069097, A234307, A055210, A023887: identities still marked as conjectures in their entries. | **verified**, **new?** |
+| [A072633 counterexample](independent-rediscovery/mathematics/A072633-counterexample/README.md) | The 330-digit counterexample itself | Antonio Sanso, July 2026 |
+| [A121860 conjecture](independent-rediscovery/mathematics/A121860-conjecture/README.md) | Modulo any k the sequence is eventually 2 | Haobo Ma and Wenlin Zhang, November 2026 |
+| [A202194, A202202](independent-rediscovery/mathematics/A202194/README.md) | Counting binary arrays that avoid 001 and 101 | Christian Krause, June 2026 |
+| [A023887](independent-rediscovery/mathematics/A023887/README.md) | An identity for sigma_m(n) | Sela Fried (m = 2); the omega-institute project, September 2026 |
+| [A092674](independent-rediscovery/mathematics/A092674/README.md) | A closed form showing the sequence is never negative | Implicit in the companion entry A092673 since 2007 |
+| [Arctic islands](independent-rediscovery/geography/arctic-islands/README.md) | Three islands exposed by glacier retreat, with area and elevation time series | Russia's Northern Fleet and the Russian Geographical Society; M. Pelto |
+| [TESS eclipsing binaries](independent-rediscovery/astronomy/tess-eclipsing-binaries/README.md) | Two bright eclipsing binaries | IJspeert et al. 2021 and 2024; Battley et al. 2022 |
 
-### Earth and sky
+## candidates
 
-| page | what | status |
-|---|---|---|
-| [Arctic islands](geography/arctic-islands/README.md) | Three islands exposed by glacier retreat in Novaya Zemlya and Franz Josef Land, found in satellite imagery and then traced to earlier Russian and glaciological reports. Adds area and elevation time series. | **rediscovery** |
-| [Lost meteorites](history/lost-meteorites/README.md) | Newspaper reports of a 1934 fall in West Java, with an observatory analysis, that copies of the official register do not list; and a 1929 Dutch report that a follow-up article refutes. | **candidate**; **killed** |
-| [TESS eclipsing binaries](astronomy/tess-eclipsing-binaries/README.md) | Two bright eclipsing binaries reported as uncatalogued; both were in published catalogues. | **killed** (**rediscovery**) |
+| page | what |
+|---|---|
+| [Tjibangara 1934 meteorite](candidates/history/tjibangara-1934-meteorite/README.md) | Newspaper reports and an observatory analysis of a 1934 fall in West Java that copies of the official register do not list. |
+
+## dead-ends
+
+| page | what |
+|---|---|
+| [Borger 1929 meteorite](dead-ends/history/borger-1929-meteorite/README.md) | A reported meteorite that a follow-up article identified as a weathered boulder. |
+| [Fixed-point math libraries](dead-ends/software/fixed-point-math-libraries/README.md) | An adversarial search for inputs that break documented rounding or monotonicity guarantees in smart-contract math libraries. None found. |
 
 ## How results are produced and checked
 
@@ -47,11 +64,14 @@ it first. Rediscoveries and dead ends are kept too, labelled as such.
   nothing here should be cited as peer-reviewed work.
 - **Two independent checks.** A numerical claim is accepted only if two implementations that share no
   code agree, with certified interval arithmetic where rounding matters. A proof is accepted only after
-  it has been re-derived separately and checked numerically from the definition, and it stays labelled
-  as unrefereed.
-- **Novelty is checked, and can still be wrong.** The first result found here turned out to have been
-  posted by someone else three and a half months earlier; it was visible only in a revision history.
-  Each page says exactly what was searched.
+  it has been re-derived separately and checked numerically from the definition, and it stays
+  unrefereed.
+- **The novelty check.** Before a page goes under `new/`, the following are read: every page of the
+  relevant revision history, including discussion threads; pending drafts; cross-referenced entries and
+  the files attached to them; an in-depth web search with the identifier; and the current large-scale
+  efforts in the same area (for integer sequences: Epoch AI's OEIS Open benchmark and the
+  omega-institute project). Five results first filed as new were moved to `independent-rediscovery/`
+  by this check. It can still miss things.
 - **Sensitive locations are withheld.** Positions of possible archaeological sites or wrecks are not
   published here.
 
@@ -74,4 +94,5 @@ Each page lists the exact commands. `check.gp` files need PARI/GP.
 
 ## Corrections
 
-If something here is wrong, or already known, please open an issue. Pages are corrected in place.
+If something here is wrong, or already known, please open an issue. Pages are corrected in place and
+moved to the folder that fits.
