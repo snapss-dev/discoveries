@@ -25,6 +25,7 @@ Below each of these, pages are grouped by field.
 | [ERC interface identifiers](new/software/erc-165-identifiers/README.md) | Twenty-seven interface identifiers and selectors printed in Ethereum ERC documents do not match the signatures printed beside them, seven of them in Final or Last Call standards. A contract written from the text and one using the compiler's value answer `supportsInterface` differently. |
 | [ERC-7857 storage slot](new/software/erc-7857-storage-slot/README.md) | The storage constant in a Final ERC's reference contract is not the ERC-7201 slot of the namespace it names. |
 | [SLIP-0132 prefixes](new/software/slip-0132-version-prefixes/README.md) | Three rows of a key-prefix registry print prefixes their version bytes cannot produce. |
+| [Chess diagrams against tablebases](new/games/wikipedia-chess-diagrams-vs-tablebases/README.md) | Eight statements in Wikipedia chess articles that endgame tablebases refute, from about 2,200 diagrams: a 1970 study given as a win is a draw, a 2018 game's losing move is misidentified, a 2022 diagram has a pawn on the wrong square. |
 | [NIST DLMF table digits](new/reference-works/dlmf-table-last-digits/README.md) | Six entries in four tables of the NIST Digital Library of Mathematical Functions are not the correctly rounded values, and none is in its errata list. |
 | [Wikipedia: wrong digits](new/reference-works/wikipedia-decimal-values/README.md) | Wrong digits in 17 English Wikipedia articles, found by recomputation: the standard normal table at z = 0.16 (since 2014), eight of ten listed zeros of the zeta function, chi-squared critical values, and others. |
 | [Wikipedia: integer lists](new/reference-works/wikipedia-integer-tables/README.md) | Four integer lists that differ from recomputation: the count of five-digit prime quadruplets (26, not 27), a missing perfect totient number, a missing divisor, a repeated prime. |
@@ -91,6 +92,7 @@ Below each of these, pages are grouped by field.
 
 | page | what |
 |---|---|
+| [UCI king-rook-king dataset](dead-ends/games/uci-krk-endgame-dataset/README.md) | A widely used machine-learning dataset described by its authors as "not guaranteed correct": all 28,056 labels are right. |
 | [Wide companions of planet hosts](dead-ends/astronomy/wide-companions-of-planet-hosts/README.md) | All 157 co-moving companions found in Gaia DR3 were already catalogued. Side note: some hosts listed as single in an archive have a catalogued companion. |
 | [Rock avalanches, 2026](dead-ends/geoscience/rock-avalanches-2026/README.md) | No unreported 2026 rock avalanche found on glaciers, with a detector that missed a known one. |
 | [Mexico G-LiHT lidar](dead-ends/archaeology/mexico-gliht-lidar/README.md) | No unrecorded platforms found in NASA lidar strips outside the Maya area; the search was partial. |

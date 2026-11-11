@@ -1,0 +1,158 @@
+== python check.py --online --syzygy <folder with the 3-4-5-man Syzygy WDL set and KQPPvKQ.rtbw>  (run 2026-11-11)
+[A] en.wikipedia.org, "Women's event at the 43rd Chess Olympiad", revision 1377227822
+    statement: In this position, Mammadzada made a blunder by playing 106. Kh4? (106. Kh2 would have saved the game) and resigned immediately after 106... Kf3.
+    verdict  : The diagram is the game position, but it is already lost: 106.Kh2 loses as well. The losing move was 105.Kg3 (105.Kh2 was the only drawing move).
+    game replayed (Mammadzada - Zatonskih, Batumi 27 Sep 2018 (score from TWIC 1247)): all moves legal; position 8/5R2/8/8/5n2/4k1K1/8/6r1 w occurs
+        93.Rc2     draw for the mover; keeping moves: Kf2 Kf4 Kg2 Ra7 Rb7 Rc2 Rc8 Re7
+        93...Ke3     draw for the mover; keeping moves: Kd3 Kd5 Ke3 Ke4 Nc4 Nc6 Nd3 Nd7 Nf3 Nf7 Ng4 Ng6 Ra1 Rb1 Rc1 Rd1 Re1 Rf1 Rg1+ Rh2 Rh3+ Rh4 Rh5 Rh6 Rh7 Rh8
+        94.Rc3+    draw for the mover; keeping moves: Kg2 Ra2 Rb2 Rc3+ Rc5 Rc7 Rc8 Rf2 Rg2 Rh2
+        94...Ke4     draw for the mover; keeping moves: Kd2 Kd4 Ke2 Ke4 Nd3
+        95.Kg2     draw for the mover; keeping moves: Kf2 Kg2 Ra3 Rb3 Rc2 Rc5 Rc7 Rc8
+        95...Rh8     draw for the mover; keeping moves: Kd4 Kd5 Kf4 Kf5 Nc4 Nc6 Nd3 Nd7 Nf3 Nf7 Ng4 Ng6 Ra1 Rb1 Rc1 Rd1 Re1 Rf1 Rg1+ Rh2+ Rh3 Rh4 Rh5 Rh6 Rh7 Rh8
+        96.Rh3     draw for the mover; keeping moves: Kf1 Kf2 Kg1 Kg3 Ra3 Rb3 Rc1 Rc2 Rc5 Rc7 Rg3 Rh3
+        96...Rg8+    draw for the mover; keeping moves: Kd4 Kd5 Kf4 Kf5 Nc4 Nc6 Nd3 Nd7 Nf3 Nf7 Ng4 Ng6 Ra8 Rb8 Rc8 Rd8 Re8 Rf8 Rg8+ Rh4 Rh5 Rh6 Rh7 Rxh3
+        97.Rg3     draw for the mover; keeping moves: Kf1 Kf2 Rg3
+        97...Ra8     draw for the mover; keeping moves: Kd4 Kd5 Kf4 Kf5 Nc4 Nc6 Nd3 Nd7 Nf3 Nf7 Ng4 Ng6 Ra8 Rb8 Rc8 Rd8 Re8 Rf8 Rg4 Rg5 Rg6 Rg7 Rh8 Rxg3+
+        98.Rb3     draw for the mover; keeping moves: Kf1 Kf2 Kg1 Kh1 Kh3 Rb3 Rc3 Rg5 Rg7 Rh3
+        98...Nd3     draw for the mover; keeping moves: Kd4 Kd5 Kf4 Kf5 Nc4 Nc6 Nd3 Nd7 Nf3 Nf7 Ng4 Ng6 Ra1 Ra2+ Ra3 Ra4 Ra5 Ra6 Ra7 Rb8 Rc8 Rd8 Re8 Rf8 Rg8+ Rh8
+        99.Rb7     draw for the mover; keeping moves: Kf1 Kg1 Kg3 Kh1 Kh2 Kh3 Rb1 Rb5 Rb6 Rb7 Rc3
+        99...Nf4+    draw for the mover; keeping moves: Kd4 Kd5 Ke3 Ke5 Kf4 Kf5 Nb2 Nb4 Nc1 Nc5 Ne1+ Ne5 Nf2 Nf4+ Ra1 Ra2+ Ra3 Ra4 Ra5 Ra6 Ra7 Rb8 Rc8 Rd8 Re8 Rf8 Rg8+ Rh8
+        100.Kf2     draw for the mover; keeping moves: Kf1 Kf2 Kg1 Kg3 Kh2
+        100...Ra2+    draw for the mover; keeping moves: Kd3 Kd4 Kd5 Ke5 Kf5 Nd3+ Nd5 Ne2 Ne6 Ng2 Ng6 Nh3+ Nh5 Ra1 Ra2+ Ra3 Ra4 Ra5 Ra6 Ra7 Rb8 Rc8 Rd8 Re8 Rf8 Rg8 Rh8
+        101.Ke1     draw for the mover; keeping moves: Ke1 Kf1 Kg1 Kg3
+        101...Nd5     draw for the mover; keeping moves: Kd3 Kd4 Kd5 Ke3 Ke5 Kf3 Kf5 Nd3+ Nd5 Ne2 Ne6 Ng2+ Ng6 Nh3 Nh5 Ra1+ Ra3 Ra4 Ra5 Ra6 Ra7 Ra8 Rb2 Rc2 Rd2 Re2+ Rf2 Rg2 Rh2
+        102.Rf7     draw for the mover; keeping moves: Kd1 Kf1 Rb1 Rb3 Rb5 Rb8 Rd7 Rf7 Rg7 Rh7
+        102...Ke3     draw for the mover; keeping moves: Kd3 Kd4 Ke3 Ke5 Nb4 Nb6 Nc3 Nc7 Ne3 Ne7 Nf4 Nf6 Ra1+ Ra3 Ra4 Ra5 Ra6 Ra7 Ra8 Rb2 Rc2 Rd2 Re2+ Rf2 Rg2 Rh2
+        103.Kf1     draw for the mover; keeping moves: Kd1 Kf1
+        103...Ra1+    draw for the mover; keeping moves: Kd2 Kd3 Kd4 Ke4 Nb4 Nb6 Nc3 Nc7 Ne7 Nf4 Nf6 Ra1+ Ra3 Ra4 Ra5 Ra6 Ra7 Ra8 Rb2 Rc2 Rd2 Re2 Rf2+ Rg2 Rh2
+        104.Kg2     draw for the mover; keeping moves: Kg2
+        104...Nf4+    draw for the mover; keeping moves: Kd2 Kd3 Kd4 Ke2 Ke4 Nb4 Nb6 Nc3 Nc7 Ne7 Nf4+ Nf6 Ra2+ Ra3 Ra4 Ra5 Ra6 Ra7 Ra8 Rb1 Rc1 Rd1 Re1 Rf1 Rg1+ Rh1
+        105.Kg3     draw for the mover; keeping moves: Kh2   <-- changes the result
+        105...Rg1+    win  for the mover; keeping moves: Rg1+
+        106.Kh4     loss for the mover; keeping moves: Kh2 Kh4
+        106...Kf3     win  for the mover; keeping moves: Kf3
+    diagram position, White to move: 8/5R2/8/8/5n2/4k1K1/8/6r1 w  (5 men)
+      expected: loss; moves keeping it: Kh2 Kh4
+      saved   : loss for the side to move; moves keeping it: Kh2 Kh4   [agrees]
+      online  : loss for the side to move; moves keeping it: Kh2 Kh4   [agrees]
+      syzygy  : loss for the side to move; moves keeping it: Kh2 Kh4   [agrees]
+    one move earlier, White to move (105.Kg3 was played): 8/5R2/8/8/5n2/4k3/6K1/r7 w  (5 men)
+      expected: draw; moves keeping it: Kh2
+      saved   : draw for the side to move; moves keeping it: Kh2   [agrees]
+      online  : draw for the side to move; moves keeping it: Kh2   [agrees]
+      syzygy  : draw for the side to move; moves keeping it: Kh2   [agrees]
+    after 105.Kg3, Black to move: 8/5R2/8/8/5n2/4k1K1/8/r7 b  (5 men)
+      expected: win; moves keeping it: Rg1+
+      saved   : win for the side to move; moves keeping it: Rg1+   [agrees]
+      online  : win for the side to move; moves keeping it: Rg1+   [agrees]
+      syzygy  : win for the side to move; moves keeping it: Rg1+   [agrees]
+
+[B] en.wikipedia.org, "Open event at the 44th Chess Olympiad", revision 1381137688
+    statement: In this position, Meier lost defensive coordination by playing 78... Qe3+?. Instead, 78... Qc7!! would have held despite being two pawns down. (diagram: White Kg5, Qf5, pawns g4, h5; Black Kh8, Qc5)
+    verdict  : The diagram has the h-pawn on h5; in the game it stood on h6. With the pawn on h5 every Black move loses, 78...Qc7 included; with the pawn on h6 (the game) 78...Qc7 is the only drawing move, as the caption says.
+    game replayed (Carlsen - Meier, Chennai 30 Jul 2022 (score from TWIC 1447)): all moves legal; position 7k/8/7P/2q2QK1/6P1/8/8/8 b occurs
+        76...Qc6+    draw for the mover; keeping moves: Qc6+ Qe5
+        77.Kg5     draw for the mover; keeping moves: Kf5 Kf7 Kg5 Kh5
+        77...Qc5+    draw for the mover; keeping moves: Qc5+ Qc7 Qd5+
+        78.Qf5     draw for the mover; keeping moves: Kf4 Kf6 Kg6 Kh4 Qf5
+        78...Qe3+    draw for the mover; keeping moves: Qc7   <-- changes the result
+        79.Qf4     win  for the mover; keeping moves: Qf4
+        79...Qc5+    loss for the mover; keeping moves: Kg8 Kh7 Qa3 Qa7 Qb3 Qb6 Qc1 Qc3 Qc5+ Qd2 Qd3 Qd4 Qe1 Qe2 Qe4 Qe5+ Qe6 Qe7+ Qe8 Qf2 Qf3 Qg1 Qg3 Qh3 Qxf4+
+        80.Kg6     win  for the mover; keeping moves: Kg6
+    position as diagrammed (pawn h5), Black to move: 7k/8/8/2q2QKP/6P1/8/8/8 b  (6 men)
+      expected: loss
+      saved   : loss for the side to move   [agrees]
+      online  : loss for the side to move   [agrees]
+      syzygy  : loss for the side to move   [agrees]
+    position as played (pawn h6), Black to move: 7k/8/7P/2q2QK1/6P1/8/8/8 b  (6 men)
+      expected: draw; moves keeping it: Qc7
+      saved   : draw for the side to move; moves keeping it: Qc7   [agrees]
+      online  : draw for the side to move; moves keeping it: Qc7   [agrees]
+      syzygy  : draw for the side to move; moves keeping it: Qc7   [agrees]
+
+[C] en.wikipedia.org, "Wrong bishop", revision 1356540113
+    statement: In this position Black is able to draw because his bishop is on the right color: 1... Be2 2. Kf4 Bc4 3. Kg5 Bd5! 4. Rc7 Ba2! 5. Kg6 Bb1+! 6. Kh6 Ba2! 7. Ra7 Bc4 and there is no way for White to make progress.
+    verdict  : 1...Be2 loses; only 1...Ba2 and 1...Kg8 draw. The reply 2.Kf4 gives the draw back. The article 'Fortress (chess)' prints the same line from the same source with 1...Ba2, so Be2 is a misprint for Ba2.
+    diagram, Black to move: 5k2/1R6/5P2/4K3/2b5/8/8/8 b  (5 men)
+      expected: draw; moves keeping it: Ba2 Kg8
+      saved   : draw for the side to move; moves keeping it: Ba2 Kg8   [agrees]
+      online  : draw for the side to move; moves keeping it: Ba2 Kg8   [agrees]
+      syzygy  : draw for the side to move; moves keeping it: Ba2 Kg8   [agrees]
+    after 1...Be2, White to move: 5k2/1R6/5P2/4K3/8/8/4b3/8 w  (5 men)
+      expected: win; moves keeping it: Kd4 Rb4 Rb8+ Rc7
+      saved   : win for the side to move; moves keeping it: Kd4 Rb4 Rb8+ Rc7   [agrees]
+      online  : win for the side to move; moves keeping it: Kd4 Rb4 Rb8+ Rc7   [agrees]
+      syzygy  : win for the side to move; moves keeping it: Kd4 Rb4 Rb8+ Rc7   [agrees]
+
+[D] de.wikipedia.org, "Abdrängung", revision 225061776
+    statement: Spielt Weiß hier 1. Ke2–d2+? (analog 1. Ke2–f2+?), so hält Schwarz mit 1. … Ke5–f4 (bzw. Ke5–d4) remis. Richtig ist 1. Ke2–e3!
+    verdict  : Black does not hold a draw: after 1.Kd2+ Kf4 or 1.Kf2+ Kd4 White still wins, in each case only by going back with 2.Ke2. The two checks lose time, not the win. In the diagram eight first moves keep the win; 1.Ke3 is the fastest.
+    diagram, White to move: 8/8/8/4k3/8/8/2p1K1p1/4R3 w  (5 men)
+      expected: win; moves keeping it: Kd2+ Kd3+ Ke3 Kf2+ Kf3+ Ra1 Rc1 Rg1
+      saved   : win for the side to move; moves keeping it: Kd2+ Kd3+ Ke3 Kf2+ Kf3+ Ra1 Rc1 Rg1   [agrees]
+      online  : win for the side to move; moves keeping it: Kd2+ Kd3+ Ke3 Kf2+ Kf3+ Ra1 Rc1 Rg1   [agrees]
+      syzygy  : win for the side to move; moves keeping it: Kd2+ Kd3+ Ke3 Kf2+ Kf3+ Ra1 Rc1 Rg1   [agrees]
+    after 1.Kd2+ Kf4, White to move: 8/8/8/8/5k2/8/2pK2p1/4R3 w  (5 men)
+      expected: win; moves keeping it: Ke2
+      saved   : win for the side to move; moves keeping it: Ke2   [agrees]
+      online  : win for the side to move; moves keeping it: Ke2   [agrees]
+      syzygy  : win for the side to move; moves keeping it: Ke2   [agrees]
+    after 1.Kf2+ Kd4, White to move: 8/8/8/8/3k4/8/2p2Kp1/4R3 w  (5 men)
+      expected: win; moves keeping it: Ke2
+      saved   : win for the side to move; moves keeping it: Ke2   [agrees]
+      online  : win for the side to move; moves keeping it: Ke2   [agrees]
+      syzygy  : win for the side to move; moves keeping it: Ke2   [agrees]
+
+[E] de.wikipedia.org, "Endspiel Springer gegen Bauer", revision 256958683
+    statement: Weiß am Zug gewinnt mit 1. Sh6–g7+! Sf5xg7 2. h5–h6! (diagram: White Kh1, Ne6, pawn h5; Black Ke8, Nf5)
+    verdict  : There is no knight on h6; the knight stands on e6 and the only winning move is 1.Ne6-g7+. 'Sh6' is a misprint for 'Se6'.
+    diagram, White to move: 4k3/8/4N3/5n1P/8/8/8/7K w  (5 men)
+      expected: win; moves keeping it: Ng7+
+      saved   : win for the side to move; moves keeping it: Ng7+   [agrees]
+      online  : win for the side to move; moves keeping it: Ng7+   [agrees]
+      syzygy  : win for the side to move; moves keeping it: Ng7+   [agrees]
+
+[F] de.wikipedia.org, "Endspiel König und Bauer gegen König und Bauer", revision 267044445
+    statement: 1. … Kf7 2. Kd6! ebenfalls der einzige Gewinnzug
+    verdict  : 2.Kd5 also wins (it loses time only), so 2.Kd6 is not the only winning move in the tablebase sense.
+    after 1.Ke5 Kf7, White to move: 8/5k2/6p1/4K1P1/8/8/8/8 w  (4 men)
+      expected: win; moves keeping it: Kd5 Kd6
+      saved   : win for the side to move; moves keeping it: Kd5 Kd6   [agrees]
+      online  : win for the side to move; moves keeping it: Kd5 Kd6   [agrees]
+      syzygy  : win for the side to move; moves keeping it: Kd5 Kd6   [agrees]
+
+[G] de.wikipedia.org, "Ignace Vandecasteele", revision 259898544
+    statement: Ignace Vandecasteele, 1233 Schakend Nederland 11/1970. Weiß zieht und gewinnt. Lösung: 1. Sf4 Kg5 2. Le3 Sa2 3. Kb3 d4 4. Se6+ Kf5 5. Sxd4+ Ke4 6. Sc2 ... (diagram: White Ka4, Bb6, Ng6; Black Kh6, Nc1, pawns d5, h7)
+    verdict  : The diagrammed position is a draw. The printed line holds the draw up to 4.Ne6+, and then 4...Kg4 (instead of 4...Kf5) is the only move that keeps it.
+    line replayed (printed solution): all moves legal; position 8/7p/4N3/6k1/3p4/1K2B3/n7/8 b occurs
+    diagram, White to move: 8/7p/1B4Nk/3p4/K7/8/8/2n5 w  (7 men)
+      expected: draw
+      saved   : draw for the side to move   [agrees]
+      online  : draw for the side to move   [agrees]
+      syzygy  : table not present, skipped
+    after 1.Nf4 Kg5 2.Be3 Na2 3.Kb3 d4 4.Ne6+, Black to move: 8/7p/4N3/6k1/3p4/1K2B3/n7/8 b  (7 men)
+      expected: draw; moves keeping it: Kg4
+      saved   : draw for the side to move; moves keeping it: Kg4   [agrees]
+      online  : draw for the side to move; moves keeping it: Kg4   [agrees]
+      syzygy  : table not present, skipped
+    after 4...Kg4, White to move: 8/7p/4N3/8/3p2k1/1K2B3/n7/8 w  (7 men)
+      expected: draw
+      saved   : draw for the side to move   [agrees]
+      online  : draw for the side to move   [agrees]
+      syzygy  : table not present, skipped
+    after the printed 4...Kf5, White to move: 8/7p/4N3/5k2/3p4/1K2B3/n7/8 w  (7 men)
+      expected: win; moves keeping it: Nxd4+
+      saved   : win for the side to move; moves keeping it: Nxd4+   [agrees]
+      online  : win for the side to move; moves keeping it: Nxd4+   [agrees]
+      syzygy  : table not present, skipped
+
+[H] it.wikipedia.org, "Aggiramento (scacchi)", revision 152526685
+    statement: Third diagram (White Kd7, Rh1; Black Kd4, pawn b4), caption: 'Il bianco muove e patta'. The text below it: 'Il bianco vince aggirando il pedone con il Re dal lato sinistro: 1. Rc6! b3 ... e il bianco vince.'
+    verdict  : White to move wins, by 1.Kc6 only. The caption contradicts the article's own text; it repeats the caption of the two diagrams before it.
+    diagram, White to move: 8/3K4/8/8/1p1k4/8/8/7R w  (4 men)
+      expected: win; moves keeping it: Kc6
+      saved   : win for the side to move; moves keeping it: Kc6   [agrees]
+      online  : win for the side to move; moves keeping it: Kc6   [agrees]
+      syzygy  : win for the side to move; moves keeping it: Kc6   [agrees]
+
+ALL CHECKS AGREE

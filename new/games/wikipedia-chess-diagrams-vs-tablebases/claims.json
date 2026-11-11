@@ -1,0 +1,239 @@
+[
+ {
+  "id": "A",
+  "wiki": "en",
+  "article": "Women's event at the 43rd Chess Olympiad",
+  "revid": 1377227822,
+  "statement": "In this position, Mammadzada made a blunder by playing 106. Kh4? (106. Kh2 would have saved the game) and resigned immediately after 106... Kf3.",
+  "verdict": "The diagram is the game position, but it is already lost: 106.Kh2 loses as well. The losing move was 105.Kg3 (105.Kh2 was the only drawing move).",
+  "game": {
+   "label": "Mammadzada - Zatonskih, Batumi 27 Sep 2018 (score from TWIC 1247)",
+   "fen": "8/2R5/8/4n3/3k4/6K1/8/7r w - - 0 93",
+   "moves": "Rc2 Ke3 Rc3+ Ke4 Kg2 Rh8 Rh3 Rg8+ Rg3 Ra8 Rb3 Nd3 Rb7 Nf4+ Kf2 Ra2+ Ke1 Nd5 Rf7 Ke3 Kf1 Ra1+ Kg2 Nf4+ Kg3 Rg1+ Kh4 Kf3",
+   "must_pass_through": "8/5R2/8/8/5n2/4k1K1/8/6r1 w"
+  },
+  "checks": [
+   {
+    "what": "diagram position, White to move",
+    "fen": "8/5R2/8/8/5n2/4k1K1/8/6r1 w - - 0 1",
+    "category": "loss",
+    "keep": [
+     "Kh2",
+     "Kh4"
+    ]
+   },
+   {
+    "what": "one move earlier, White to move (105.Kg3 was played)",
+    "fen": "8/5R2/8/8/5n2/4k3/6K1/r7 w - - 0 1",
+    "category": "draw",
+    "keep": [
+     "Kh2"
+    ]
+   },
+   {
+    "what": "after 105.Kg3, Black to move",
+    "fen": "8/5R2/8/8/5n2/4k1K1/8/r7 b - - 0 1",
+    "category": "win",
+    "keep": [
+     "Rg1+"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "B",
+  "wiki": "en",
+  "article": "Open event at the 44th Chess Olympiad",
+  "revid": 1381137688,
+  "statement": "In this position, Meier lost defensive coordination by playing 78... Qe3+?. Instead, 78... Qc7!! would have held despite being two pawns down. (diagram: White Kg5, Qf5, pawns g4, h5; Black Kh8, Qc5)",
+  "verdict": "The diagram has the h-pawn on h5; in the game it stood on h6. With the pawn on h5 every Black move loses, 78...Qc7 included; with the pawn on h6 (the game) 78...Qc7 is the only drawing move, as the caption says.",
+  "game": {
+   "label": "Carlsen - Meier, Chennai 30 Jul 2022 (score from TWIC 1447)",
+   "fen": "7k/8/6KP/8/6P1/2q5/8/1Q6 b - - 0 76",
+   "moves": "Qc6+ Kg5 Qc5+ Qf5 Qe3+ Qf4 Qc5+ Kg6",
+   "must_pass_through": "7k/8/7P/2q2QK1/6P1/8/8/8 b"
+  },
+  "checks": [
+   {
+    "what": "position as diagrammed (pawn h5), Black to move",
+    "fen": "7k/8/8/2q2QKP/6P1/8/8/8 b - - 0 1",
+    "category": "loss"
+   },
+   {
+    "what": "position as played (pawn h6), Black to move",
+    "fen": "7k/8/7P/2q2QK1/6P1/8/8/8 b - - 0 1",
+    "category": "draw",
+    "keep": [
+     "Qc7"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C",
+  "wiki": "en",
+  "article": "Wrong bishop",
+  "revid": 1356540113,
+  "statement": "In this position Black is able to draw because his bishop is on the right color: 1... Be2 2. Kf4 Bc4 3. Kg5 Bd5! 4. Rc7 Ba2! 5. Kg6 Bb1+! 6. Kh6 Ba2! 7. Ra7 Bc4 and there is no way for White to make progress.",
+  "verdict": "1...Be2 loses; only 1...Ba2 and 1...Kg8 draw. The reply 2.Kf4 gives the draw back. The article 'Fortress (chess)' prints the same line from the same source with 1...Ba2, so Be2 is a misprint for Ba2.",
+  "checks": [
+   {
+    "what": "diagram, Black to move",
+    "fen": "5k2/1R6/5P2/4K3/2b5/8/8/8 b - - 0 1",
+    "category": "draw",
+    "keep": [
+     "Ba2",
+     "Kg8"
+    ]
+   },
+   {
+    "what": "after 1...Be2, White to move",
+    "fen": "5k2/1R6/5P2/4K3/8/8/4b3/8 w - - 0 1",
+    "category": "win",
+    "keep": [
+     "Rc7",
+     "Rb4",
+     "Rb8+",
+     "Kd4"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "D",
+  "wiki": "de",
+  "article": "Abdrängung",
+  "revid": 225061776,
+  "statement": "Spielt Weiß hier 1. Ke2–d2+? (analog 1. Ke2–f2+?), so hält Schwarz mit 1. … Ke5–f4 (bzw. Ke5–d4) remis. Richtig ist 1. Ke2–e3!",
+  "verdict": "Black does not hold a draw: after 1.Kd2+ Kf4 or 1.Kf2+ Kd4 White still wins, in each case only by going back with 2.Ke2. The two checks lose time, not the win. In the diagram eight first moves keep the win; 1.Ke3 is the fastest.",
+  "checks": [
+   {
+    "what": "diagram, White to move",
+    "fen": "8/8/8/4k3/8/8/2p1K1p1/4R3 w - - 0 1",
+    "category": "win",
+    "keep": [
+     "Ke3",
+     "Ra1",
+     "Rc1",
+     "Rg1",
+     "Kd2+",
+     "Kf2+",
+     "Kd3+",
+     "Kf3+"
+    ]
+   },
+   {
+    "what": "after 1.Kd2+ Kf4, White to move",
+    "fen": "8/8/8/8/5k2/8/2pK2p1/4R3 w - - 0 1",
+    "category": "win",
+    "keep": [
+     "Ke2"
+    ]
+   },
+   {
+    "what": "after 1.Kf2+ Kd4, White to move",
+    "fen": "8/8/8/8/3k4/8/2p2Kp1/4R3 w - - 0 1",
+    "category": "win",
+    "keep": [
+     "Ke2"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E",
+  "wiki": "de",
+  "article": "Endspiel Springer gegen Bauer",
+  "revid": 256958683,
+  "statement": "Weiß am Zug gewinnt mit 1. Sh6–g7+! Sf5xg7 2. h5–h6! (diagram: White Kh1, Ne6, pawn h5; Black Ke8, Nf5)",
+  "verdict": "There is no knight on h6; the knight stands on e6 and the only winning move is 1.Ne6-g7+. 'Sh6' is a misprint for 'Se6'.",
+  "checks": [
+   {
+    "what": "diagram, White to move",
+    "fen": "4k3/8/4N3/5n1P/8/8/8/7K w - - 0 1",
+    "category": "win",
+    "keep": [
+     "Ng7+"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "F",
+  "wiki": "de",
+  "article": "Endspiel König und Bauer gegen König und Bauer",
+  "revid": 267044445,
+  "statement": "1. … Kf7 2. Kd6! ebenfalls der einzige Gewinnzug",
+  "verdict": "2.Kd5 also wins (it loses time only), so 2.Kd6 is not the only winning move in the tablebase sense.",
+  "checks": [
+   {
+    "what": "after 1.Ke5 Kf7, White to move",
+    "fen": "8/5k2/6p1/4K1P1/8/8/8/8 w - - 0 1",
+    "category": "win",
+    "keep": [
+     "Kd6",
+     "Kd5"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "G",
+  "wiki": "de",
+  "article": "Ignace Vandecasteele",
+  "revid": 259898544,
+  "statement": "Ignace Vandecasteele, 1233 Schakend Nederland 11/1970. Weiß zieht und gewinnt. Lösung: 1. Sf4 Kg5 2. Le3 Sa2 3. Kb3 d4 4. Se6+ Kf5 5. Sxd4+ Ke4 6. Sc2 ... (diagram: White Ka4, Bb6, Ng6; Black Kh6, Nc1, pawns d5, h7)",
+  "verdict": "The diagrammed position is a draw. The printed line holds the draw up to 4.Ne6+, and then 4...Kg4 (instead of 4...Kf5) is the only move that keeps it.",
+  "checks": [
+   {
+    "what": "diagram, White to move",
+    "fen": "8/7p/1B4Nk/3p4/K7/8/8/2n5 w - - 0 1",
+    "category": "draw"
+   },
+   {
+    "what": "after 1.Nf4 Kg5 2.Be3 Na2 3.Kb3 d4 4.Ne6+, Black to move",
+    "fen": "8/7p/4N3/6k1/3p4/1K2B3/n7/8 b - - 0 1",
+    "category": "draw",
+    "keep": [
+     "Kg4"
+    ]
+   },
+   {
+    "what": "after 4...Kg4, White to move",
+    "fen": "8/7p/4N3/8/3p2k1/1K2B3/n7/8 w - - 0 1",
+    "category": "draw"
+   },
+   {
+    "what": "after the printed 4...Kf5, White to move",
+    "fen": "8/7p/4N3/5k2/3p4/1K2B3/n7/8 w - - 0 1",
+    "category": "win",
+    "keep": [
+     "Nxd4+"
+    ]
+   }
+  ],
+  "line": {
+   "fen": "8/7p/1B4Nk/3p4/K7/8/8/2n5 w - - 0 1",
+   "moves": "Nf4 Kg5 Be3 Na2 Kb3 d4 Ne6+",
+   "must_reach": "8/7p/4N3/6k1/3p4/1K2B3/n7/8 b"
+  }
+ },
+ {
+  "id": "H",
+  "wiki": "it",
+  "article": "Aggiramento (scacchi)",
+  "revid": 152526685,
+  "statement": "Third diagram (White Kd7, Rh1; Black Kd4, pawn b4), caption: 'Il bianco muove e patta'. The text below it: 'Il bianco vince aggirando il pedone con il Re dal lato sinistro: 1. Rc6! b3 ... e il bianco vince.'",
+  "verdict": "White to move wins, by 1.Kc6 only. The caption contradicts the article's own text; it repeats the caption of the two diagrams before it.",
+  "checks": [
+   {
+    "what": "diagram, White to move",
+    "fen": "8/3K4/8/8/1p1k4/8/8/7R w - - 0 1",
+    "category": "win",
+    "keep": [
+     "Kc6"
+    ]
+   }
+  ]
+ }
+]

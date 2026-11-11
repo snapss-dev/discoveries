@@ -1,0 +1,10 @@
+== python check.py   (run 2026-11-11)
+max depth (white moves), black to move: 16
+rows: 28056 distinct positions: 28056
+label distribution in file : [2796, 27, 78, 246, 81, 198, 471, 592, 683, 1433, 1712, 1985, 2854, 3597, 4194, 4553, 2166, 390]
+label distribution computed: [2796, 27, 78, 246, 81, 198, 471, 592, 683, 1433, 1712, 1985, 2854, 3597, 4194, 4553, 2166, 390]
+mismatches: 0
+legal black-to-move positions with white king in a1-d1-d4 triangle: 34968
+after identifying diagonal mirror images when the king is on a1-d4: 28056
+file positions inside that canonical family: 28056 of 28056
+distinct mirror classes among the file's positions: 28056 | all of them among the 28056 classes: True
