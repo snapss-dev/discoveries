@@ -1,0 +1,5 @@
+second Keccak implementation: pycryptodome
+EIP-1014: 7 CREATE2 examples, address and mixed-case form
+EIP-2124 and EIP-6122: fork hashes of four networks and the timestamp examples
+EIP-7607: 12 rows, epoch to timestamp, timestamp to UTC time, fork id
+82 values recomputed, 0 differ from the printed value

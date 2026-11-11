@@ -1,0 +1,29 @@
+second implementation: pycryptodome
+
+Calibration
+  example.main                         0x183a6125c38840424c4a85fa12bab2ab606c4b6d0e7cc73c0c06ba5300eab500  ok  (ERC-7201, example)
+  openzeppelin.storage.ERC20           0x52c63247e1f47db19d5ce0460030c497f067ca4cebf71ba98eeadabe20bace00  ok  (OpenZeppelin ERC20Upgradeable)
+  openzeppelin.storage.Initializable   0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00  ok  (OpenZeppelin Initializable)
+  openzeppelin.storage.Ownable         0x9016d09d72d40fdae2fd8ceac6b6234c7706214fd39c1cd1e609a0528c199300  ok  (OpenZeppelin OwnableUpgradeable)
+  openzeppelin.storage.AccessControl   0x02dd7bc7dec4dceedda775e58dd541e08a116c6c53815c0bd028192f7b626800  ok  (OpenZeppelin AccessControlUpgradeable)
+
+ERC-7857 reference contract, namespace "agent.storage.AgentNFT"
+  printed constant         0x4aa80aaafbe0e5fe3fe1aa97f3c1f8c65d61f96ef1aab2b448154f4e07594600
+  erc7201 of the namespace 0xaef0528c8e96d44c4fb121fd648f9a91b53cb890a08fb8040090fcd3cc553200
+  keccak256(id)                                        differs
+  keccak256(id) - 1                                    differs
+  (keccak256(id) - 1) & ~0xff                          differs
+  keccak256(abi.encode(keccak256(id))) & ~0xff         differs
+  keccak256(abi.encode(keccak256(id) - 1)), unmasked   differs
+  result: the printed constant is not the ERC-7201 slot of the namespace in the comment and annotation
+
+Context: the same pattern in the repository 0glabs/0g-agent-nft
+  AgentNFT.sol                                   agent.storage.AgentNFT         differs, formula gives 0xaef0528c8e96d44c4fb121fd648f9a91b53cb890a08fb8040090fcd3cc553200
+  AgentMarket.sol                                agent.storage.AgentMarket      differs, formula gives 0x5c4b5ac9d311f97a135ca04815be2680914ffdb63ca329fb57d7842201e27400
+  TeeVerifier.sol                                0g.storage.TEEVerifier         differs, formula gives 0x1a209f572d9cb605dee1d2afac8595f0601872567fdf16c20c3065569e8ffc00
+  verifiers/Verifier.sol                         0g.storage.Verifier            differs, formula gives 0xab2876f073fc1d50b124001dcee8d912eb197c1cf48c8edf5cbca0074ee16a00
+  ERC7857Upgradeable.sol                         0g.storage.ERC7857             matches
+  extensions/ERC7857AuthorizeUpgradeable.sol     0g.storage.ERC7857Authorize    matches
+  extensions/ERC7857CloneableUpgradeable.sol     0g.storage.ERC7857Cloneable    matches
+  extensions/ERC7857IDataStorageUpgradeable.sol  0g.storage.ERC7857IDataStorage matches
+  4 of 8 constants match their comment

@@ -1,0 +1,11 @@
+Part 1: direct, 1 <= n <= 10000000 (Arb, 160 bits)
+  n with F(n) != a(n): []   (155 s)
+Part 2: continued-fraction candidates with 2n+1 < 10^10000
+  convergents used up to index 2769; candidates tested: 1384
+  candidates with F(n) != a(n): []
+  smallest candidates n: [35, 27133, 15586534, 15934198633, 25466579385586, 58628897553361861, 183752316014612524558, 752307260195218130341009]
+  smallest |D| among candidates beyond Part 1: 7.76e-06 (index 1563, t = 35, q = 2n+1 has 5256 digits; a failure there would need |D| < about 10^-10512)
+  (48 s)
+Part 3: mpmath, independent
+  n <= 20000 with F(n) != a(n): []   candidates below 10^60 failing: []
+RESULT: no failure found

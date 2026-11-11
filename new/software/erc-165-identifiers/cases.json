@@ -1,0 +1,804 @@
+{
+ "cases": [
+  {
+   "group": "A",
+   "erc": 7401,
+   "status": "Final",
+   "what": "interface IERC7059 (the ERC-7401 interface)",
+   "printed": "42b0e56f",
+   "line": 68,
+   "signatures": [
+    "ownerOf(uint256)",
+    "directOwnerOf(uint256)",
+    "burn(uint256,uint256)",
+    "addChild(uint256,uint256)",
+    "acceptChild(uint256,uint256,address,uint256)",
+    "rejectAllChildren(uint256,uint256)",
+    "transferChild(uint256,address,uint256,uint256,address,uint256,bool,bytes)",
+    "childrenOf(uint256)",
+    "pendingChildrenOf(uint256)",
+    "childOf(uint256,uint256)",
+    "pendingChildOf(uint256,uint256)",
+    "nestTransferFrom(address,address,uint256,uint256,bytes)"
+   ],
+   "alt_signatures": [
+    "ownerOf(uint256)",
+    "directOwnerOf(uint256)",
+    "burn(uint256,uint256)",
+    "addChild(uint256,uint256,bytes)",
+    "acceptChild(uint256,uint256,address,uint256)",
+    "rejectAllChildren(uint256,uint256)",
+    "transferChild(uint256,address,uint256,uint256,address,uint256,bool,bytes)",
+    "childrenOf(uint256)",
+    "pendingChildrenOf(uint256)",
+    "childOf(uint256,uint256)",
+    "pendingChildOf(uint256,uint256)",
+    "nestTransferFrom(address,address,uint256,uint256,bytes)"
+   ],
+   "alt_note": "addChild given a third parameter of type bytes, as in assets/erc-7401/contracts/IERC7401.sol",
+   "note": "The text declares addChild(uint256 parentId, uint256 childId)."
+  },
+  {
+   "group": "A",
+   "erc": 6059,
+   "status": "Final",
+   "what": "interface IERC6059",
+   "printed": "42b0e56f",
+   "line": 64,
+   "signatures": [
+    "ownerOf(uint256)",
+    "directOwnerOf(uint256)",
+    "burn(uint256,uint256)",
+    "addChild(uint256,uint256)",
+    "acceptChild(uint256,uint256,address,uint256)",
+    "rejectAllChildren(uint256,uint256)",
+    "transferChild(uint256,address,uint256,uint256,address,uint256,bool,bytes)",
+    "childrenOf(uint256)",
+    "pendingChildrenOf(uint256)",
+    "childOf(uint256,uint256)",
+    "pendingChildOf(uint256,uint256)",
+    "nestTransferFrom(address,address,uint256,uint256)"
+   ],
+   "alt_signatures": [
+    "ownerOf(uint256)",
+    "directOwnerOf(uint256)",
+    "burn(uint256,uint256)",
+    "addChild(uint256,uint256,bytes)",
+    "acceptChild(uint256,uint256,address,uint256)",
+    "rejectAllChildren(uint256,uint256)",
+    "transferChild(uint256,address,uint256,uint256,address,uint256,bool,bytes)",
+    "childrenOf(uint256)",
+    "pendingChildrenOf(uint256)",
+    "childOf(uint256,uint256)",
+    "pendingChildOf(uint256,uint256)",
+    "nestTransferFrom(address,address,uint256,uint256,bytes)"
+   ],
+   "alt_note": "addChild and nestTransferFrom each given a trailing bytes parameter, as in assets/erc-6059/contracts/IERC6059.sol",
+   "note": "Known: ERC-7401 was written to fix this."
+  },
+  {
+   "group": "A",
+   "erc": 5007,
+   "status": "Final",
+   "what": "interface IERC5007",
+   "printed": "f140be0d",
+   "line": 32,
+   "signatures": [
+    "startTime(uint256)",
+    "endTime(uint256)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": "The text printed 0x7a0cdf92 until 2023-04-25; assets/erc-5007/test/test.js still asserts 0x7a0cdf92."
+  },
+  {
+   "group": "A",
+   "erc": 5507,
+   "status": "Final",
+   "what": "interface ERC20Refund",
+   "printed": "f0ca2917",
+   "line": 49,
+   "signatures": [
+    "refund(uint256)",
+    "refundFrom(address,uint256)",
+    "refundOf()",
+    "refundDeadlineOf()"
+   ],
+   "alt_signatures": [
+    "refund(uint256)",
+    "refundOf()",
+    "refundDeadlineOf()"
+   ],
+   "alt_note": "the same interface without refundFrom",
+   "note": "Identifiers were added 2022-12-26; refundFrom was added 2023-02-23."
+  },
+  {
+   "group": "A",
+   "erc": 5507,
+   "status": "Final",
+   "what": "interface ERC721Refund",
+   "printed": "e97f3c83",
+   "line": 104,
+   "signatures": [
+    "refund(uint256)",
+    "refundFrom(address,uint256)",
+    "refundOf(uint256)",
+    "refundDeadlineOf(uint256)"
+   ],
+   "alt_signatures": [
+    "refund(uint256)",
+    "refundOf(uint256)",
+    "refundDeadlineOf(uint256)"
+   ],
+   "alt_note": "the same interface without refundFrom",
+   "note": "Identifiers were added 2022-12-26; refundFrom was added 2023-02-23."
+  },
+  {
+   "group": "A",
+   "erc": 5507,
+   "status": "Final",
+   "what": "interface ERC1155Refund",
+   "printed": "94029f5c",
+   "line": 207,
+   "signatures": [
+    "refund(uint256,uint256)",
+    "refundFrom(address,uint256,uint256)",
+    "refundOf(uint256)",
+    "refundDeadlineOf(uint256)"
+   ],
+   "alt_signatures": [
+    "refund(uint256,uint256)",
+    "refundOf(uint256)",
+    "refundDeadlineOf(uint256)"
+   ],
+   "alt_note": "the same interface without refundFrom",
+   "note": "Identifiers were added 2022-12-26; refundFrom was added 2023-02-23."
+  },
+  {
+   "group": "A",
+   "erc": 5496,
+   "status": "Last Call",
+   "what": "interface IERC5496",
+   "printed": "076e1bbb",
+   "line": 37,
+   "signatures": [
+    "setPrivilege(uint256,uint256,address,uint256)",
+    "privilegeExpires(uint256,uint256)",
+    "hasPrivilege(uint256,uint256,address)"
+   ],
+   "alt_signatures": [
+    "setPrivilege(uint256,uint256,address,uint64)",
+    "privilegeExpires(uint256,uint256)",
+    "hasPrivilege(uint256,uint256,address)"
+   ],
+   "alt_note": "setPrivilege with uint64 expires, as in the reference implementation printed in the same document",
+   "note": "The interface declares uint256 expires."
+  },
+  {
+   "group": "B",
+   "erc": 1538,
+   "status": "Withdrawn",
+   "what": "comment \"0x03A9BCCF == bytes4(keccak256(\"updateContract(address,string,string)\"))\"",
+   "printed": "03a9bccf",
+   "line": 158,
+   "signatures": [
+    "updateContract(address,string,string)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": "The same document gives 0x61455567 as the identifier of the one-function ERC1538 interface."
+  },
+  {
+   "group": "B",
+   "erc": 7897,
+   "status": "Withdrawn",
+   "what": "assembly \"mstore(0x00, 0xd786d393) // `DeployFailed()`\"",
+   "printed": "d786d393",
+   "line": 191,
+   "signatures": [
+    "DeployFailed()"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": "The document declares error DeployFailed()."
+  },
+  {
+   "group": "B",
+   "erc": 725,
+   "status": "Draft",
+   "what": "interface IERC725X in the summary listing",
+   "printed": "7545acac",
+   "line": 289,
+   "signatures": [
+    "execute(uint256,address,uint256,bytes)",
+    "executeBatch(uint256[],address[],uint256[],bytes)"
+   ],
+   "alt_signatures": [
+    "execute(uint256,address,uint256,bytes)",
+    "executeBatch(uint256[],address[],uint256[],bytes[])"
+   ],
+   "alt_note": "executeBatch with bytes[] datas, as in the method section of the same document",
+   "note": "The summary listing writes \"bytes memory datas\"."
+  },
+  {
+   "group": "B",
+   "erc": 1185,
+   "status": "Review",
+   "what": "prose \"dnsRecords() ... has function signature 0x2461e851\" against the code",
+   "printed": "2461e851",
+   "line": 56,
+   "signatures": [
+    "dnsRecord(bytes32,bytes32,uint16)"
+   ],
+   "alt_signatures": [
+    "dnsRecords(bytes32,bytes32,uint16)"
+   ],
+   "alt_note": "the name dnsRecords used in the prose",
+   "note": "The reference code in the document defines dnsRecord and DNS_RECORD_INTERFACE_ID = 0xa8fa5682."
+  },
+  {
+   "group": "B",
+   "erc": 1417,
+   "status": "Stagnant",
+   "what": "interface IPoll",
+   "printed": "4fad898b",
+   "line": 86,
+   "signatures": [
+    "vote(uint8)",
+    "revokeVote()",
+    "getProposals()",
+    "canVote(address)",
+    "getVoteTally(uint256)",
+    "getVoterCount(uint256)",
+    "calculateVoteWeight(address)",
+    "winningProposal()",
+    "getName()",
+    "getPollType()",
+    "getVoterBaseLogic()",
+    "getStartTime()",
+    "getEndTime()",
+    "getProtocolAddresses()",
+    "getVoteTallies()",
+    "getVoterCounts()",
+    "getVoterBaseDenominator()"
+   ],
+   "alt_signatures": [
+    "vote(uint8)",
+    "revokeVote()",
+    "getProposals()",
+    "canVote(address)",
+    "getVoteTally(uint256)",
+    "getVoterCount(uint256)",
+    "calculateVoteWeight(address)",
+    "winningProposal()",
+    "getName()",
+    "getPollType()",
+    "getVoterBaseLogic()",
+    "getStartTime()",
+    "getEndTime()",
+    "getProtocolAddresses()",
+    "getVoteTallies()",
+    "getVoterCounts()"
+   ],
+   "alt_note": "the same interface without getVoterBaseDenominator()",
+   "note": ""
+  },
+  {
+   "group": "B",
+   "erc": 998,
+   "status": "Draft",
+   "what": "interface ERC998ERC20BottomUp",
+   "printed": "ffafa991",
+   "line": 1140,
+   "signatures": [
+    "balanceOfToken(address,uint256)",
+    "transferToParent(address,address,uint256,uint256)",
+    "transferFromParent(address,uint256,address,uint256)",
+    "transferFromParentERC223(address,uint256,address,uint256,bytes)",
+    "transferAsChild(address,uint256,address,uint256,uint256)"
+   ],
+   "alt_signatures": [
+    "balanceOfToken(address,uint256)",
+    "transferToParent(address,address,uint256,uint256)",
+    "transferFromParent(address,uint256,address,uint256)",
+    "transferAsChild(address,uint256,address,uint256,uint256)"
+   ],
+   "alt_note": "the same interface without transferFromParentERC223",
+   "note": ""
+  },
+  {
+   "group": "B",
+   "erc": 4393,
+   "status": "Stagnant",
+   "what": "interface ITipToken (comment inside the interface)",
+   "printed": "985a3267",
+   "line": 64,
+   "signatures": [
+    "setApprovalForNFT(address[],address,uint256,bool)",
+    "isApprovalForNFT(address,address,uint256)",
+    "tip(address,uint256,uint256)",
+    "tipBatch(address[],address[],uint256[],uint256[])",
+    "deposit(address,uint256)",
+    "withdrawReward(uint256)",
+    "balanceOf(address)",
+    "balanceDepositOf(address)",
+    "rewardPendingOf(address)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": "The paragraph above the interface requires 0xE47A7022, which is the value recomputed here."
+  },
+  {
+   "group": "B",
+   "erc": 5700,
+   "status": "Draft",
+   "what": "interface IERC1155Bindable",
+   "printed": "d0d555c6",
+   "line": 144,
+   "signatures": [
+    "bind(address,address,uint256,uint256,uint256)",
+    "batchBind(address,address,uint256,uint256[],uint256[])",
+    "unbind(address,address,address,uint256,uint256,uint256)",
+    "batchUnbind(address,address,address,uint256,uint256[],uint256[])",
+    "boundBalanceOf(address,uint256,uint256)",
+    "boundBalanceOfBatch(address,uint256[],uint256[])"
+   ],
+   "alt_signatures": [
+    "bind(address,address,uint256,uint256,uint256,address,bytes)",
+    "batchBind(address,address,uint256[],uint256[],uint256[],address,bytes)",
+    "unbind(address,address,uint256,uint256,uint256,address,bytes)",
+    "batchUnbind(address,address,uint256[],uint256[],uint256[],address,bytes)",
+    "boundBalanceOf(address,uint256,uint256)",
+    "boundBalanceOfBatch(address,uint256[],uint256[])"
+   ],
+   "alt_note": "the interface of the same name in assets/erc-5700/interfaces/IERC1155Bindable.sol, whose parameter lists differ",
+   "note": "The requirement sentence above the interface prints the value with a digit missing: 0xd0d55c6."
+  },
+  {
+   "group": "B",
+   "erc": 8121,
+   "status": "Draft",
+   "what": "comment \"bytes4(keccak256(functionSignature)); // 0x1837de7f\" for \"getContractMetadata(string)\"",
+   "printed": "1837de7f",
+   "line": 112,
+   "signatures": [
+    "getContractMetadata(string)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": "Line 166 of the same document uses 0x9e574b14 for this signature, the value recomputed here."
+  },
+  {
+   "group": "C",
+   "erc": 1261,
+   "status": "Stagnant",
+   "what": "interface IERC1261",
+   "printed": "1d8362cf",
+   "line": 71,
+   "signatures": [
+    "addAttributeSet(bytes32,bytes32[])",
+    "modifyAttributeByIndex(address,uint256,uint256)",
+    "requestMembership(uint256[])",
+    "forfeitMembership()",
+    "approveRequest(address)",
+    "discardRequest(address)",
+    "assignTo(address,uint256[])",
+    "revokeFrom(address)",
+    "isCurrentMember(address)",
+    "getAttributeExhaustiveCollection(bytes32)",
+    "getAllMembers()",
+    "getCurrentMemberCount()",
+    "getAttributeNames()",
+    "getAttributes(address)",
+    "getAttributeByIndex(address,uint256)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 4353,
+   "status": "Stagnant",
+   "what": "interface IERC721Staked",
+   "printed": "3a3d855f",
+   "line": 33,
+   "signatures": [
+    "stakedAmount(uint256)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 5635,
+   "status": "Stagnant",
+   "what": "interface IERC5635DNFT",
+   "printed": "d584841c",
+   "line": 40,
+   "signatures": [
+    "numberOfCredentials(uint256)",
+    "authorizedBy(uint256,uint256)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 5635,
+   "status": "Stagnant",
+   "what": "interface IERC5635Registry",
+   "printed": "b5065e9f",
+   "line": 95,
+   "signatures": [
+    "isLicensed(address,uint256,address,uint256)",
+    "licensingInfo(address,uint256,address,uint256)",
+    "royaltyRate(address,uint256,address,uint256)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 5791,
+   "status": "Draft",
+   "what": "interface IERC5791",
+   "printed": "4901df9f",
+   "line": 106,
+   "signatures": [
+    "tokenIdFor(address)",
+    "isChipSignatureForToken(uint256,bytes,bytes)",
+    "transferToken(address,address,bytes,uint256,bool,bytes)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 6353,
+   "status": "Stagnant",
+   "what": "interface IERC20charity",
+   "printed": "557512b6",
+   "line": 45,
+   "signatures": [
+    "charityInfo(address)",
+    "addToWhitelist(address)",
+    "deleteFromWhitelist(address)",
+    "getAllWhitelistedAddresses()",
+    "getRate()",
+    "setSpecificRate(address,uint256)",
+    "setSpecificDefaultAddress(address)",
+    "setSpecificDefaultAddressAndRate(address,uint256)",
+    "specificDefaultAddress()",
+    "deleteDefaultAddress()"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 7204,
+   "status": "Draft",
+   "what": "interface IERC7204",
+   "printed": "f73edcda",
+   "line": 50,
+   "signatures": [
+    "tokenApprove(address,address,uint256)",
+    "tokenAllowance(address,address)",
+    "tokenApproveForAll(address,bool)",
+    "tokenIsApproveForAll(address)",
+    "tokenTransfer(address,address,uint256)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 7604,
+   "status": "Draft",
+   "what": "interface IERC1155Permit",
+   "printed": "7409106d",
+   "line": 144,
+   "signatures": [
+    "permit(address,address,uint256,uint256,uint256,bytes)",
+    "nonces(address,uint256)",
+    "DOMAIN_SEPARATOR()"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 7561,
+   "status": "Draft",
+   "what": "comment above the reference contract ERC7561, tested against interface IERC7561",
+   "printed": "c1b31357",
+   "line": 112,
+   "signatures": [
+    "balanceOf(address)",
+    "ownerOf(uint256)",
+    "transferFrom(address,address,uint256)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 5700,
+   "status": "Draft",
+   "what": "interface IERC721Bindable",
+   "printed": "82a34a7d",
+   "line": 44,
+   "signatures": [
+    "bind(address,address,uint256,uint256)",
+    "unbind(address,address,address,uint256,uint256)",
+    "binderOf(uint256)",
+    "boundBalanceOf(address,uint256)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "C",
+   "erc": 1844,
+   "status": "Stagnant",
+   "what": "the one function interfaceImplementer",
+   "printed": "b8f2bbb4",
+   "line": 31,
+   "signatures": [
+    "interfaceImplementer(bytes32,bytes4)"
+   ],
+   "alt_signatures": null,
+   "alt_note": "",
+   "note": ""
+  },
+  {
+   "group": "D",
+   "erc": 7066,
+   "status": "Final",
+   "what": "interface IERC7066 in the text against assets/erc-7066/IERC7066.sol",
+   "printed": null,
+   "line": 111,
+   "signatures": [
+    "lock(uint256)",
+    "lock(uint256,address)",
+    "unlock(uint256)",
+    "transferAndLock(uint256,address,address,bool)",
+    "lockerOf(uint256)"
+   ],
+   "alt_signatures": [
+    "lock(uint256)",
+    "lock(uint256,address)",
+    "unlock(uint256)",
+    "transferAndLock(address,address,uint256,bool)",
+    "lockerOf(uint256)"
+   ],
+   "alt_note": "assets/erc-7066/IERC7066.sol",
+   "note": "transferAndLock takes (tokenId, from, to, setApprove) in the text and (from, to, tokenId, setApprove) in the reference interface."
+  },
+  {
+   "group": "D",
+   "erc": 5169,
+   "status": "Final",
+   "what": "interface IERC5169 in the text against assets/erc-5169/contract/ExampleContract.sol",
+   "printed": null,
+   "line": 69,
+   "signatures": [
+    "scriptURI()",
+    "setScriptURI(string[])"
+   ],
+   "alt_signatures": [
+    "scriptURI()",
+    "updateScriptURI(string)"
+   ],
+   "alt_note": "assets/erc-5169/contract/ExampleContract.sol",
+   "note": "The text declares setScriptURI(string[]); the example contract declares updateScriptURI(string)."
+  },
+  {
+   "group": "D",
+   "erc": 3643,
+   "status": "Final",
+   "what": "interface ICompliance in the text against assets/erc-3643/interfaces/ICompliance.sol",
+   "printed": null,
+   "line": 304,
+   "signatures": [
+    "bindToken(address)",
+    "unbindToken(address)",
+    "isTokenBound(address)",
+    "getTokenBound()",
+    "canTransfer(address,address,uint256)",
+    "transferred(address,address,uint256)",
+    "created(address,uint256)",
+    "destroyed(address,uint256)"
+   ],
+   "alt_signatures": [
+    "bindToken(address)",
+    "unbindToken(address)",
+    "transferred(address,address,uint256)",
+    "created(address,uint256)",
+    "destroyed(address,uint256)",
+    "canTransfer(address,address,uint256)",
+    "getTokenBound()"
+   ],
+   "alt_note": "assets/erc-3643/interfaces/ICompliance.sol",
+   "note": "The reference interface has no isTokenBound(address)."
+  },
+  {
+   "group": "E",
+   "erc": 7820,
+   "status": "Final",
+   "what": "interface declares getRoleInfo(address); the implementation in the same document defines getRoleInfo(address,address,bytes32)",
+   "printed": null,
+   "line": 113,
+   "signatures": [
+    "getRoleInfo(address)"
+   ],
+   "alt_signatures": [
+    "getRoleInfo(address,address,bytes32)"
+   ],
+   "alt_note": "",
+   "note": "The prose at line 137 also describes getRoleInfo(address targetContract, address account, bytes32 role); the interface entry repeats the comment and return values of getContractInfo."
+  },
+  {
+   "group": "E",
+   "erc": 7656,
+   "status": "Final",
+   "what": "interface declares linkedData(); the implementation in the same document defines linkedData(address)",
+   "printed": null,
+   "line": 142,
+   "signatures": [
+    "linkedData()"
+   ],
+   "alt_signatures": [
+    "linkedData(address)"
+   ],
+   "alt_note": "",
+   "note": "The example contract calls linkedData() without arguments a few lines later; the printed interface identifier 0x7e110a1d is that of linkedData()."
+  },
+  {
+   "group": "E",
+   "erc": 7085,
+   "status": "Draft",
+   "what": "interface declares setAttribute(uint256,string,uint256); the implementation in the same document defines setAttribute(uint256,bytes32,bytes32)",
+   "printed": null,
+   "line": 50,
+   "signatures": [
+    "setAttribute(uint256,string,uint256)"
+   ],
+   "alt_signatures": [
+    "setAttribute(uint256,bytes32,bytes32)"
+   ],
+   "alt_note": "",
+   "note": ""
+  }
+ ],
+ "calibration": [
+  {
+   "what": "ERC-165",
+   "printed": "01ffc9a7",
+   "signatures": [
+    "supportsInterface(bytes4)"
+   ]
+  },
+  {
+   "what": "ERC-20 selector transfer",
+   "printed": "a9059cbb",
+   "signatures": [
+    "transfer(address,uint256)"
+   ]
+  },
+  {
+   "what": "ERC-5007 IERC5007Composable",
+   "printed": "75cf3842",
+   "signatures": [
+    "assetId(uint256)",
+    "split(uint256,uint256,address,uint256,address,uint64)",
+    "merge(uint256,uint256,address,uint256)"
+   ]
+  },
+  {
+   "what": "ERC-998 ERC998ERC721TopDown",
+   "printed": "cde244d9",
+   "signatures": [
+    "rootOwnerOf(uint256)",
+    "rootOwnerOfChild(address,uint256)",
+    "ownerOfChild(address,uint256)",
+    "onERC721Received(address,address,uint256,bytes)",
+    "transferChild(uint256,address,address,uint256)",
+    "safeTransferChild(uint256,address,address,uint256)",
+    "safeTransferChild(uint256,address,address,uint256,bytes)",
+    "transferChildToParent(uint256,address,uint256,address,uint256,bytes)",
+    "getChild(address,uint256,address,uint256)"
+   ]
+  },
+  {
+   "what": "ERC-998 magic value",
+   "printed": "cd740db5",
+   "signatures": [
+    "rootOwnerOf(uint256)",
+    "rootOwnerOfChild(address,uint256)",
+    "tokenOwnerOf(uint256)",
+    "ownerOfChild(address,uint256)"
+   ]
+  },
+  {
+   "what": "ERC-6909",
+   "printed": "0f632fb3",
+   "signatures": [
+    "balanceOf(address,uint256)",
+    "allowance(address,address,uint256)",
+    "isOperator(address,address)",
+    "transfer(address,uint256,uint256)",
+    "transferFrom(address,address,uint256,uint256)",
+    "approve(address,uint256,uint256)",
+    "setOperator(address,bool)"
+   ]
+  },
+  {
+   "what": "ERC-7540 deposit",
+   "printed": "ce3bbe50",
+   "signatures": [
+    "requestDeposit(uint256,address,address)",
+    "pendingDepositRequest(uint256,address)",
+    "claimableDepositRequest(uint256,address)",
+    "deposit(uint256,address,address)",
+    "mint(uint256,address,address)"
+   ]
+  },
+  {
+   "what": "ERC-7540 redeem",
+   "printed": "620ee8e4",
+   "signatures": [
+    "requestRedeem(uint256,address,address)",
+    "pendingRedeemRequest(uint256,address)",
+    "claimableRedeemRequest(uint256,address)"
+   ]
+  },
+  {
+   "what": "ERC-7540 operator",
+   "printed": "e3bc4e65",
+   "signatures": [
+    "isOperator(address,address)",
+    "setOperator(address,bool)"
+   ]
+  },
+  {
+   "what": "ERC-1538 ERC1538",
+   "printed": "61455567",
+   "signatures": [
+    "updateContract(address,string,string)"
+   ]
+  },
+  {
+   "what": "ERC-4393 paragraph value",
+   "printed": "e47a7022",
+   "signatures": [
+    "setApprovalForNFT(address[],address,uint256,bool)",
+    "isApprovalForNFT(address,address,uint256)",
+    "tip(address,uint256,uint256)",
+    "tipBatch(address[],address[],uint256[],uint256[])",
+    "deposit(address,uint256)",
+    "withdrawReward(uint256)",
+    "balanceOf(address)",
+    "balanceDepositOf(address)",
+    "rewardPendingOf(address)"
+   ]
+  },
+  {
+   "what": "ERC-1185 DNS_RECORD_INTERFACE_ID",
+   "printed": "a8fa5682",
+   "signatures": [
+    "dnsRecord(bytes32,bytes32,uint16)"
+   ]
+  }
+ ]
+}

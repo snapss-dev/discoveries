@@ -22,6 +22,12 @@ Below each of these, pages are grouped by field.
 
 | page | what |
 |---|---|
+| [ERC interface identifiers](new/software/erc-165-identifiers/README.md) | Twenty-seven interface identifiers and selectors printed in Ethereum ERC documents do not match the signatures printed beside them, seven of them in Final or Last Call standards. A contract written from the text and one using the compiler's value answer `supportsInterface` differently. |
+| [ERC-7857 storage slot](new/software/erc-7857-storage-slot/README.md) | The storage constant in a Final ERC's reference contract is not the ERC-7201 slot of the namespace it names. |
+| [SLIP-0132 prefixes](new/software/slip-0132-version-prefixes/README.md) | Three rows of a key-prefix registry print prefixes their version bytes cannot produce. |
+| [A246754](new/mathematics/A246754/README.md) | A listed term is one too large: 13993959^13993959 has exactly 10^8 digits. The entry's formula overshoots at the same places. |
+| [A320065](new/mathematics/A320065/README.md) | A 2025 Lambert W formula first fails at n = 3431, then at the end of every block. |
+| [A059923, A207976](new/mathematics/A059923-A207976/README.md) | Two formulas of the form floor(x^n), stated as fact, fail from n = 24 and n = 27. |
 | [V627 Peg, 1905 outburst](new/astronomy/v627-peg-1905-outburst/README.md) | Six Harvard plates from August 1905 show the dwarf nova V627 Peg in outburst, 37 years before the earliest outburst in the literature. Measured twice, the second time from the plate pixels. |
 | [A072633, smallest counterexample](new/mathematics/A072633-smallest-counterexample/README.md) | The conjecture a(n) = 1 + round(n / log 2) fails at a 330-digit n found by Antonio Sanso. New here: a proof that this n is the smallest counterexample, the bound F(n) <= a(n) <= F(n) + 1, four further counterexamples, and the answer to an open remark in A332101. |
 | [A332102](new/mathematics/A332102/README.md) | The conjecture a(n) = round(n / log(3/2) + 3) fails at a 1614-digit n, certified with interval arithmetic. |
@@ -56,6 +62,7 @@ Below each of these, pages are grouped by field.
 | [A190363](independent-rediscovery/mathematics/A190363/README.md) | A guessed recurrence fails at the 161st term | A contributor to Google DeepMind's formal-conjectures; Daniel Veljjanoski, November 2026 |
 | [A139394](independent-rediscovery/mathematics/A139394/README.md) | The conjecture a(n) > 0 fails near 6 * 10^11 | Bays and Hudson, 1978 |
 | [A243013](independent-rediscovery/mathematics/A243013/README.md) | The seventh term of a count of graceful graphs should be 37, not 36 | Already listed correctly in A308544 |
+| [A226183](independent-rediscovery/mathematics/A226183/README.md) | The formula printed in the entry is wrong at n = 10 | Jon E. Schoenfield and Kevin Ryde, in the entry's own discussion thread, 2021 |
 | [A092674](independent-rediscovery/mathematics/A092674/README.md) | A closed form showing the sequence is never negative | Implicit in the companion entry A092673 since 2007 |
 | [A091817](independent-rediscovery/mathematics/A091817/README.md) | Leroy Quet's conjecture that every term is an integer | Foundation-0's math0 project, October 2026; a classical congruence (Sun and Zhao, 2013) |
 | [A276531](independent-rediscovery/mathematics/A276531/README.md) | Every term of a Somos-like recurrence is an integer | Michael Somos, 2016, in the entry |
@@ -78,6 +85,8 @@ Below each of these, pages are grouped by field.
 | page | what |
 |---|---|
 | [Borger 1929 meteorite](dead-ends/history/borger-1929-meteorite/README.md) | A reported meteorite that a follow-up article identified as a weathered boulder. |
+| [Core EIP and BIP examples](dead-ends/software/eip-bip-test-vectors/README.md) | About 1,050 worked examples and test vectors in core Ethereum and Bitcoin proposals recomputed. None wrong. |
+| [A136616](dead-ends/mathematics/A136616/README.md) | A harmonic-number formula searched for a failure with the continued-fraction method, below 10^10000. None found; still unproved. |
 | [Fixed-point math libraries](dead-ends/software/fixed-point-math-libraries/README.md) | An adversarial search for inputs that break documented rounding or monotonicity guarantees in smart-contract math libraries. None found. |
 | [Scottish lidar look-alikes](dead-ends/archaeology/scottish-lidar-lookalikes/README.md) | Five mounds and rings that looked like cairns in lidar and were a quarry, a gravel pit, a rock knoll, heaps and scrub. |
 

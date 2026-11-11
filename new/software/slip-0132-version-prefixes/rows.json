@@ -1,0 +1,274 @@
+[
+ {
+  "line": 32,
+  "coin": "Bitcoin",
+  "pub_version": "0488b21e",
+  "pub_prefix": "xpub",
+  "prv_version": "0488ade4",
+  "prv_prefix": "xprv"
+ },
+ {
+  "line": 33,
+  "coin": "Bitcoin",
+  "pub_version": "049d7cb2",
+  "pub_prefix": "ypub",
+  "prv_version": "049d7878",
+  "prv_prefix": "yprv"
+ },
+ {
+  "line": 34,
+  "coin": "Bitcoin",
+  "pub_version": "04b24746",
+  "pub_prefix": "zpub",
+  "prv_version": "04b2430c",
+  "prv_prefix": "zprv"
+ },
+ {
+  "line": 35,
+  "coin": "Bitcoin",
+  "pub_version": "0295b43f",
+  "pub_prefix": "Ypub",
+  "prv_version": "0295b005",
+  "prv_prefix": "Yprv"
+ },
+ {
+  "line": 36,
+  "coin": "Bitcoin",
+  "pub_version": "02aa7ed3",
+  "pub_prefix": "Zpub",
+  "prv_version": "02aa7a99",
+  "prv_prefix": "Zprv"
+ },
+ {
+  "line": 37,
+  "coin": "Bitcoin Testnet",
+  "pub_version": "043587cf",
+  "pub_prefix": "tpub",
+  "prv_version": "04358394",
+  "prv_prefix": "tprv"
+ },
+ {
+  "line": 38,
+  "coin": "Bitcoin Testnet",
+  "pub_version": "044a5262",
+  "pub_prefix": "upub",
+  "prv_version": "044a4e28",
+  "prv_prefix": "uprv"
+ },
+ {
+  "line": 39,
+  "coin": "Bitcoin Testnet",
+  "pub_version": "045f1cf6",
+  "pub_prefix": "vpub",
+  "prv_version": "045f18bc",
+  "prv_prefix": "vprv"
+ },
+ {
+  "line": 40,
+  "coin": "Bitcoin Testnet",
+  "pub_version": "024289ef",
+  "pub_prefix": "Upub",
+  "prv_version": "024285b5",
+  "prv_prefix": "Uprv"
+ },
+ {
+  "line": 41,
+  "coin": "Bitcoin Testnet",
+  "pub_version": "02575483",
+  "pub_prefix": "Vpub",
+  "prv_version": "02575048",
+  "prv_prefix": "Vprv"
+ },
+ {
+  "line": 42,
+  "coin": "Groestlcoin",
+  "pub_version": "0488b21e",
+  "pub_prefix": "xpub",
+  "prv_version": "0488ade4",
+  "prv_prefix": "xprv"
+ },
+ {
+  "line": 43,
+  "coin": "Groestlcoin",
+  "pub_version": "049d7cb2",
+  "pub_prefix": "ypub",
+  "prv_version": "049d7878",
+  "prv_prefix": "yprv"
+ },
+ {
+  "line": 44,
+  "coin": "Groestlcoin",
+  "pub_version": "04b24746",
+  "pub_prefix": "zpub",
+  "prv_version": "04b2430c",
+  "prv_prefix": "zprv"
+ },
+ {
+  "line": 45,
+  "coin": "Groestlcoin",
+  "pub_version": "0295b43f",
+  "pub_prefix": "Ypub",
+  "prv_version": "0295b005",
+  "prv_prefix": "Yprv"
+ },
+ {
+  "line": 46,
+  "coin": "Groestlcoin",
+  "pub_version": "02aa7ed3",
+  "pub_prefix": "Zpub",
+  "prv_version": "02aa7a99",
+  "prv_prefix": "Zprv"
+ },
+ {
+  "line": 47,
+  "coin": "Groestlcoin Testnet",
+  "pub_version": "043587cf",
+  "pub_prefix": "tpub",
+  "prv_version": "04358394",
+  "prv_prefix": "tprv"
+ },
+ {
+  "line": 48,
+  "coin": "Groestlcoin Testnet",
+  "pub_version": "044a5262",
+  "pub_prefix": "upub",
+  "prv_version": "044a4e28",
+  "prv_prefix": "uprv"
+ },
+ {
+  "line": 49,
+  "coin": "Groestlcoin Testnet",
+  "pub_version": "045f1cf6",
+  "pub_prefix": "vpub",
+  "prv_version": "045f18bc",
+  "prv_prefix": "vprv"
+ },
+ {
+  "line": 50,
+  "coin": "Groestlcoin Testnet",
+  "pub_version": "024289ef",
+  "pub_prefix": "Upub",
+  "prv_version": "024285b5",
+  "prv_prefix": "Uprv"
+ },
+ {
+  "line": 51,
+  "coin": "Groestlcoin Testnet",
+  "pub_version": "02575483",
+  "pub_prefix": "Vpub",
+  "prv_version": "02575048",
+  "prv_prefix": "Vprv"
+ },
+ {
+  "line": 52,
+  "coin": "Kylacoin",
+  "pub_version": "038f332e",
+  "pub_prefix": "kpub",
+  "prv_version": "038f2ef4",
+  "prv_prefix": "kprv"
+ },
+ {
+  "line": 53,
+  "coin": "Kylacoin Testnet",
+  "pub_version": "045f1cf6",
+  "pub_prefix": "vpub",
+  "prv_version": "045f18bc",
+  "prv_prefix": "vprv"
+ },
+ {
+  "line": 54,
+  "coin": "Litecoin",
+  "pub_version": "019da462",
+  "pub_prefix": "Ltub",
+  "prv_version": "019d9cfe",
+  "prv_prefix": "Ltpv"
+ },
+ {
+  "line": 55,
+  "coin": "Litecoin",
+  "pub_version": "01b26ef6",
+  "pub_prefix": "Mtub",
+  "prv_version": "01b26792",
+  "prv_prefix": "Mtpv"
+ },
+ {
+  "line": 56,
+  "coin": "Litecoin Testnet",
+  "pub_version": "0436f6e1",
+  "pub_prefix": "ttub",
+  "prv_version": "0436ef7d",
+  "prv_prefix": "ttpv"
+ },
+ {
+  "line": 57,
+  "coin": "Lyncoin",
+  "pub_version": "019c354f",
+  "pub_prefix": "Lpub",
+  "prv_version": "019c3115",
+  "prv_prefix": "Lprv"
+ },
+ {
+  "line": 58,
+  "coin": "Lyncoin Testnet",
+  "pub_version": "022dbf5b",
+  "pub_prefix": "Tpub",
+  "prv_version": "022dbb21",
+  "prv_prefix": "Tprv"
+ },
+ {
+  "line": 59,
+  "coin": "Nexa",
+  "pub_version": "42696720",
+  "pub_prefix": "xpub",
+  "prv_version": "426c6b73",
+  "prv_prefix": "xprv"
+ },
+ {
+  "line": 60,
+  "coin": "Nexa Testnet",
+  "pub_version": "043587cf",
+  "pub_prefix": "xpub",
+  "prv_version": "04358394",
+  "prv_prefix": "xprv"
+ },
+ {
+  "line": 61,
+  "coin": "Vertcoin",
+  "pub_version": "0488b21e",
+  "pub_prefix": "vtcp",
+  "prv_version": "0488ade4",
+  "prv_prefix": "vtcv"
+ },
+ {
+  "line": 62,
+  "coin": "Polis",
+  "pub_version": "03e25d7e",
+  "pub_prefix": "ppub",
+  "prv_version": "03e25945",
+  "prv_prefix": "pprv"
+ },
+ {
+  "line": 63,
+  "coin": "Record X-core Blockchain",
+  "pub_version": "040ec961",
+  "pub_prefix": "rxpu",
+  "prv_version": "040ec94c",
+  "prv_prefix": "rxpr"
+ },
+ {
+  "line": 64,
+  "coin": "Syscoin",
+  "pub_version": "04b24746",
+  "pub_prefix": "zpub",
+  "prv_version": "04b2430c",
+  "prv_prefix": "zprv"
+ },
+ {
+  "line": 65,
+  "coin": "Syscoin",
+  "pub_version": "02aa7ed3",
+  "pub_prefix": "Zpub",
+  "prv_version": "02aa7a99",
+  "prv_prefix": "Zprv"
+ }
+]

@@ -1,0 +1,7 @@
+line 59  Nexa             0x42696720  printed xpub  the version bytes give F6iY
+line 59  Nexa             0x426c6b73  printed xprv  the version bytes give F6rx
+line 60  Nexa Testnet     0x043587cf  printed xpub  the version bytes give tpub
+line 60  Nexa Testnet     0x04358394  printed xprv  the version bytes give tprv
+line 61  Vertcoin         0x0488b21e  printed vtcp  the version bytes give xpub
+line 61  Vertcoin         0x0488ade4  printed vtcv  the version bytes give xprv
+34 rows, 68 cells checked, 6 cells where the printed prefix does not follow from the version bytes

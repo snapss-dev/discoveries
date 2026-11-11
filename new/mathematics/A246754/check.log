@@ -1,0 +1,19 @@
+Part 1: exact integer arithmetic
+  k = 13993958:  k^k >= 10^(10^8-1): False   k^k >= 10^(10^8): False
+  k = 13993959:  k^k >= 10^(10^8-1): True   k^k >= 10^(10^8): False
+  => 13993958^13993958 has fewer than 10^8 digits, 13993959^13993959 has exactly 10^8 digits.
+  => a(8) = 13993959; the OEIS lists a(8) = 13993960.   (6 s)
+Part 2: Arb, n = 1..1000
+  n where the formula differs from the definition: [8, 52, 200, 226, 849]
+  n where exp(LambertW(10^n log 10)) is exactly an integer (k = 10^j, j*10^j = 10^n): [1, 11, 102]
+    n = 8: a(n) = 13993959, formula gives a(n) + 1
+    n = 52: a(n) = 198813301545277069427221007249252621199452547718823, formula gives a(n) + 1
+    n = 200: a(n) = 505806699918...300949911887 (198 digits), formula gives a(n) + 1
+    n = 226: a(n) = 447126347500...145666997096 (224 digits), formula gives a(n) + 1
+    n = 849: a(n) = 118193167940...835566832746 (847 digits), formula gives a(n) + 1
+  listed terms a(1..21) that differ from the definition: n = [8] [(13993960, 13993959)]
+  listed terms a(1..21) that differ from the formula:    n = []
+  (0 s)
+Part 3: mpmath, independent
+  disagreements with Part 2: []   (24 s)
+RESULT: OK

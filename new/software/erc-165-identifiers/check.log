@@ -1,0 +1,129 @@
+second implementation: pycryptodome
+
+Calibration: identifiers that the documents print and that do reproduce
+  ERC-165                              printed 0x01ffc9a7  recomputed 0x01ffc9a7  ok
+  ERC-20 selector transfer             printed 0xa9059cbb  recomputed 0xa9059cbb  ok
+  ERC-5007 IERC5007Composable          printed 0x75cf3842  recomputed 0x75cf3842  ok
+  ERC-998 ERC998ERC721TopDown          printed 0xcde244d9  recomputed 0xcde244d9  ok
+  ERC-998 magic value                  printed 0xcd740db5  recomputed 0xcd740db5  ok
+  ERC-6909                             printed 0x0f632fb3  recomputed 0x0f632fb3  ok
+  ERC-7540 deposit                     printed 0xce3bbe50  recomputed 0xce3bbe50  ok
+  ERC-7540 redeem                      printed 0x620ee8e4  recomputed 0x620ee8e4  ok
+  ERC-7540 operator                    printed 0xe3bc4e65  recomputed 0xe3bc4e65  ok
+  ERC-1538 ERC1538                     printed 0x61455567  recomputed 0x61455567  ok
+  ERC-4393 paragraph value             printed 0xe47a7022  recomputed 0xe47a7022  ok
+  ERC-1185 DNS_RECORD_INTERFACE_ID     printed 0xa8fa5682  recomputed 0xa8fa5682  ok
+
+Group A: Final and Last Call documents
+  ERC-7401 (Final), line 68: interface IERC7059 (the ERC-7401 interface)
+      printed 0x42b0e56f   from the 12 declared signature(s) 0x14a07a0c
+      printed value is reproduced by: addChild given a third parameter of type bytes, as in assets/erc-7401/contracts/IERC7401.sol (0x42b0e56f)
+      note: The text declares addChild(uint256 parentId, uint256 childId).
+  ERC-6059 (Final), line 64: interface IERC6059
+      printed 0x42b0e56f   from the 12 declared signature(s) 0xf71e99d2
+      printed value is reproduced by: addChild and nestTransferFrom each given a trailing bytes parameter, as in assets/erc-6059/contracts/IERC6059.sol (0x42b0e56f)
+      note: Known: ERC-7401 was written to fix this.
+  ERC-5007 (Final), line 32: interface IERC5007
+      printed 0xf140be0d   from the 2 declared signature(s) 0x7a0cdf92
+      note: The text printed 0x7a0cdf92 until 2023-04-25; assets/erc-5007/test/test.js still asserts 0x7a0cdf92.
+  ERC-5507 (Final), line 49: interface ERC20Refund
+      printed 0xf0ca2917   from the 4 declared signature(s) 0x4d1444d1
+      printed value is reproduced by: the same interface without refundFrom (0xf0ca2917)
+      note: Identifiers were added 2022-12-26; refundFrom was added 2023-02-23.
+  ERC-5507 (Final), line 104: interface ERC721Refund
+      printed 0xe97f3c83   from the 4 declared signature(s) 0x54a15145
+      printed value is reproduced by: the same interface without refundFrom (0xe97f3c83)
+      note: Identifiers were added 2022-12-26; refundFrom was added 2023-02-23.
+  ERC-5507 (Final), line 207: interface ERC1155Refund
+      printed 0x94029f5c   from the 4 declared signature(s) 0xebd3ba73
+      printed value is reproduced by: the same interface without refundFrom (0x94029f5c)
+      note: Identifiers were added 2022-12-26; refundFrom was added 2023-02-23.
+  ERC-5496 (Last Call), line 37: interface IERC5496
+      printed 0x076e1bbb   from the 3 declared signature(s) 0xc906a5cb
+      printed value is reproduced by: setPrivilege with uint64 expires, as in the reference implementation printed in the same document (0x076e1bbb)
+      note: The interface declares uint256 expires.
+
+Group B: other statuses, cause identified
+  ERC-1538 (Withdrawn), line 158: comment "0x03A9BCCF == bytes4(keccak256("updateContract(address,string,string)"))"
+      printed 0x03a9bccf   from the 1 declared signature(s) 0x61455567
+      note: The same document gives 0x61455567 as the identifier of the one-function ERC1538 interface.
+  ERC-7897 (Withdrawn), line 191: assembly "mstore(0x00, 0xd786d393) // `DeployFailed()`"
+      printed 0xd786d393   from the 1 declared signature(s) 0xb4f54111
+      note: The document declares error DeployFailed().
+  ERC-725 (Draft), line 289: interface IERC725X in the summary listing
+      printed 0x7545acac   from the 2 declared signature(s) 0x28f19dd8
+      printed value is reproduced by: executeBatch with bytes[] datas, as in the method section of the same document (0x7545acac)
+      note: The summary listing writes "bytes memory datas".
+  ERC-1185 (Review), line 56: prose "dnsRecords() ... has function signature 0x2461e851" against the code
+      printed 0x2461e851   from the 1 declared signature(s) 0xa8fa5682
+      printed value is reproduced by: the name dnsRecords used in the prose (0x2461e851)
+      note: The reference code in the document defines dnsRecord and DNS_RECORD_INTERFACE_ID = 0xa8fa5682.
+  ERC-1417 (Stagnant), line 86: interface IPoll
+      printed 0x4fad898b   from the 17 declared signature(s) 0xd1983698
+      printed value is reproduced by: the same interface without getVoterBaseDenominator() (0x4fad898b)
+  ERC-998 (Draft), line 1140: interface ERC998ERC20BottomUp
+      printed 0xffafa991   from the 5 declared signature(s) 0x3617a1cb
+      printed value is reproduced by: the same interface without transferFromParentERC223 (0xffafa991)
+  ERC-4393 (Stagnant), line 64: interface ITipToken (comment inside the interface)
+      printed 0x985a3267   from the 9 declared signature(s) 0xe47a7022
+      note: The paragraph above the interface requires 0xE47A7022, which is the value recomputed here.
+  ERC-5700 (Draft), line 144: interface IERC1155Bindable
+      printed 0xd0d555c6   from the 6 declared signature(s) 0xc6f44642
+      printed value is reproduced by: the interface of the same name in assets/erc-5700/interfaces/IERC1155Bindable.sol, whose parameter lists differ (0xd0d555c6)
+      note: The requirement sentence above the interface prints the value with a digit missing: 0xd0d55c6.
+  ERC-8121 (Draft), line 112: comment "bytes4(keccak256(functionSignature)); // 0x1837de7f" for "getContractMetadata(string)"
+      printed 0x1837de7f   from the 1 declared signature(s) 0x9e574b14
+      note: Line 166 of the same document uses 0x9e574b14 for this signature, the value recomputed here.
+
+Group C: other statuses, cause not determined
+  ERC-1261 (Stagnant), line 71: interface IERC1261
+      printed 0x1d8362cf   from the 15 declared signature(s) 0xf8779878
+  ERC-4353 (Stagnant), line 33: interface IERC721Staked
+      printed 0x3a3d855f   from the 1 declared signature(s) 0x5a459ed4
+  ERC-5635 (Stagnant), line 40: interface IERC5635DNFT
+      printed 0xd584841c   from the 2 declared signature(s) 0xbda94636
+  ERC-5635 (Stagnant), line 95: interface IERC5635Registry
+      printed 0xb5065e9f   from the 3 declared signature(s) 0x59213334
+  ERC-5791 (Draft), line 106: interface IERC5791
+      printed 0x4901df9f   from the 3 declared signature(s) 0x83e70509
+  ERC-6353 (Stagnant), line 45: interface IERC20charity
+      printed 0x557512b6   from the 10 declared signature(s) 0xaceb828b
+  ERC-7204 (Draft), line 50: interface IERC7204
+      printed 0xf73edcda   from the 5 declared signature(s) 0x4b090fea
+  ERC-7604 (Draft), line 144: interface IERC1155Permit
+      printed 0x7409106d   from the 3 declared signature(s) 0x29011db4
+  ERC-7561 (Draft), line 112: comment above the reference contract ERC7561, tested against interface IERC7561
+      printed 0xc1b31357   from the 3 declared signature(s) 0x304ad1f2
+  ERC-5700 (Draft), line 44: interface IERC721Bindable
+      printed 0x82a34a7d   from the 4 declared signature(s) 0x11806543
+  ERC-1844 (Stagnant), line 31: the one function interfaceImplementer
+      printed 0xb8f2bbb4   from the 1 declared signature(s) 0x124a319c
+
+Group D: interface in the text against the reference interface in the assets folder (no identifier printed)
+  ERC-7066 (Final), line 111: interface IERC7066 in the text against assets/erc-7066/IERC7066.sol
+      identifier from the text 0x18e33afa   from the reference interface 0x6866d677
+      only in the text: transferAndLock(uint256,address,address,bool) 0xd0feac0a
+      only in the reference interface: transferAndLock(address,address,uint256,bool) 0xa07b4087
+      note: transferAndLock takes (tokenId, from, to, setApprove) in the text and (from, to, tokenId, setApprove) in the reference interface.
+  ERC-5169 (Final), line 69: interface IERC5169 in the text against assets/erc-5169/contract/ExampleContract.sol
+      identifier from the text 0xa86517a1   from the reference interface 0x2488f6c0
+      only in the text: setScriptURI(string[]) 0xe3d61eb3
+      only in the reference interface: updateScriptURI(string) 0x6f3bffd2
+      note: The text declares setScriptURI(string[]); the example contract declares updateScriptURI(string).
+  ERC-3643 (Final), line 304: interface ICompliance in the text against assets/erc-3643/interfaces/ICompliance.sol
+      identifier from the text 0x3144991c   from the reference interface 0xa87a1289
+      only in the text: isTokenBound(address) 0x993e8b95
+      only in the reference interface: nothing
+      note: The reference interface has no isTokenBound(address).
+
+Group E: interface against the implementation printed in the same document
+  ERC-7820 (Final), line 113: interface getRoleInfo(address) 0x07483499, implementation getRoleInfo(address,address,bytes32) 0x6cf94b35
+      note: The prose at line 137 also describes getRoleInfo(address targetContract, address account, bytes32 role); the interface entry repeats the comment and return values of getContractInfo.
+  ERC-7656 (Final), line 142: interface linkedData() 0x7e110a1d, implementation linkedData(address) 0x33c3411a
+      note: The example contract calls linkedData() without arguments a few lines later; the printed interface identifier 0x7e110a1d is that of linkedData().
+  ERC-7085 (Draft), line 50: interface setAttribute(uint256,string,uint256) 0x28342f99, implementation setAttribute(uint256,bytes32,bytes32) 0xb6276aee
+
+27 printed values differ from the value recomputed from the declared signatures
+3 interfaces differ between the text and the reference interface
+3 functions differ between an interface and the implementation in the same document
+291 signature hashes computed

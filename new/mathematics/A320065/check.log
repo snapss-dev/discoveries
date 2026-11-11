@@ -1,0 +1,38 @@
+Part 1: definition against formula, 2 <= n < 200000 (mpmath, 30 digits)
+  number of failures: 43
+  first failures (n, a(n), formula): [(3431, 7, 8), (12867, 8, 9), (12868, 8, 9), (12869, 8, 9), (48611, 9, 10), (48612, 9, 10)]
+  a(n) = 7: formula wrong for n = 3431..3431 (1 values); binomial(14,7) = 3432
+  a(n) = 8: formula wrong for n = 12867..12869 (3 values); binomial(16,8) = 12870
+  a(n) = 9: formula wrong for n = 48611..48619 (9 values); binomial(18,9) = 48620
+  a(n) = 10: formula wrong for n = 184726..184755 (30 values); binomial(20,10) = 184756
+Part 2: Arb, at C = binomial(2i,i): signs of g(C-1) - i and g(C) - i, 2 <= i <= 400
+  i =   2: g(C-1) - i = -0.15203626   g(C) - i = 0.0043293932   i^2*(g(C)-i) = 0.0173176
+  i =   5: g(C-1) - i = -0.0025455896   g(C) - i = 0.00053301778   i^2*(g(C)-i) = 0.0133254
+  i =   6: g(C-1) - i = -0.00046895073   g(C) - i = 0.00035980366   i^2*(g(C)-i) = 0.0129529
+  i =   7: g(C-1) - i = 3.7883729e-5   g(C) - i = 0.00025907153   i^2*(g(C)-i) = 0.0126945
+  i =   8: g(C-1) - i = 0.00013677929   g(C) - i = 0.00019538724   i^2*(g(C)-i) = 0.0125048
+  i =  10: g(C-1) - i = 0.00011840316   g(C) - i = 0.00012244970   i^2*(g(C)-i) = 0.0122450
+  i =  20: g(C-1) - i = 2.9362922e-5   g(C) - i = 2.9362927e-5   i^2*(g(C)-i) = 0.0117452
+  i =  50: g(C-1) - i = 4.5830694e-6   g(C) - i = 4.5830694e-6   i^2*(g(C)-i) = 0.0114577
+  i = 100: g(C-1) - i = 1.1363864e-6   g(C) - i = 1.1363864e-6   i^2*(g(C)-i) = 0.0113639
+  i = 200: g(C-1) - i = 2.8293337e-7   g(C) - i = 2.8293337e-7   i^2*(g(C)-i) = 0.0113173
+  i = 400: g(C-1) - i = 7.0588524e-8   g(C) - i = 7.0588524e-8   i^2*(g(C)-i) = 0.0112942
+  formula correct at n = C for all these i: True
+  first i with a wrong value at n = binomial(2i,i) - 1: i = 7  n = 3431
+  wrong at n = binomial(2i,i) - 1 for every i from 7 to 400
+Part 3: failing n per block (smallest n with g(n) > i, Arb bisection)
+  i =  7: formula gives 8 instead of 7 for n = 3431..3431  (1 values, 0.000399 of the block)
+  i =  8: formula gives 9 instead of 8 for n = 12867..12869  (3 values, 0.000318 of the block)
+  i =  9: formula gives 10 instead of 9 for n = 48611..48619  (9 values, 0.000252 of the block)
+  i = 10: formula gives 11 instead of 10 for n = 184726..184755  (30 values, 0.00022 of the block)
+  i = 11: formula gives 12 instead of 11 for n = 705337..705431  (95 values, 0.000182 of the block)
+  i = 12: formula gives 13 instead of 12 for n = 2703851..2704155  (305 values, 0.000153 of the block)
+  i = 13: formula gives 14 instead of 13 for n = 10399604..10400599  (996 values, 0.000129 of the block)
+  i = 14: formula gives 15 instead of 14 for n = 40113294..40116599  (3306 values, 0.000111 of the block)
+  i = 15: formula gives 16 instead of 15 for n = 155106408..155117519  (11112 values, 9.66e-05 of the block)
+  i = 16: formula gives 17 instead of 16 for n = 601042620..601080389  (37770 values, 8.47e-05 of the block)
+  i = 17: formula gives 18 instead of 17 for n = 2333476551..2333606219  (129669 values, 7.48e-05 of the block)
+  i = 18: formula gives 19 instead of 18 for n = 9074686195..9075135299  (449105 values, 6.66e-05 of the block)
+  i = 19: formula gives 20 instead of 19 for n = 35343696091..35345263799  (1567709 values, 5.97e-05 of the block)
+  i = 20: formula gives 21 instead of 20 for n = 137841017705..137846528819  (5511115 values, 5.38e-05 of the block)
+RESULT: OK
