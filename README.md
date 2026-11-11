@@ -22,6 +22,7 @@ Below each of these, pages are grouped by field.
 
 | page | what |
 |---|---|
+| [V627 Peg, 1905 outburst](new/astronomy/v627-peg-1905-outburst/README.md) | Six Harvard plates from August 1905 show the dwarf nova V627 Peg in outburst, 37 years before the earliest outburst in the literature. Measured twice, the second time from the plate pixels. |
 | [A072633, smallest counterexample](new/mathematics/A072633-smallest-counterexample/README.md) | The conjecture a(n) = 1 + round(n / log 2) fails at a 330-digit n found by Antonio Sanso. New here: a proof that this n is the smallest counterexample, the bound F(n) <= a(n) <= F(n) + 1, four further counterexamples, and the answer to an open remark in A332101. |
 | [A332102](new/mathematics/A332102/README.md) | The conjecture a(n) = round(n / log(3/2) + 3) fails at a 1614-digit n, certified with interval arithmetic. |
 | [A100682](new/mathematics/A100682/README.md) | A 2012 conjecture lists six exceptions to a formula for the fourth roots of pentatope numbers. There are more: the next two are near 6 * 10^8 and 1.7 * 10^9, and 61 are listed. |
@@ -33,10 +34,15 @@ Below each of these, pages are grouped by field.
 | [A337385](new/mathematics/A337385/README.md) | "Apparently, all terms are divisible by 255255" (2020) fails at 8562829275. |
 | [A064169](new/mathematics/A064169/README.md) | A list of four exceptions "tested to 20000" misses five more inside that range. |
 | [A000846, A051924](new/mathematics/A000846-A051924/README.md) | Two "only for primes" remarks fail at 16843^2, the square of a Wolstenholme prime. |
+| [A332786](new/mathematics/A332786/README.md) | "Is 7^2 the only weak pseudoprime?" (2020). No: 16843^2 is another. |
+| [A036283](new/mathematics/A036283/README.md) | Two wrong values in a 10000-term b-file, with a proof of the relation a(n) = 6 A202318(n) that exposes them. The relation is stated without proof in A202318. |
+| [A227728](new/mathematics/A227728/README.md) | The b-file is wrong from n = 643 on, 358 entries. The conjectured recurrence holds for the corrected terms up to 1000. |
 | [A044140](new/mathematics/A044140/README.md) | A recurrence guessed from 42 terms fails at the 58th. |
+| [A285563](new/mathematics/A285563/README.md) | An empirical generating function matches 36 terms and fails at the 37th. |
 | [A086651](new/mathematics/A086651/README.md) | "It appears that a(6k+3) is always 2. Is this easy to prove?" (2003). A closed form for every term, by induction. |
 | [A115066](new/mathematics/A115066/README.md) | Three congruences for the Chebyshev values T_n(n), observed in 2022. |
 | [A338857](new/mathematics/A338857/README.md) | The formula printed in the entry has the wrong sign; it agrees with the sequence up to 3000 and first fails at a 39-digit n. |
+| [A123855](new/mathematics/A123855/README.md) | "It appears that 2^k divides a(2^k-1)" (2006), for a double sum of prime powers. A short proof. |
 | [Three short proofs](new/mathematics/short-proofs/README.md) | A069097, A234307, A055210: identities still marked as conjectures in their entries. |
 
 ## independent-rediscovery
@@ -51,6 +57,9 @@ Below each of these, pages are grouped by field.
 | [A139394](independent-rediscovery/mathematics/A139394/README.md) | The conjecture a(n) > 0 fails near 6 * 10^11 | Bays and Hudson, 1978 |
 | [A243013](independent-rediscovery/mathematics/A243013/README.md) | The seventh term of a count of graceful graphs should be 37, not 36 | Already listed correctly in A308544 |
 | [A092674](independent-rediscovery/mathematics/A092674/README.md) | A closed form showing the sequence is never negative | Implicit in the companion entry A092673 since 2007 |
+| [A091817](independent-rediscovery/mathematics/A091817/README.md) | Leroy Quet's conjecture that every term is an integer | Foundation-0's math0 project, October 2026; a classical congruence (Sun and Zhao, 2013) |
+| [A276531](independent-rediscovery/mathematics/A276531/README.md) | Every term of a Somos-like recurrence is an integer | Michael Somos, 2016, in the entry |
+| [A006579](independent-rediscovery/mathematics/A006579/README.md) | A 2025 conjecture fails at a 14-digit number | Varun Vejalla, June 2025, in A018804 |
 | [Arctic islands](independent-rediscovery/geography/arctic-islands/README.md) | Three islands exposed by glacier retreat, with area and elevation time series | Russia's Northern Fleet and the Russian Geographical Society; M. Pelto |
 | [TESS eclipsing binaries](independent-rediscovery/astronomy/tess-eclipsing-binaries/README.md) | Two bright eclipsing binaries | IJspeert et al. 2021 and 2024; Battley et al. 2022 |
 
@@ -59,6 +68,10 @@ Below each of these, pages are grouped by field.
 | page | what |
 |---|---|
 | [Tjibangara 1934 meteorite](candidates/history/tjibangara-1934-meteorite/README.md) | Newspaper reports and an observatory analysis of a 1934 fall in West Java that copies of the official register do not list. |
+| [Four possible outbursts on Harvard plates](candidates/astronomy/harvard-plate-outbursts/README.md) | GY Cet in 1943, V624 Peg in 1938, V355 UMa in 1930 and V4641 Sgr in 1901: bright images on old plates with no report found. Not re-measured. |
+| [Ring earthwork in Yonne](candidates/archaeology/yonne-ring-earthwork/README.md) | A bank and ditch 70 m across under forest in French lidar, on no map from 1750 to today. Undated, and the official register is closed. |
+| [Ring enclosure near Boca do Acre](candidates/archaeology/acre-ring-enclosure/README.md) | A ring 156 m across in land cleared in 2021, with the plan of an Acre geoglyph, 29 km from the nearest registered site. A modern track is not excluded. |
+| [Two possible cairns in Galloway](candidates/archaeology/galloway-cairns/README.md) | Hollow-topped mounds in Scottish lidar that match recorded cairns nearby and have no record of their own. Weak. |
 
 ## dead-ends
 
@@ -66,6 +79,7 @@ Below each of these, pages are grouped by field.
 |---|---|
 | [Borger 1929 meteorite](dead-ends/history/borger-1929-meteorite/README.md) | A reported meteorite that a follow-up article identified as a weathered boulder. |
 | [Fixed-point math libraries](dead-ends/software/fixed-point-math-libraries/README.md) | An adversarial search for inputs that break documented rounding or monotonicity guarantees in smart-contract math libraries. None found. |
+| [Scottish lidar look-alikes](dead-ends/archaeology/scottish-lidar-lookalikes/README.md) | Five mounds and rings that looked like cairns in lidar and were a quarry, a gravel pit, a rock knoll, heaps and scrub. |
 
 ## How results are produced and checked
 
@@ -80,8 +94,10 @@ Below each of these, pages are grouped by field.
   relevant revision history, including discussion threads; pending drafts; cross-referenced entries and
   the files attached to them; an in-depth web search with the identifier; and the current large-scale
   efforts in the same area (for integer sequences: Epoch AI's OEIS Open benchmark, Google DeepMind's
-  formal-conjectures repository and the omega-institute project). Eight results first taken to be new
-  were filed under `independent-rediscovery/` because of this check. It can still miss things.
+  formal-conjectures repository, the omega-institute project and Foundation-0's math0; for a variable
+  star: its entry in the AAVSO index, the papers on the star, and other observatories' plate archives).
+  Ten results first taken to be new were filed under `independent-rediscovery/` because of this check.
+  It can still miss things.
 - **Sensitive locations are withheld.** Positions of possible archaeological sites or wrecks are not
   published here.
 

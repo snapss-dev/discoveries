@@ -1,0 +1,11 @@
+B =
+ [[ 0  1 -1 -1 -1  1]
+ [-1  0  2  0  0 -1]
+ [ 1 -2  0  2  0 -1]
+ [ 1  0 -2  0  2 -1]
+ [ 1  0  0 -2  0  1]
+ [-1  1  1  1 -1  0]]
+skew-symmetric: True
+mu_1(B) relabelled == B : True
+first row: [0, 1, -1, -1, -1, 1] => x1 x7 = x2*x6 + x3*x4*x5, i.e. a(n)a(n-6)=a(n-5)a(n-1)+a(n-4)a(n-3)a(n-2)
+all a(n), n<=40, integers: True  a(6..12)= [2, 3, 5, 11, 41, 247, 1498]

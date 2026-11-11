@@ -1,0 +1,5 @@
+definition agrees with both formulas for n <= 400: True
+n = 23492890653051 composite: True
+a(n) = 587322266326274 = 587322266326274
+(a(n) + 1) / n = 25 remainder 0
+composite n <= 200000 with a(n) = -1 (mod n): []

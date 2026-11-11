@@ -1,0 +1,6 @@
+first terms: [6, 60, 126, 120, 66, 16380, 6, 4080, 7182, 3300, 138, 32760]
+A036283(n) = 6 * A202318(n) for every n <= 10000: True
+n = 6951: computed 1047715648686 (FLINT), 1047715648686 (sympy); 6 * A202318 = 1047715648686; b-file has 346793879715066 = 331 * computed
+   331 divides n: True; 331 - 1 divides 2n: False; 331 divides the numerator of B_2n: True
+n = 8308: computed 32280 (FLINT), 32280 (sympy); 6 * A202318 = 32280; b-file has 2162760 = 67 * computed
+   67 divides n: True; 67 - 1 divides 2n: False; 67 divides the numerator of B_2n: True

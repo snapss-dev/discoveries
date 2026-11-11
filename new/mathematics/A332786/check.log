@@ -1,0 +1,19 @@
+p = 5  n = p^2 = 25
+X exact: v_p(a(p^2)) = 1
+A numba: T = p^2*S mod p^4 = 250  => v_p(S) = 1 [14.1 s]
+B gmpy2: T = p^2*S mod p^5 = 2125  => v_p(S) = 1 [0.0 s]
+p = 7  n = p^2 = 49
+X exact: v_p(a(p^2)) = 2
+A numba: T = p^2*S mod p^4 = 0  => v_p(S) = >= 2 [14.9 s]
+B gmpy2: T = p^2*S mod p^5 = 2401  => v_p(S) = 2 [0.0 s]
+p = 11  n = p^2 = 121
+X exact: v_p(a(p^2)) = 1
+A numba: T = p^2*S mod p^4 = 10648  => v_p(S) = 1 [12.1 s]
+B gmpy2: T = p^2*S mod p^5 = 142417  => v_p(S) = 1 [0.0 s]
+p = 13  n = p^2 = 169
+X exact: v_p(a(p^2)) = 1
+A numba: T = p^2*S mod p^4 = 24167  => v_p(S) = 1 [19.6 s]
+B gmpy2: T = p^2*S mod p^5 = 81289  => v_p(S) = 1 [0.0 s]
+p = 16843  n = p^2 = 283686649
+A numba: T = p^2*S mod p^4 = 0  => v_p(S) = >= 2 [23.2 s]
+B gmpy2: T = p^2*S mod p^5 = 65026316775246154408  => v_p(S) = 2 [193.5 s]

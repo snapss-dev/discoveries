@@ -1,0 +1,8 @@
+first terms: [10, 43, 179, 740, 3054, 12599, 51971, 214376]
+computed a(1..1000); a(1000) has 616 digits
+smallest decision margin, in units of the gap between consecutive H values: 10^-2.3
+    (the working precision is far below this, so every 'greatest k' is decided)
+conjectured recurrence holds for n = 11..1000: True
+b-file entries compared: 1000; disagreements: 358; first at n = 643
+  n = 643: both have 397 digits and share the first 396
+  the b-file itself breaks the recurrence from n = 643

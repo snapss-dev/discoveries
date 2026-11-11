@@ -1,0 +1,36 @@
+plate,date,jd,z,B,rms,ncomp,fainter_than,brighter_than,lim5,depth,offset,comp_offset,note
+fa07136,1942-11-10T01:14,2430673.5519,0.6,,,0,,,,,,,
+fa07137,1942-11-10T02:07,2430673.5883,0.3,,,0,,,,,,,
+fa07138,1942-11-10T03:07,2430673.6302,0.8,,,0,,,,,,,
+fa07147,1942-11-12T23:57,2430676.4983,0.4,,,0,,,,,,,
+ai37896,1942-11-13T00:28,2430676.5200,-1.4,,,0,,,,,,,
+fa07148,1942-11-13T00:50,2430676.5351,-0.0,,,0,,,,,,,
+fa07149,1942-11-13T01:49,2430676.5759,0.3,,,0,,,,,,,
+fa07150,1942-11-13T02:41,2430676.6119,0.1,,,0,,,,,,,
+fa07153,1942-11-14T23:41,2430678.4873,-1.3,,,0,,,,,,,
+fa07155,1942-11-15T01:39,2430678.5694,0.1,,,0,,,,,,,
+fa07165,1942-11-17T02:32,2430680.6059,-0.3,,,0,,,,,,,
+fa07166,1942-11-17T03:32,2430680.6474,-0.6,,,0,,,,,,,
+rh11333,1942-11-18T23:45,2430682.4901,1.7,,,0,,,,,,,
+ai37930,1942-11-21T01:12,2430684.5501,0.1,,,0,,,,9.5,,3.9,
+fa07184,1942-11-29T01:47,2430692.5745,-1.0,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07193,1942-11-30T22:54,2430694.4544,2.5,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07194,1942-11-30T23:39,2430694.4856,0.5,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07195,1942-12-01T00:38,2430694.5268,12.9,,,0,9.5,9.8,,10.6,1.7,1.0,
+fa07196,1942-12-01T01:38,2430694.5683,11.9,,,0,9.5,9.8,,9.8,1.7,0.9,
+fa07203,1942-12-03T22:39,2430697.4438,0.4,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07204,1942-12-03T23:27,2430697.4774,-1.6,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07205,1942-12-04T00:25,2430697.5179,5.1,,,0,,,,,11.7,,too shallow: the brightest comparison star is not detected either
+fa07213,1942-12-05T01:24,2430698.5584,2.1,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07219,1942-12-05T23:10,2430699.4657,-1.3,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+ai37965,1942-12-05T23:21,2430699.4734,16.7,10.19,0.05,8,9.8,10.6,11.75,11.5,2.2,1.7,
+fa07220,1942-12-06T00:47,2430699.5332,-0.8,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07222,1942-12-07T23:09,2430701.4651,1.1,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07223,1942-12-08T00:09,2430701.5066,0.7,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07233,1942-12-08T23:07,2430702.4637,8.6,10.70,0.15,8,10.6,11.1,11.77,11.4,3.5,3.0,
+fa07234,1942-12-09T00:06,2430702.5042,13.1,10.61,0.16,10,10.6,10.9,12.16,11.6,2.5,1.2,
+fa07235,1942-12-09T01:05,2430702.5458,11.3,10.74,0.12,8,9.8,10.6,12.27,11.5,1.2,1.1,
+fa07253,1942-12-16T23:34,2430710.4824,0.8,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07263,1942-12-19T01:25,2430712.5597,0.2,,,0,,,,,,,too shallow: the brightest comparison star is not detected either
+fa07279,1942-12-21T23:03,2430715.4608,0.2,,,0,,,,,,,
+fa07287,1942-12-31T23:26,2430725.4767,0.8,,,0,,,,,,,
