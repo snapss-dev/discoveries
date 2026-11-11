@@ -1,0 +1,8 @@
+first k starting n equal values, n = 1..: [1, 11, 42, 75, 138, 713, 1672] (entry: 1, 11, 42, 75, 138, 713, 1672)
+longest run up to 3000000 : 7
+  longest run with value 1 : 1
+  longest run with value 2 : 3
+  longest run with value 3 : 7
+  longest run with value 4 : 2
+every k = 7 mod 8 has value 4: True
+value 4 exactly for k = 4^a (8b+7): True

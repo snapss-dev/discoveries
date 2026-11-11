@@ -1,0 +1,15 @@
+region                             tiles  analysed  no-coast  valid  mapped islands  recovered  recall  left for inspection
+South Georgia                         10         5         5   0.93              49         27    0.55      12
+Patagonia 46-52.5 S                   24        22         2   0.90            1494        374    0.25      10
+Tierra del Fuego 54-55.3 S            11        10         1   0.89             485        121    0.25       0
+NW Greenland 72-76.7 N                48        23        25   1.00             572        461    0.81       6
+W Greenland 68-72 N                   24        20         4   1.00             938        671    0.72      10
+SE Greenland 60-68.7 N                81        31        50   1.00            1118        730    0.65      11
+E Greenland 68.7-74.5 N (part)        35        28         7   0.99              72         64    0.89      11
+SE Ellesmere, N Devon (part)          24        19         5   1.00              88         66    0.75       6
+Alaska 132-151 W coast                83        32        51   0.99             766        404    0.53      15
+Antarctic Peninsula 62.8-68 S         52        30        22   0.86             636        292    0.46      10
+total                                392       220                             6218       3210    0.52      91
+Prow Knob, Alsek Lake (documented separation, summer 2025) recovered: True area 4.63 km2 at 59.19423 N, -138.06596 E
+Docker Smith islet in the NW Greenland list: True
+Cape Caledon islets (Pelto 2018) in the Canadian list: 2 components

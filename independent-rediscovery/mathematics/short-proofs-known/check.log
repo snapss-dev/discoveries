@@ -1,0 +1,8 @@
+A008474: every m with 5 <= m <= 3000000 reaches the cycle (5, 6, 7, 8)
+A254074: k ending in 5 has k^2 ending in 25 (k < 10^6)
+A000680: the criterion holds for 1 <= n <= 3000
+A088883 / A088884: primes below 3*10^6: 7517 with N+2 prime (all 6k+1), 7497 with N-2 prime (all 6k-1 or 3), never both
+A014865: 191 terms up to 2*10^6: all odd, composite beyond 7, each > 1 divisible by 3, 5 or 7
+A065907: 54274 primes == 7 (mod 8) below 3000000; largest multiplicity of a value: 3; 75 values occur three times
+A091713: series computed from the functional equation to n = 40; published terms reproduced; all odd
+ALL CHECKS PASSED  (18 s)

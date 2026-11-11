@@ -29,6 +29,23 @@ Below each of these, pages are grouped by field.
 | [NIST DLMF table digits](new/reference-works/dlmf-table-last-digits/README.md) | Six entries in four tables of the NIST Digital Library of Mathematical Functions are not the correctly rounded values, and none is in its errata list. |
 | [Wikipedia: wrong digits](new/reference-works/wikipedia-decimal-values/README.md) | Wrong digits in 17 English Wikipedia articles, found by recomputation: the standard normal table at z = 0.16 (since 2014), eight of ten listed zeros of the zeta function, chi-squared critical values, and others. |
 | [Wikipedia: integer lists](new/reference-works/wikipedia-integer-tables/README.md) | Four integer lists that differ from recomputation: the count of five-digit prime quadruplets (26, not 27), a missing perfect totient number, a missing divisor, a repeated prime. |
+| [Signed difference sets, orders 48 to 64](new/combinatorics/signed-difference-sets-orders-41-64/README.md) | Explicit signed difference sets for 26 cases that the La Jolla repository lists as open, each checked by three separate programs. |
+| [A125314](new/mathematics/A125314/README.md) | A new term, a(11) = 10892793; the entry had only a lower bound since 2007. |
+| [A270442](new/mathematics/A270442/README.md) | A new term, a(11) = 25812395459. |
+| [A218049](new/mathematics/A218049/README.md) | Two new terms, a(6) = 5990500988 and a(7) = 20106639730, in data unchanged since 2012. |
+| [A271817, a(12)](new/mathematics/A271817-a12-minimality/README.md) | The gap left in a(12) = 17546197568 is closed. |
+| [A338627](new/mathematics/A338627-complete/README.md) | The sequence is complete: there is no eighth term, by the three-square theorem. |
+| [A261114, A333507](new/mathematics/A261114-A333507-wrong-digits/README.md) | Two decimal expansions with wrong digits; A261114 is wrong from its 43rd digit on, including its whole table of 440 digits. |
+| [Euler-product constants](new/mathematics/euler-product-tails/README.md) | Wrong final digits in Taniguchi's constant (A175639) and wrong final terms in four continued fractions. |
+| [Constants: program lines](new/mathematics/constant-program-lines/README.md) | Five constants whose data are right but whose program line computes a different number. |
+| [Constants: offsets](new/mathematics/constant-offsets/README.md) | Eighteen constants whose offset contradicts the size of the number. |
+| [A306540](new/mathematics/A306540/README.md) | a(n) <= 231 for every n, and 231 is attained. |
+| [A152212](new/mathematics/A152212/README.md) | No term is congruent to 2 modulo 4, which answers a question asked in the entry in 2024. |
+| [A349824](new/mathematics/A349824/README.md) | n divides a(n) only for primes and for 1, 4, 16, 27, 30. |
+| [A domination-number conjecture](new/mathematics/annor-domination-conjecture/README.md) | A conjecture relating three domination numbers of a graph (arXiv 2506.03646, later withdrawn without comment) is false; the smallest tree counterexamples have 24 vertices. |
+| [A165075](new/mathematics/A165075/README.md) | "All terms are multiples of 48" holds for odd lengths and fails for even ones. |
+| [A065751](new/mathematics/A065751/README.md) | An empirical generating function fails at the first six-digit term. |
+| [Seventeen short proofs](new/mathematics/short-proofs-2/README.md) | Short proofs of statements still marked as conjectures or questions in seventeen entries. |
 | [A332786 and A330718](new/mathematics/A332786-A330718/README.md) | 16843^2 answers the "weak pseudoprime" questions in both entries. A second, independent computation of the A332786 result filed separately, extended to A330718. |
 | [A246754](new/mathematics/A246754/README.md) | A listed term is one too large: 13993959^13993959 has exactly 10^8 digits. The entry's formula overshoots at the same places. |
 | [A320065](new/mathematics/A320065/README.md) | A 2025 Lambert W formula first fails at n = 3431, then at the end of every block. |
@@ -68,6 +85,11 @@ Below each of these, pages are grouped by field.
 | [A139394](independent-rediscovery/mathematics/A139394/README.md) | The conjecture a(n) > 0 fails near 6 * 10^11 | Bays and Hudson, 1978 |
 | [A243013](independent-rediscovery/mathematics/A243013/README.md) | The seventh term of a count of graceful graphs should be 37, not 36 | Already listed correctly in A308544 |
 | [A226183](independent-rediscovery/mathematics/A226183/README.md) | The formula printed in the entry is wrong at n = 10 | Jon E. Schoenfield and Kevin Ryde, in the entry's own discussion thread, 2021 |
+| [Signed difference sets, small cases](independent-rediscovery/combinatorics/signed-difference-sets-small-open-cases/README.md) | Sixteen cases listed as open, settled here | Fabian Arévalo and Nicolas Masselot, August 2026 |
+| [Stored sets that fail the definition](independent-rediscovery/combinatorics/sds-repository-stored-sets/README.md) | 147 of the 280 sets stored in the La Jolla signed-difference-set repository fail its own definition | Fabian Arévalo, August 2026 |
+| [Adjacent-digit counts](independent-rediscovery/mathematics/adjacent-digit-counts/README.md) | Twenty-nine conjectured generating functions | R. Wiktorowicz, 2026; Robert Israel, 2018 |
+| [Short proofs already known](independent-rediscovery/mathematics/short-proofs-known/README.md) | Ten short proofs that turned out to be recorded elsewhere | Various; each named on the page |
+| [Cape Caledon islands](independent-rediscovery/geography/cape-caledon-islands/README.md) | Two rocky islets on Devon Island separated from the ice cap | M. Pelto, 2018 |
 | [A092674](independent-rediscovery/mathematics/A092674/README.md) | A closed form showing the sequence is never negative | Implicit in the companion entry A092673 since 2007 |
 | [A091817](independent-rediscovery/mathematics/A091817/README.md) | Leroy Quet's conjecture that every term is an integer | Foundation-0's math0 project, October 2026; a classical congruence (Sun and Zhao, 2013) |
 | [A276531](independent-rediscovery/mathematics/A276531/README.md) | Every term of a Somos-like recurrence is an integer | Michael Somos, 2016, in the entry |
@@ -79,6 +101,7 @@ Below each of these, pages are grouped by field.
 
 | page | what |
 |---|---|
+| [Døcker Smith islet](candidates/geography/docker-smith-islet/README.md) | An ice-capped islet at a glacier front in Melville Bay, Greenland, in open water since 2021 and still drawn as mainland. Place-name registers and charts were not consulted. |
 | [Euclid Q1 lens candidates](candidates/astronomy/euclid-q1-lens-candidates/README.md) | Four possible strong gravitational lenses in Euclid early-release imaging; two plausible, two weak, none in the published lists. |
 | [Earthwork screening](candidates/archaeology/earthwork-screening/README.md) | Eight screens of open lidar and imagery for unrecorded earthworks, with calibration results and confidence. No positions are given. |
 | [Great Lakes bathymetry](candidates/archaeology/great-lakes-bathymetry-screening/README.md) | One wreck-shaped body in open lidar bathymetry, from an uncalibrated detector. Position withheld. |
@@ -92,6 +115,8 @@ Below each of these, pages are grouped by field.
 
 | page | what |
 |---|---|
+| [Covering-design records](dead-ends/combinatorics/covering-design-records/README.md) | No record beaten; the table had just been swept by the same method, done better. |
+| [Glacier-island survey](dead-ends/geography/glacier-islands-survey/README.md) | 213 coastal tiles from the Antarctic Peninsula to Greenland searched for islands released by glaciers: one candidate, the rest known or nothing. |
 | [UCI king-rook-king dataset](dead-ends/games/uci-krk-endgame-dataset/README.md) | A widely used machine-learning dataset described by its authors as "not guaranteed correct": all 28,056 labels are right. |
 | [Wide companions of planet hosts](dead-ends/astronomy/wide-companions-of-planet-hosts/README.md) | All 157 co-moving companions found in Gaia DR3 were already catalogued. Side note: some hosts listed as single in an archive have a catalogued companion. |
 | [Rock avalanches, 2026](dead-ends/geoscience/rock-avalanches-2026/README.md) | No unreported 2026 rock avalanche found on glaciers, with a detector that missed a known one. |

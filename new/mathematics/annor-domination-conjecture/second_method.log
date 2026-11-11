@@ -1,0 +1,5 @@
+trees on 18 vertices from the generator: 123867; distinct canonical forms: 123867 (A000055(18) = 123867)
+candidates: 92099; gamma <= 9 certified by an explicit dominating set: 88831; decided by integer programming: 3268
+integer programming, (gamma, gamma_t) other than (10, 10): {(10, 11): 967, (10, 12): 1727, (10, 13): 420, (10, 14): 16}
+trees with gamma = gamma_t = 10, by number of vertices: {24: 138} ; up to isomorphism: 99
+ALL CHECKS PASSED  (161 s)

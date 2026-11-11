@@ -1,0 +1,31 @@
+=== A175639 ===
+  value (Arb, radius < 1e-200; mpmath agrees): 0.678234491917391978035538279482894814096332239189440103036460415964983370740123233213762122933484616330677048416995587689...
+  DATA: 105 digits a(0..104); the first 99 are correct
+  printed a(99..104): 888328
+  correct a(99..104): 330677   (next digits: 048416995587689)
+=== A078076 ===
+  value (Arb, radius < 1e-200; mpmath agrees): 0.388945189979561929311578789764450912676544954275695864741432098370039123319179032809797277596086919536123136395068857885...
+  DATA: 92 terms a(0..91); the first 91 are correct
+  printed a(91..91): [3]
+  correct a(91..91): [2]   (next terms: [5, 4, 1, 3, 1, 1])
+  printed terms = continued fraction of the value truncated to 98 decimal places: True
+=== A078077 ===
+  value (Arb, radius < 1e-200; mpmath agrees): 1.419562880505485919317235861789735359166071586305122542698983695564330971339471608639940369480279492214138451967878314090...
+  DATA: 91 terms a(0..90); the first 83 are correct
+  printed a(83..90): [3, 7, 1, 1, 3, 40, 6, 1]
+  correct a(83..90): [1, 1, 3, 14, 1, 1, 2, 2]   (next terms: [1, 5, 3, 1, 1, 1])
+  printed terms = continued fraction of the value truncated to 98 decimal places: True
+=== A078086 ===
+  value (Arb, radius < 1e-200; mpmath agrees): 0.901926039587082171377715202550471934152555453155555358358433327289293781072568157523890499901033807777782909080303343462...
+  DATA: 91 terms a(0..90); the first 85 are correct
+  printed a(85..90): [2, 2, 3, 2, 6, 1]
+  correct a(85..90): [1, 8, 5, 1, 35, 1]   (next terms: [4, 1, 1, 8, 1, 1])
+  printed terms = continued fraction of the value truncated to 98 decimal places: True
+=== A078088 ===
+  value (Arb, radius < 1e-200; mpmath agrees): 0.743971193350374744686559607585650000986008692861327873319512389172246743056979534062523621818717259204386203699264309819...
+  DATA: 95 terms a(0..94); the first 94 are correct
+  printed a(94..94): [96]
+  correct a(94..94): [19]   (next terms: [3, 1, 1, 80, 2, 1])
+  printed terms = continued fraction of the value truncated to 98 decimal places: False
+
+ALL CHECKS PASSED

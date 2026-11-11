@@ -1,0 +1,12 @@
+$ python search_second.py 6 1 20106639732 1e5
+window start k = 5990500988 all 6 values non-squarefree
+window start k = 6312851589 all 6 values non-squarefree
+window start k = 7327934032 all 6 values non-squarefree
+window start k = 9609773415 all 6 values non-squarefree
+window start k = 12626645282 all 6 values non-squarefree
+window start k = 17035061318 all 6 values non-squarefree
+window start k = 18233931290 all 6 values non-squarefree
+window start k = 18623636307 all 6 values non-squarefree
+window start k = 20106639730 all 6 values non-squarefree
+window start k = 20106639731 all 6 values non-squarefree
+N=6 range [1,20106639732) P0=100000: classes 9566, windows tested exactly 4820, runs found [5990500988, 6312851589, 7327934032, 9609773415, 12626645282], 498s

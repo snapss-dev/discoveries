@@ -1,0 +1,9 @@
+1 - log10(9.9) = [0.0043648054024500846597 +/- 4.43e-23]   log10(1.01) = [0.0043213737826425742752 +/- 1.19e-23]
+1/232 = [0.0043103448275862068966 +/- 4.83e-23]   1/231 = [0.0043290043290043290043 +/- 2.91e-23]
+certified: 1/232 < log10(1.01) < 1/231 and 1/232 < 1 - log10(9.9)
+integer certificate: 1.01^232 > 10 > 1.01^231, and 9.9^232 < 10^231
+method 1 (exact integers): published terms a(1..69) reproduced; max a(n) for n <= 30000 is 231
+  n <= 30000 with a(n) = 231: [101, 1010, 10100]
+method 2 (float + exact fallback on 35 doubtful n): max a(n) for n <= 20000000 is 231; a(n) = 231 for 411 values of n
+methods 1 and 2 disagree on 0 of the first 30000 n
+ALL CHECKS PASSED  (90 s)

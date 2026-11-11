@@ -1,0 +1,20 @@
+A091713, A120566: series computed from the functional equations to n = 40; published terms reproduced; all terms odd
+A068206: 47 terms up to n = 1200 (published terms reproduced), all == 7 (mod 21)
+A090818: 227 terms up to 800 (published terms reproduced), none == 2 (mod 4)
+A048868: 586 terms up to 100000 (the b-file has 586 below 10^5), all even
+A058059: terms up to 60 reproduced: [2, 4, 6, 14, 30, 40, 54] ; x = 2 is a root for every odd n
+A130061: 6814 terms up to 2*10^6, none prime except 3
+A131418: 182727 terms up to 3*10^6, all multiples of 9
+A134460: 34378 differences (A067186 up to 4*10^5), none == 2 (mod 4) after the first
+A008474: every m with 5 <= m <= 5000000 reaches the cycle (5, 6, 7, 8); f(m) < m for composite m > 8 and f(f(p)) < p for primes p > 5
+A332937: a(p+1) = 1 for all 1270605 primes 3 < p < 2*10^7; a(n) = gcd(n-1, floor(n*phi)) for n < 2*10^5
+A328881: a(n) mod 10 has period 12 for n >= 4: [2, 3, 8, 4, 9, 6, 4, 7, 6, 0, 1, 0] ; no term ends in 5 (n <= 6000)
+A348158: all terms odd for n <= 20000
+A342681: 4178 terms below 10^7, all with an odd number of digits; p + reverse(p) is a multiple of 11 for every prime with an even number of digits
+A300984: 37 terms up to 300000 (published terms reproduced); with two odd primes the sum of squarefree divisors is a multiple of 4
+A254074: k ending in 5 has k^2 ending in 25 (k < 10^6); the seven published terms satisfy the definition
+A326328: a(n) == 6 (mod 9), hence 3-adic valuation exactly 1, for 1 <= n <= 150; E_(2n) mod 9 cycles 8, 5, 2
+A044279: 63280 terms below 9^7, each == 0 or 1 (mod 9), so the decimal digit sum is too
+A037915: #{floor(i^2/n), 0 <= i <= n} = floor(3n/4) + 1 for 2 <= n <= 20000; fails only at n = 1 (2 values, a(1) = 1); with 1 <= i <= n it holds for every n
+A002791: both formulas hold for n <= 3000 once the g.f. numerator ends in -3x^5; as printed (-3x^4) it fails
+ALL CHECKS PASSED  (184 s)

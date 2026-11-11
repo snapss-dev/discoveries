@@ -1,0 +1,21 @@
+n = 1: first k > 1 by brute force = 3   (entry: 3)
+n = 2: first k > 1 by brute force = 7   (entry: 7)
+n = 3: first k > 1 by brute force = 3   (entry: 3)
+n = 4: first k > 1 by brute force = 31   (entry: 31)
+n = 5: first k > 1 by brute force = 13   (entry: 13)
+n = 6: first k > 1 by brute force = 1556   (entry: 1556)
+n = 7: first k > 1 by brute force = 733   (entry: 733)
+n = 8: definition holds at the listed k = 89037: True   (smaller k not rechecked here)
+n = 9: first k > 1 by brute force = 1441   (entry: 1441)
+n = 10: definition holds at the listed k = 668073: True   (smaller k not rechecked here)
+n = 11, k = 10892793: (k!)^11 mod S == 0 computed literally: True
+closed form S = k^2 (k+1)^2 g(k) / 24 agrees with the literal sum: True
+k    = {3: 1, 67: 1, 54193: 1}
+k+1  = {2: 1, 11: 1, 149: 1, 3323: 1}
+g(k) = {2: 1, 367: 1, 487: 2, 619: 1, 701: 1, 829: 1, 3559: 1, 6121: 1, 17851: 1, 20717: 1, 235537: 1, 465929: 1, 4598233: 1, 1557103: 1}
+S = 3 * 11^2 * 67^2 * 149^2 * 367 * 487^2 * 619 * 701 * 829 * 3323^2 * 3559 * 6121 * 17851 * 20717 * 54193^2 * 235537 * 465929 * 1557103 * 4598233
+largest prime factor of S: 4598233 <= k: True
+every exponent e of p in S satisfies e <= 11 * v_p(k!): True
+n = 11, k = 2..60 tested literally, k that work: []
+for comparison, k = 10892792: definition holds: False
+for comparison, k = 10892794: definition holds: False

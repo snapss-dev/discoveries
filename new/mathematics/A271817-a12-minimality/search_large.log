@@ -1,0 +1,8 @@
+$ python search_large.py 1 15000 30 700 12 validate
+(A) primes 30..700: 115 primes, 1156 values k, 1194 pairs (k,j), 28s
+(B) m <= 460: 105 values k, 105 pairs (k,j), 1974 convergents, 33s
+validate: brute pairs 1224 missing from lists 0 ; A exact match True ; B superset of brute(p>P1) True 30
+$ python search_large.py 1 17546197567 1e5 2e8 12
+(A) primes 100000..200000000: 11069345 primes, 170644 values k, 170645 pairs (k,j), 114s
+(B) m <= 7697: 453 values k, 453 pairs (k,j), 122987 convergents, 117s
+touched k: 170864; solutions among them (k <= 17546197567): []; 148s

@@ -1,0 +1,6 @@
+method 1 (sieve): published terms a(1..64) reproduced
+method 1: k == 2 (mod 4), k <= 400000000: 100000000 values tested, v2(sigma_0) = v2(k*sigma_1 - sigma_2) + 1 fails 0 times
+method 2 (divisor lists): k <= 300000: 165894 terms, of which 0 are == 2 (mod 4); v2 identity fails 0 times
+runs of consecutive terms up to 300000, as (length, first term mod 4): count -> {(1, 0): 129, (1, 1): 41150, (1, 3): 39559, (2, 0): 2001, (2, 3): 3615, (3, 3): 24608}
+lemmas checked for 2821 odd prime powers p^e (p < 1000, p^e < 10^40)
+ALL CHECKS PASSED  (61 s)

@@ -1,0 +1,42 @@
+Part 1: three dates re-measured from pixels (10 m, 4-connected)
+  2020-09-04: component at the centre = 0.7847 km2, reaches the window edge (joined to the glacier) = True, free of snow and ice = 0.0935 km2
+  2021-07-19: component at the centre = 0.4916 km2, reaches the window edge (joined to the glacier) = False, free of snow and ice = 0.0646 km2
+  2026-08-30: component at the centre = 0.3266 km2, reaches the window edge (joined to the glacier) = False, free of snow and ice = 0.0956 km2
+PASS  2020-09-04: still joined to the glacier front
+PASS  2021-07-19: surrounded by water, area 0.40 to 0.55 km2
+PASS  2026-08-30: surrounded by water, area 0.30 to 0.36 km2
+PASS  the islet lost area between 2021 and 2026
+PASS  its snow- and ice-free part grew between 2021 and 2026
+
+Part 2: per-scene table
+  251 scenes, 152 with < 1 % cloud and < 2 % cloud shadow within 700 m
+  last clear August-September date joined to the glacier: 2020-09-04
+  first clear date surrounded by water:                   2021-07-19
+PASS  bracket is 2020-09-04 to 2021-07-19
+PASS  no clear date after the bracket shows it joined again in August or September
+  year  dates  median area  min    max    median ice-free  median bright fraction   (km2; dates with drift ice against the shore removed)
+  2021     10  0.4328       0.4127 0.4919 0.0644           0.855
+  2022      5  0.4053       0.3795 0.4582 0.0788           0.809
+  2023      7  0.4075       0.3745 0.4488 0.0635           0.851
+  2024      7  0.3740       0.3373 0.3885 0.0913           0.755
+  2025      7  0.3462       0.3395 0.3867 0.0866           0.745
+  2026      9  0.3394       0.3214 0.4103 0.1051           0.699
+PASS  six summers of isolated dates (2021 to 2026)
+PASS  median area falls from about 0.43 (2021) to about 0.34 km2 (2026)
+PASS  median ice-free area rises from about 0.06 to about 0.10 km2
+
+Part 3: ArcticDEM strips, height above the sea surface around the islet (m)
+  date        whole islet median / 90th pct   bright part median   ice-free rim median / 90th pct
+  2020-08-07    39.9 /  57.1                 47.0                 12.1 /  30.0
+  2020-09-05    40.9 /  58.4                 48.1                 14.8 /  32.3
+  2021-07-19    40.1 /  57.3                 47.1                 12.3 /  31.0
+  2022-05-12    39.9 /  57.1                 46.8                 13.0 /  31.2
+  2023-07-04    36.4 /  53.9                 43.3                  9.6 /  27.7
+  2023-07-18    37.8 /  55.3                 44.8                 11.0 /  29.4
+  2024-09-09    36.5 /  55.0                 44.0                 12.2 /  29.4
+  2024-09-14    33.0 /  51.7                 40.8                  7.2 /  25.6
+PASS  eight usable strips, 2020 to 2024
+PASS  90th-percentile height stays between 50 and 60 m in every strip
+PASS  ice-free southern rim reaches about 25 to 32 m (90th percentile)
+
+ALL CHECKS PASSED

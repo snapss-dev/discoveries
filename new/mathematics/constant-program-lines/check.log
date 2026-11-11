@@ -1,0 +1,18 @@
+A036665  Decimal expansion of 1/9801980198019801
+  name: 1/9801980198019801 (exact)                     agrees with DATA on  84 of  84 digits
+  PARI line: 1/9801980198019800. (exact)               agrees with DATA on  16 of  84 digits
+A134877  Decimal expansion of Sum_{k>=1} 1/(k!!)^(k!!)
+  name: Sum 1/(k!!)^(k!!) (exact, 12 terms)            agrees with DATA on 105 of 105 digits
+  Mathematica line: Sum_{n=1..100} 1/n^n (exact)       agrees with DATA on   2 of 105 digits
+A194657  (4 Pi^6 log 2 - 90 Pi^4 zeta(3) + 1350 Pi^2 zeta(5) - 5715 zeta(7))/1536
+  name (mpmath; Arb agrees)                            agrees with DATA on 105 of 105 digits
+  Mathematica line: ... - 5715 Pi^2 Zeta[7] (= -33.159125...) agrees with DATA on   0 of 105 digits
+A221363  Decimal expansion of the Pythagorean comma, 3^12/2^19 = 531441/524288
+  531441/524288 (exact)                                agrees with DATA on  20 of  20 digits
+  Mathematica line: 31441/524288 (exact)               agrees with DATA on   0 of  20 digits
+A238273  Decimal expansion of Sum_{n>=1} mu(n)/n^n
+  name: full sum (exact, 119 terms)                    agrees with DATA on 105 of 105 digits
+  sum stopped before n = 48 (exact)                    agrees with DATA on  86 of 105 digits
+  mu(48) = mu(49) = mu(50) = 0, 0, 0; first omitted nonzero term 1/51^51 = 8.20e-88
+
+ALL CHECKS PASSED

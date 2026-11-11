@@ -1,0 +1,32 @@
+entry    base kind      d  published terms        brute     g.f.      needed N   recurrence / closed form
+A124698     5 circular  1  27 terms ok            n <= 7    ok to 60  14         recurrence for n > 4: ok
+A124699     6 circular  1  26 terms ok            n <= 7    ok to 60  19         recurrence for n > 6: ok
+A124999     5 circular  3  24 terms ok            n <= 7    ok to 60  12         recurrence for n > 3: ok; closed form: ok
+A125316     6 circular  3  21 terms ok            n <= 7    ok to 60  17         recurrence for n > 5: ok
+A125343     6 circular  4  21 terms ok            n <= 7    ok to 60  13         recurrence for n > 3: ok; closed form: ok
+A125370     7 circular  5  20 terms ok            n <= 6    ok to 60  14         recurrence for n > 3: ok; closed form: ok
+A125396     8 circular  6  20 terms ok            n <= 6    ok to 60  15         recurrence for n > 3: ok; closed form: ok
+A125421     9 circular  7  19 terms ok            n <= 5    ok to 60  16         recurrence for n > 3: ok; closed form: ok
+A125445    10 circular  8  19 terms ok            n <= 5    ok to 60  17         recurrence for n > 3: ok; closed form: ok
+A125468    11 circular  9  18 terms ok            n <= 5    ok to 60  18         recurrence for n > 3: ok; closed form: ok
+A126363     9 linear    1  26 terms ok            n <= 5    ok to 60  20         
+A126365    11 linear    1  25 terms ok            n <= 5    ok to 60  24         
+A126366    12 linear    1  25 terms ok            n <= 5    ok to 60  25         
+A126367    13 linear    1  25 terms ok            n <= 4    ok to 60  28         
+A126395     8 linear    2  22 terms ok            n <= 6    ok to 60  15         recurrence for n > 3: ok
+A126396     9 linear    2  22 terms ok            n <= 5    ok to 60  20         recurrence for n > 5: ok
+A126397    10 linear    2  22 terms ok            n <= 5    ok to 60  19         recurrence for n > 4: ok
+A126474     6 linear    3  21 terms ok            n <= 7    ok to 60  12         recurrence for n > 2: ok
+A126475     7 linear    3  21 terms ok            n <= 6    ok to 60  15         recurrence for n > 3: ok
+A126476     8 linear    3  21 terms ok            n <= 6    ok to 60  17         recurrence for n > 4: ok
+A126477     9 linear    3  20 terms ok            n <= 5    ok to 60  18         recurrence for n > 4: ok
+A126478    10 linear    3  20 terms ok            n <= 5    ok to 60  19         recurrence for n > 4: ok
+A126502     7 linear    4  20 terms ok            n <= 6    ok to 60  13         recurrence for n > 2: ok
+A126503     8 linear    4  20 terms ok            n <= 6    ok to 60  16         recurrence for n > 3: ok
+A126504     9 linear    4  20 terms ok            n <= 5    ok to 60  19         recurrence for n > 5: ok
+A126505    10 linear    4  20 terms ok            n <= 5    ok to 60  21         recurrence for n > 5: ok
+A126529     8 linear    5  20 terms ok            n <= 6    ok to 60  14         recurrence for n > 2: ok
+A126530     9 linear    5  20 terms ok            n <= 5    ok to 60  17         recurrence for n > 3: ok
+A126531    10 linear    5  20 terms ok            n <= 5    ok to 60  20         recurrence for n > 4: ok
+all 29 generating functions agree with the transfer-matrix sequence for 0 <= n <= 60, beyond the number of terms that makes the agreement a proof
+ALL CHECKS PASSED  (4 s)

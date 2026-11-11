@@ -1,6 +1,6 @@
 # A271817: three new terms
 
-Status: a(10) and a(11) **verified**; a(12) verified up to a small stated gap. No earlier record found
+Status: a(10) and a(11) **verified**; a(12) verified up to a small stated gap, which a later page closes: see [A271817, a(12)](../A271817-a12-minimality/README.md). No earlier record found
 (2026-11-11). Produced with AI assistance; see the repository README. Not submitted to the OEIS.
 
 ## The entry

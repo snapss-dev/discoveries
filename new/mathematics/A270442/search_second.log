@@ -1,0 +1,7 @@
+$ python search_second.py 11 2 8.6e9 2e4
+N=11 range [2,8600000000) P0=20000: classes 31489, k tested exactly 129, solutions [], 260s
+$ python search_second.py 11 8.6e9 1.72e10 2e4
+N=11 range [8600000000,17200000000) P0=20000: classes 31489, k tested exactly 123, solutions [], 266s
+$ python search_second.py 11 1.72e10 25812395460 2e4
+k = 25812395459 satisfies the definition for n = 11
+N=11 range [17200000000,25812395460) P0=20000: classes 31489, k tested exactly 145, solutions [25812395459], 272s

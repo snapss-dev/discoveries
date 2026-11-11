@@ -1,0 +1,29 @@
+$ python search_sieve.py 1 1.76e10 12 1e5 1
+sign 1 NMAX 12 P0 100000 residue classes 115163 10s
+n=0 k=2  33s
+n=1 k=7  33s
+n=2 k=32  33s
+n=3 k=41  33s
+n=4 k=239  33s
+n=5 k=13982  33s
+n=6 k=240761  33s
+n=7 k=240761  33s
+n=8 k=26220368  33s
+n=9 k=93499279  36s
+progress k<1.3422e+09 near_checked=3 73s
+n=10 k=2352655113  99s
+n=11 k=2352655113  99s
+progress k<2.6844e+09 near_checked=9 105s
+progress k<4.0265e+09 near_checked=11 137s
+progress k<5.3687e+09 near_checked=17 169s
+progress k<6.7109e+09 near_checked=28 201s
+progress k<8.0531e+09 near_checked=35 233s
+progress k<9.3952e+09 near_checked=40 267s
+progress k<1.0737e+10 near_checked=45 294s
+progress k<1.2080e+10 near_checked=56 322s
+progress k<1.3422e+10 near_checked=62 340s
+progress k<1.4764e+10 near_checked=71 360s
+progress k<1.6106e+10 near_checked=81 376s
+progress k<1.7448e+10 near_checked=89 395s
+n=12 k=17546197568  397s
+done: searched k < 17582522368 from 0 ; first hits {0: 2, 1: 7, 2: 32, 3: 41, 4: 239, 5: 13982, 6: 240761, 7: 240761, 8: 26220368, 9: 93499279, 10: 2352655113, 11: 2352655113, 12: 17546197568} ; near_checked 89 ; near_hits []

@@ -1,0 +1,34 @@
+$ python search_sieve.py -1 2.6e10 11 1e5 1
+sign -1 NMAX 11 P0 100000 residue classes 134327 6s
+n=0 k=2  26s
+n=1 k=3  26s
+n=2 k=10  26s
+n=3 k=941  26s
+n=4 k=3052  26s
+n=5 k=8173  26s
+n=6 k=35359  26s
+n=7 k=1526009  26s
+n=8 k=30167284  26s
+n=9 k=46952141  26s
+n=10 k=574236841  35s
+progress k<1.3422e+09 near_checked=17 49s
+progress k<2.6844e+09 near_checked=33 74s
+progress k<4.0265e+09 near_checked=53 98s
+progress k<5.3687e+09 near_checked=74 124s
+progress k<6.7109e+09 near_checked=99 148s
+progress k<8.0531e+09 near_checked=117 176s
+progress k<9.3952e+09 near_checked=142 209s
+progress k<1.0737e+10 near_checked=163 243s
+progress k<1.2080e+10 near_checked=184 276s
+progress k<1.3422e+10 near_checked=196 307s
+progress k<1.4764e+10 near_checked=213 332s
+progress k<1.6106e+10 near_checked=235 356s
+progress k<1.7448e+10 near_checked=255 384s
+progress k<1.8790e+10 near_checked=277 414s
+progress k<2.0133e+10 near_checked=292 456s
+progress k<2.1475e+10 near_checked=321 487s
+progress k<2.2817e+10 near_checked=344 518s
+progress k<2.4159e+10 near_checked=374 546s
+progress k<2.5501e+10 near_checked=392 583s
+n=11 k=25812395459  593s
+done: searched k < 25836912640 from 0 ; first hits {0: 2, 1: 3, 2: 10, 3: 941, 4: 3052, 5: 8173, 6: 35359, 7: 1526009, 8: 30167284, 9: 46952141, 10: 574236841, 11: 25812395459} ; near_checked 396 ; near_hits []

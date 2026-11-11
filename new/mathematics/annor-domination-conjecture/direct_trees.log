@@ -1,0 +1,5 @@
+n = 18: 123867 trees (matches A000055), violations of the floor form: 0, smallest 6*gamma_t - 3*gamma - 2*gamma_c = -2 (a violation needs -6 or less)   [24 s]
+n = 19: 317955 trees (matches A000055), violations of the floor form: 0, smallest 6*gamma_t - 3*gamma - 2*gamma_c = -4 (a violation needs -6 or less)   [76 s]
+n = 20: 823065 trees (matches A000055), violations of the floor form: 0, smallest 6*gamma_t - 3*gamma - 2*gamma_c = -4 (a violation needs -6 or less)   [165 s]
+n = 21: 2144505 trees (matches A000055), violations of the floor form: 0, smallest 6*gamma_t - 3*gamma - 2*gamma_c = -4 (a violation needs -6 or less)   [477 s]
+n = 22: 5623756 trees (matches A000055), violations of the floor form: 0, smallest 6*gamma_t - 3*gamma - 2*gamma_c = -4 (a violation needs -6 or less)   [1140 s]

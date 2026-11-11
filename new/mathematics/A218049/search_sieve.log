@@ -1,0 +1,11 @@
+$ python search_sieve.py 2.02e10 7 1e5
+NMAX 7 P0 100000 classes 9566
+n=1 k=7  30s
+n=2 k=117  30s
+n=3 k=5742  30s
+n=4 k=455356  30s
+n=5 k=35952791  30s
+n=6 k=5990500988  52s
+progress k<1.3422e+10 near_checked=38 77s
+n=7 k=20106639730  99s
+done: searched k < 20132659200 ; first runs {1: 7, 2: 117, 3: 5742, 4: 455356, 5: 35952791, 6: 5990500988, 7: 20106639730} ; near windows checked 59 ; near hits []

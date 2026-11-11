@@ -1,0 +1,12 @@
+134 clear scenes; 86 with the islet surrounded by water and little drift ice
+  2018:  3 dates, median 0.0990 km2, range 0.0590 to 0.0994
+  2019: 12 dates, median 0.1013 km2, range 0.0925 to 0.1173
+  2020: 11 dates, median 0.1048 km2, range 0.0969 to 0.1074
+  2021:  7 dates, median 0.1165 km2, range 0.0961 to 0.1212
+  2022: 11 dates, median 0.1049 km2, range 0.0898 to 0.1093
+  2023: 24 dates, median 0.1018 km2, range 0.0928 to 0.1162
+  2024:  3 dates, median 0.0940 km2, range 0.0937 to 0.0961
+  2025:  7 dates, median 0.1005 km2, range 0.0950 to 0.1141
+  2026:  8 dates, median 0.1011 km2, range 0.0972 to 0.1091
+all years: median 0.1023 km2, first isolated clear date 2018-08-25
+PASS - islet present in every summer 2018 to 2026 with yearly median area between 0.09 and 0.12 km2 (no trend: rock)

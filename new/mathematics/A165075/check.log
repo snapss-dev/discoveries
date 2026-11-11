@@ -1,0 +1,13 @@
+b-file: 4081 terms, the largest with 100 base-7 digits
+part 1: own enumeration finds 211 fixed points with at most 40 base-7 digits; the b-file has 211; identical: True
+        a(17) = 77852854787906052 = base 7 65544331066553322111 ; mod 48 = 36 ; mod 672 = 36
+        first term that is not a multiple of 48: a(17) = 77852854787906052
+        first nonzero term not == -48 (mod 672): a(17) = 77852854787906052
+        first multiple of 48 that is not == -48 (mod 672): a(25) = 3896245168015046400 (mod 672 = 288)
+part 2: all 4081 b-file terms satisfy K(n) = n (exact integers)
+        odd  number of base-7 digits: 2295 terms,    0 not multiples of 48,    0 not == -48 (mod 672), gcd of all = 48
+        even number of base-7 digits: 1785 terms, 1342 not multiples of 48, 1785 not == -48 (mod 672), gcd of all = 12
+        every term is a multiple of 12
+        in all: 1342 terms not multiples of 48, 1785 nonzero terms not == -48 (mod 672)
+part 3: K(n) is a multiple of 6 for 200000 random n, and a multiple of 48 whenever n has an odd number of digits
+ALL CHECKS PASSED  (29 s)

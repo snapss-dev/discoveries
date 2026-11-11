@@ -1,0 +1,12 @@
+method 1 (parser over all k < 10^8): 7544 terms; method 2 (grammar, up to 8 digits): 7544 terms; identical: True
+   terms with  2 digits:      4 = 4 * 5^0 * Catalan(1)
+   terms with  4 digits:     40 = 4 * 5^1 * Catalan(2)
+   terms with  6 digits:    500 = 4 * 5^2 * Catalan(3)
+   terms with  8 digits:   7000 = 4 * 5^3 * Catalan(4)
+   terms with 10 digits: 105000 = 4 * 5^4 * Catalan(5)
+published terms a(0..42) reproduced
+the empirical g.f. reproduces a(0..43) and first fails at n = 44: g.f. gives 5094, the true a(44) = 100998
+   g.f. coefficients n = 40..50: [4518, 4527, 4536, 4545, 5094, 5184, 5274, 5364, 5454, 5409, 5418]
+   true terms        n = 40..50: [4518, 4527, 4536, 4545, 100998, 101898, 102798, 103698, 104598, 109098, 109188]
+   is the g.f. value 5094 a term? False
+ALL CHECKS PASSED  (17 s)

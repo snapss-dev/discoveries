@@ -1,0 +1,174 @@
+SDS(20,11,2,[20])      set  0  lambda   2  values as stored [-2, 0, 2, 4]  stored N [1, 9]  corrected N [1, 11]  -> OK
+SDS(20,11,2,[20])      set  1  lambda   2  values as stored [0, 2, 6]  stored N [7, 8]  corrected N [1, 11]  -> OK
+SDS(20,11,2,[20])      set  2  lambda   2  values as stored [-2, 0, 2, 4]  stored N [1, 7]  corrected N [1, 11]  -> OK
+SDS(20,11,2,[20])      set  3  lambda   2  values as stored [-2, 0, 2, 4, 6]  stored N [4, 9]  corrected N [1, 11]  -> OK
+SDS(35,21,10,[35])     set  0  lambda  10  values as stored [8, 10, 12]  stored N [4]  corrected N [13]  -> OK
+SDS(35,21,10,[35])     set  1  lambda  10  values as stored [8, 10, 12, 14]  stored N [11]  corrected N [13]  -> OK
+SDS(35,21,10,[35])     set  2  lambda  10  values as stored [6, 8, 10, 12]  stored N [0]  corrected N [13]  -> OK
+SDS(35,21,10,[35])     set  3  lambda  10  values as stored [8, 10, 12]  stored N [7]  corrected N [13]  -> OK
+SDS(51,19,3,[51])      set  0  lambda   3  values as stored [-1, 1, 3, 5, 7]  stored N [2, 3, 46]  corrected N [6, 23, 40]  -> OK
+SDS(51,19,3,[51])      set  1  lambda   3  values as stored [-1, 1, 3, 5, 7]  stored N [34, 41, 44]  corrected N [6, 23, 40]  -> OK
+SDS(51,19,3,[51])      set  2  lambda   3  values as stored [-1, 1, 3, 5, 7]  stored N [32, 45, 46]  corrected N [6, 23, 40]  -> OK
+SDS(51,19,3,[51])      set  3  lambda   3  values as stored [-1, 1, 3, 5, 7]  stored N [2, 3, 45]  corrected N [6, 23, 40]  -> OK
+SDS(61,49,36,[61])     set  0  lambda  36  values as stored [34, 36, 38, 40]  stored N [32]  corrected N [39]  -> OK
+SDS(78,53,28,[78])     set  0  lambda  28  values as stored [22, 24, 26, 28, 30, 32]  stored N [32, 38, 55]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  1  lambda  28  values as stored [22, 24, 26, 28, 30, 32]  stored N [32, 33, 54]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  2  lambda  28  values as stored [22, 24, 26, 28, 30, 32, 34]  stored N [3, 56, 58]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  3  lambda  28  values as stored [22, 24, 26, 28, 30, 32, 34]  stored N [33, 38, 57]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  4  lambda  28  values as stored [22, 24, 26, 28, 30, 32, 34]  stored N [33, 44, 51]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  5  lambda  28  values as stored [22, 24, 26, 28, 30, 32]  stored N [3, 51, 58]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  6  lambda  28  values as stored [22, 26, 28, 30, 32, 34]  stored N [33, 49, 56]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  7  lambda  28  values as stored [22, 24, 26, 28, 30, 32, 34]  stored N [41, 56, 74]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  8  lambda  28  values as stored [22, 24, 26, 28, 30, 32, 34]  stored N [38, 44, 68]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set  9  lambda  28  values as stored [22, 24, 26, 28, 30, 32]  stored N [39, 50, 69]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set 10  lambda  28  values as stored [22, 24, 26, 28, 30, 32, 34]  stored N [49, 67, 68]  corrected N [21, 47, 73]  -> OK
+SDS(78,53,28,[78])     set 11  lambda  28  values as stored [24, 26, 28, 30, 32, 34]  stored N [17, 42, 68]  corrected N [21, 47, 73]  -> OK
+SDS(104,29,4,[104])    set  0  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [37, 47, 81, 82]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  1  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [60, 76, 79, 81]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  2  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [32, 74, 79, 86]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  3  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [47, 65, 76, 95]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  4  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [37, 54, 60, 78]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  5  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [32, 79, 98, 101]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  6  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [47, 78, 79, 101]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  7  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [32, 33, 79, 86]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  8  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [37, 79, 82, 88]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set  9  lambda   4  values as stored [2, 4, 6, 8]  stored N [37, 65, 79, 82]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 10  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [8, 76, 81, 95]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 11  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [81, 86, 88, 95]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 12  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [33, 47, 79, 82]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 13  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [8, 37, 65, 103]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 14  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [44, 54, 60, 65]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 15  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [47, 65, 79, 101]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 16  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [33, 44, 54, 60]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 17  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [54, 60, 74, 76]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 18  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [47, 74, 101, 103]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 19  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [65, 76, 90, 94]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 20  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [32, 60, 79, 81]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 21  lambda   4  values as stored [-2, 0, 2, 4, 6, 8]  stored N [60, 65, 94, 101]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 22  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [34, 81, 88, 90]  corrected N [8, 34, 60, 86]  -> OK
+SDS(104,29,4,[104])    set 23  lambda   4  values as stored [0, 2, 4, 6, 8]  stored N [60, 74, 95, 101]  corrected N [8, 34, 60, 86]  -> OK
+SDS(111,66,17,[111])   set  0  lambda  17  values as stored [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 31]  stored N (11 elements)  corrected N None
+SDS(111,66,17,[111])   set  1  lambda  17  values as stored [7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27]  stored N (11 elements)  corrected N None
+SDS(111,66,17,[111])   set  2  lambda  17  values as stored [9, 11, 13, 15, 17, 19, 21, 23, 25]  stored N (11 elements)  corrected N None
+SDS(111,66,17,[111])   set  3  lambda  17  values as stored [9, 11, 13, 15, 17, 19, 21, 23, 25]  stored N (11 elements)  corrected N None
+SDS(111,66,17,[111])   set  4  lambda  17  values as stored [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25]  stored N (11 elements)  corrected N None
+SDS(111,66,17,[111])   set  5  lambda  17  values as stored [7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 33]  stored N (11 elements)  corrected N None
+SDS(167,84,40,[167])   set  0  lambda  40  values as stored [38, 40, 42]  stored N [162]  corrected N [132]  -> OK
+SDS(181,136,11,[181])  set  0  lambda  11  values as stored [-7, -5, -3, -1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27]  stored N (45 elements)  corrected N None
+SDS(182,38,2,[182])    set  0  lambda   2  values as stored [-4, -2, 0, 2, 4, 6, 10, 14, 18]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  1  lambda   2  values as stored [-4, -2, 0, 2, 4, 6, 10, 14]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  2  lambda   2  values as stored [-4, -2, 0, 2, 4, 6, 10, 14]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  3  lambda   2  values as stored [-6, -2, 0, 2, 4, 6, 10]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  4  lambda   2  values as stored [-6, -2, 0, 2, 4, 6, 10]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  5  lambda   2  values as stored [-4, -2, 0, 2, 4, 6, 10, 14]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  6  lambda   2  values as stored [-6, -4, -2, 0, 2, 4, 6, 10, 14, 18, 26]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  7  lambda   2  values as stored [-4, -2, 0, 2, 4, 10, 14]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  8  lambda   2  values as stored [-4, -2, 0, 2, 4, 6, 10, 14, 18]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set  9  lambda   2  values as stored [-2, 0, 2, 4, 6, 10]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set 10  lambda   2  values as stored [-2, 0, 2, 4, 6, 10, 14]  stored N (9 elements)  corrected N None
+SDS(182,38,2,[182])    set 11  lambda   2  values as stored [-2, 0, 2, 4, 6, 10]  stored N (9 elements)  corrected N None
+SDS(182,101,20,[182])  set  0  lambda  20  values as stored [4, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  1  lambda  20  values as stored [4, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 32, 36]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  2  lambda  20  values as stored [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  3  lambda  20  values as stored [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  4  lambda  20  values as stored [4, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  5  lambda  20  values as stored [4, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  6  lambda  20  values as stored [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 40]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  7  lambda  20  values as stored [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 38]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  8  lambda  20  values as stored [-8, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set  9  lambda  20  values as stored [2, 4, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 10  lambda  20  values as stored [4, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36, 40]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 11  lambda  20  values as stored [-4, 6, 8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 12  lambda  20  values as stored [8, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 36]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 13  lambda  20  values as stored [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 32]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 14  lambda  20  values as stored [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 36, 42, 46]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 15  lambda  20  values as stored [4, 6, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 16  lambda  20  values as stored [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 32]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 17  lambda  20  values as stored [2, 4, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 18  lambda  20  values as stored [2, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 19  lambda  20  values as stored [6, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 20  lambda  20  values as stored [2, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 21  lambda  20  values as stored [6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 22  lambda  20  values as stored [4, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 23  lambda  20  values as stored [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34]  stored N (20 elements)  corrected N None
+SDS(182,101,20,[182])  set 24  lambda  20  values as stored [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 34, 36]  stored N (20 elements)  corrected N None
+SDS(191,96,46,[191])   set  0  lambda  46  values as stored [44, 46, 48]  stored N [160]  corrected N [32]  -> OK
+SDS(199,100,48,[199])  set  0  lambda  48  values as stored [46, 48, 50]  stored N [192]  corrected N [152]  -> OK
+SDS(200,151,102,[200]) set  0  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [71, 107, 116, 189]  corrected N None
+SDS(200,151,102,[200]) set  1  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108, 110]  stored N [70, 85, 116, 197]  corrected N None
+SDS(200,151,102,[200]) set  2  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108, 110]  stored N [64, 155, 158, 192]  corrected N None
+SDS(200,151,102,[200]) set  3  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [145, 155, 157, 176]  corrected N None
+SDS(200,151,102,[200]) set  4  lambda 102  values as stored [88, 98, 100, 102, 104, 106, 108, 110]  stored N [52, 91, 114, 178]  corrected N None
+SDS(200,151,102,[200]) set  5  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [117, 121, 123, 184]  corrected N None
+SDS(200,151,102,[200]) set  6  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [119, 172, 173, 181]  corrected N None
+SDS(200,151,102,[200]) set  7  lambda 102  values as stored [86, 94, 98, 100, 102, 104, 106, 108]  stored N [119, 160, 167, 170]  corrected N None
+SDS(200,151,102,[200]) set  8  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 110, 112]  stored N [33, 145, 150, 157]  corrected N None
+SDS(200,151,102,[200]) set  9  lambda 102  values as stored [86, 98, 100, 102, 104, 106, 108]  stored N [4, 91, 127, 169]  corrected N None
+SDS(200,151,102,[200]) set 10  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [98, 100, 142, 170]  corrected N None
+SDS(200,151,102,[200]) set 11  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [119, 125, 129, 167]  corrected N None
+SDS(200,151,102,[200]) set 12  lambda 102  values as stored [86, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [74, 77, 123, 188]  corrected N None
+SDS(200,151,102,[200]) set 13  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108]  stored N [71, 133, 144, 182]  corrected N None
+SDS(200,151,102,[200]) set 14  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [141, 168, 174, 192]  corrected N None
+SDS(200,151,102,[200]) set 15  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108, 110]  stored N [43, 119, 133, 177]  corrected N None
+SDS(200,151,102,[200]) set 16  lambda 102  values as stored [86, 94, 98, 100, 102, 104, 106, 108]  stored N [85, 99, 136, 197]  corrected N None
+SDS(200,151,102,[200]) set 17  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108]  stored N [74, 115, 163, 167]  corrected N None
+SDS(200,151,102,[200]) set 18  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [67, 93, 100, 114]  corrected N None
+SDS(200,151,102,[200]) set 19  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108, 110]  stored N [103, 107, 155, 170]  corrected N None
+SDS(200,151,102,[200]) set 20  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 112]  stored N [47, 70, 186, 199]  corrected N None
+SDS(200,151,102,[200]) set 21  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [70, 123, 149, 157]  corrected N None
+SDS(200,151,102,[200]) set 22  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [32, 113, 114, 175]  corrected N None
+SDS(200,151,102,[200]) set 23  lambda 102  values as stored [86, 94, 98, 100, 102, 104, 106, 108]  stored N [136, 150, 177, 190]  corrected N None
+SDS(200,151,102,[200]) set 24  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [41, 77, 168, 169]  corrected N None
+SDS(200,151,102,[200]) set 25  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 110]  stored N [178, 190, 192, 193]  corrected N None
+SDS(200,151,102,[200]) set 26  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [47, 70, 164, 169]  corrected N None
+SDS(200,151,102,[200]) set 27  lambda 102  values as stored [86, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [70, 176, 180, 197]  corrected N None
+SDS(200,151,102,[200]) set 28  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [133, 154, 157, 173]  corrected N None
+SDS(200,151,102,[200]) set 29  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108, 110]  stored N [76, 177, 184, 199]  corrected N None
+SDS(200,151,102,[200]) set 30  lambda 102  values as stored [86, 94, 98, 100, 102, 104, 106, 108]  stored N [99, 115, 122, 144]  corrected N None
+SDS(200,151,102,[200]) set 31  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108]  stored N [78, 85, 188, 192]  corrected N None
+SDS(200,151,102,[200]) set 32  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [74, 127, 158, 168]  corrected N None
+SDS(200,151,102,[200]) set 33  lambda 102  values as stored [86, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [141, 177, 188, 193]  corrected N None
+SDS(200,151,102,[200]) set 34  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108]  stored N [96, 118, 155, 167]  corrected N None
+SDS(200,151,102,[200]) set 35  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108, 110]  stored N [101, 118, 122, 124]  corrected N None
+SDS(200,151,102,[200]) set 36  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108, 110]  stored N [70, 127, 160, 180]  corrected N None
+SDS(200,151,102,[200]) set 37  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108]  stored N [144, 164, 172, 181]  corrected N None
+SDS(200,151,102,[200]) set 38  lambda 102  values as stored [90, 92, 98, 100, 102, 104, 106, 108, 110]  stored N [65, 121, 167, 185]  corrected N None
+SDS(200,151,102,[200]) set 39  lambda 102  values as stored [90, 94, 98, 100, 102, 104, 106, 108]  stored N [106, 164, 172, 184]  corrected N None
+SDS(247,127,63,[247])  set  0  lambda  63  values as stored [59, 61, 63, 65, 67]  stored N [225]  corrected N [62]  -> OK
+SDS(247,127,63,[247])  set  1  lambda  63  values as stored [59, 61, 63, 65, 67]  stored N [225]  corrected N [61]  -> OK
+SDS(247,127,63,[247])  set  2  lambda  63  values as stored [59, 61, 63, 65, 67]  stored N [234]  corrected N [62]  -> OK
+SDS(247,127,63,[247])  set  3  lambda  63  values as stored [59, 61, 63, 65, 67]  stored N [229]  corrected N [62]  -> OK
+SDS(277,208,17,[277])  set  0  lambda  17  values as stored [-9, -5, -3, -1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 43, 47]  stored N (69 elements)  corrected N None
+SDS(347,174,85,[347])  set  0  lambda  85  values as stored [83, 85, 87]  stored N [320]  corrected N [48]  -> OK
+SDS(379,190,93,[379])  set  0  lambda  93  values as stored [91, 93, 95]  stored N [354]  corrected N [5]  -> OK
+SDS(443,222,109,[443]) set  0  lambda 109  values as stored [107, 109, 111]  stored N [416]  corrected N [304]  -> OK
+SDS(491,246,121,[491]) set  0  lambda 121  values as stored [119, 121, 123]  stored N [482]  corrected N [337]  -> OK
+SDS(499,250,123,[499]) set  0  lambda 123  values as stored [119, 121, 123, 125, 127]  stored N [488]  corrected N [318]  -> OK
+SDS(499,250,123,[499]) set  1  lambda 123  values as stored [121, 123, 125]  stored N [481]  corrected N [403]  -> OK
+
+entry                  status  stored sets  failing  distinct supports  corrected  distinct corrected N
+SDS(20,11,2,[20])      All               4        4                  1          4  [(1, 11)]
+SDS(35,21,10,[35])     All               4        4                  1          4  [(13,)]
+SDS(51,19,3,[51])      All               4        4                  1          4  [(6, 23, 40)]
+SDS(61,49,36,[61])     All               1        1                  1          1  [(39,)]
+SDS(78,53,28,[78])     All              12       12                  1         12  [(21, 47, 73)]
+SDS(104,29,4,[104])    All              24       24                  1         24  [(8, 34, 60, 86)]
+SDS(111,66,17,[111])   All               6        6                  3          0  -
+SDS(167,84,40,[167])   Yes               1        1                  1          1  [(132,)]
+SDS(181,136,11,[181])  All               1        1                  1          0  -
+SDS(182,38,2,[182])    Yes              12       12                  4          0  -
+SDS(182,101,20,[182])  All              25       25                  6          0  -
+SDS(191,96,46,[191])   Yes               1        1                  1          1  [(32,)]
+SDS(199,100,48,[199])  Yes               1        1                  1          1  [(152,)]
+SDS(200,151,102,[200]) All              40       40                  1          0  -
+SDS(247,127,63,[247])  All               4        4                  2          4  [(61,), (62,)]
+SDS(277,208,17,[277])  All               1        1                  1          0  -
+SDS(347,174,85,[347])  All               1        1                  1          1  [(48,)]
+SDS(379,190,93,[379])  All               1        1                  1          1  [(5,)]
+SDS(443,222,109,[443]) All               1        1                  1          1  [(304,)]
+SDS(491,246,121,[491]) All               1        1                  1          1  [(337,)]
+SDS(499,250,123,[499]) All               2        2                  2          2  [(318,), (403,)]
+
+failing stored sets: 147 in 21 entries; corrected on the same support: 62 sets in 15 entries
+audit of sds.json: 269 stored cyclic sets, 122 satisfy the definition, 147 do not; same list as failing_sets.json: True
+ALL OK

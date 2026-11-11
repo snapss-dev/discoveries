@@ -1,0 +1,8 @@
+trees I on 18 vertices with at most 6 leaves: 10910; candidate trees T tested: 92099
+gamma and gamma_t from the DP confirmed by brute force over vertex subsets for 506 of them (every 250th candidate and every reported tree)
+n = 24: 138 trees with gamma = gamma_t = 10, gamma_c = 18 (violations), 99 up to isomorphism
+    written to trees24.txt; the first one:
+    [(0, 1), (0, 10), (0, 20), (1, 2), (1, 21), (2, 3), (3, 4), (4, 5), (5, 6), (5, 22), (6, 7), (7, 8), (8, 9), (9, 18), (10, 11), (11, 12), (12, 13), (13, 14), (13, 23), (14, 15), (15, 16), (16, 17), (17, 19)]
+    the first three re-checked by exhaustive search over all 2^24 vertex subsets (method B of check.py)
+trees on 24 vertices with at most 3 leaves: largest gamma = 9 (12 would be needed)
+done (56 s)

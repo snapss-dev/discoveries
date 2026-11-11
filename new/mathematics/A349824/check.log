@@ -1,0 +1,4 @@
+method 1 (sieve), n <= 1000000000: non-prime n with n | a(n): [1, 4, 16, 27, 30]
+   primes seen: 50847534 (pi(10^9) = 50847534), all with n | a(n): True
+method 2 (trial division), n <= 200000: published terms reproduced; non-prime n with n | a(n): [1, 4, 16, 27, 30]
+ALL CHECKS PASSED  (127 s)
