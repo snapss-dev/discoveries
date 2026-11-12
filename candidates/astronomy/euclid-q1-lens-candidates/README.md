@@ -1,6 +1,7 @@
 # Four possible strong gravitational lenses in Euclid Q1 imaging
 
-Status: **candidates, not confirmed.** Two are graded plausible and two weak after a second look. No
+Status: **candidates, not confirmed.** Two were graded plausible and two weak after a second look. A
+third look on 2026-11-12 left one probable, two possible and one rejected (see the end of the page). No
 spectra, no lens model. Produced with AI assistance; see the repository README.
 
 ## Source
@@ -78,6 +79,25 @@ JWST archives.
 A spectrum showing the blue features at one redshift behind the galaxy (for C1, two matching quasar or
 galaxy spectra); or, for C3, deeper imaging that shows a counter-image; or a lens model that reproduces
 the image positions.
+
+## Third look (2026-11-12)
+
+The four were rendered again from the ESA archive, with a different galaxy subtraction (the median
+surface brightness in elliptical annuli, which does not mirror features to the opposite side as the
+rotation method above does) and with colour from H, Y and VIS:
+
+- **C3** stands as the best: a thin arc 3.6" east, curved around the galaxy and bluer than it in the
+  composite. No counter-image. Probable.
+- **C2**: a faint ring-like trace at about 3.5" whose pieces differ in colour; it could be a ring or shell
+  of the galaxy. Possible.
+- **C1**: two knots within 1", of about the galaxy's colour. Possible.
+- **C4**: a tidal loop. Not a lens.
+
+The Euclid Consortium's lens catalogue for Data Release 1 (ECLIPSE; Euclid Collaboration: Lines et al.
+2026) does not cover the Q1 fields, so it says nothing about these four. SIMBAD and every VizieR
+catalogue at the positions were checked again and hold no lens record. The search of the rest of DR1
+is on the pages `candidates/astronomy/euclid-dr1-lens-candidates` and
+`independent-rediscovery/astronomy/euclid-dr1-strong-lenses`.
 
 ## Data and credits
 

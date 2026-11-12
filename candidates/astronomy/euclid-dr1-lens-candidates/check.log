@@ -1,0 +1,23 @@
+candidates: 66 {'B+': 8, 'B': 58}
+no two candidates within 5 arcsec of each other; nearest pair 1176 arcsec apart
+nearest entry of the consortium's expert-graded object catalogue: closest 11 arcsec, median 478 arcsec
+every row has a consortium search cutout centred on it; flagged by its networks: 32; shown to volunteers: 32; shown to volunteers a second time: 11; shown to its experts: 0; not flagged by its networks, so seen by nobody there: 34
+in tiles of the consortium's two early searches: 15 (of which not flagged: 9)
+shown to volunteers and scored 0.5 or more in either round: 9; highest second-round score 0.82 (expert inspection needed more than 0.87)
+not flagged: 4 with a network ensemble score above 0.5
+of the 8 grade B+: flagged by the networks 7, never flagged 1
+
+the arc of each grade B+ candidate in its stored VIS cutout: the strongest residual feature within
+1 arcsec of the stated radius and 40 degrees of the stated direction (north through east)
+name                        stated  stated |     r"     PA   len"   wid"    S/N
+EUCL J063430.97-453047.1      2.0"    135  |    1.7    154    1.9    0.9     65
+EUCL J043947.47-335914.3      4.0"    140  |    3.7    144    4.4    0.9     49
+EUCL J053932.71-542912.1      3.0"    315  |    2.8    305    5.9    2.5     55
+EUCL J061550.99-521531.2      2.8"    270  |    2.8    259    4.1    3.9    114
+EUCL J013556.98-590327.0      3.2"    310  |    3.6    303    3.2    2.7    186
+EUCL J025253.00-414456.7      3.0"    180  |    3.1    172    1.6    1.0     49
+EUCL J043425.78-342002.0      2.3"    150  |    3.1    129    2.9    2.4    114
+EUCL J181423.63+755836.5      2.2"    290  |    2.3    292    4.3    1.4     99
+grade B+ objects with a residual feature of S/N above 5 and at least 1 arcsec long at the stated place: 8 of 8
+
+ALL CHECKS PASSED

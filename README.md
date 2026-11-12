@@ -97,13 +97,15 @@ Below each of these, pages are grouped by field.
 | [A006579](independent-rediscovery/mathematics/A006579/README.md) | A 2025 conjecture fails at a 14-digit number | Varun Vejalla, June 2025, in A018804 |
 | [Arctic islands](independent-rediscovery/geography/arctic-islands/README.md) | Three islands exposed by glacier retreat, with area and elevation time series | Russia's Northern Fleet and the Russian Geographical Society; M. Pelto |
 | [TESS eclipsing binaries](independent-rediscovery/astronomy/tess-eclipsing-binaries/README.md) | Two bright eclipsing binaries | IJspeert et al. 2021 and 2024; Battley et al. 2022 |
+| [Euclid DR1 strong-lens candidates](independent-rediscovery/astronomy/euclid-dr1-strong-lenses/README.md) | 93 lens candidates found by eye on the day of the release, first reported as uncatalogued; the consortium's experts grade 87 per cent of them sure or probable | Euclid Collaboration: Lines et al. 2026 (the ECLIPSE catalogue, published with the release) |
 
 ## candidates
 
 | page | what |
 |---|---|
 | [Døcker Smith islet](candidates/geography/docker-smith-islet/README.md) | An ice-capped islet at a glacier front in Melville Bay, Greenland, in open water since 2021 and still drawn as mainland. Place-name registers and charts were not consulted. |
-| [Euclid Q1 lens candidates](candidates/astronomy/euclid-q1-lens-candidates/README.md) | Four possible strong gravitational lenses in Euclid early-release imaging; two plausible, two weak, none in the published lists. |
+| [Euclid DR1 lens candidates](candidates/astronomy/euclid-dr1-lens-candidates/README.md) | 66 possible strong gravitational lenses in the first Euclid data release that are not in the Euclid Consortium's own lens catalogue. Its networks scored all of them and none reached its experts, which lowers the odds. Eight show a clear thin arc. |
+| [Euclid Q1 lens candidates](candidates/astronomy/euclid-q1-lens-candidates/README.md) | Four possible strong gravitational lenses in Euclid early-release imaging, in none of the published lists. After a third look: one probable, two possible, one rejected. |
 | [Earthwork screening](candidates/archaeology/earthwork-screening/README.md) | Eight screens of open lidar and imagery for unrecorded earthworks, with calibration results and confidence. No positions are given. |
 | [Great Lakes bathymetry](candidates/archaeology/great-lakes-bathymetry-screening/README.md) | One wreck-shaped body in open lidar bathymetry, from an uncalibrated detector. Position withheld. |
 | [Tjibangara 1934 meteorite](candidates/history/tjibangara-1934-meteorite/README.md) | Newspaper reports and an observatory analysis of a 1934 fall in West Java that copies of the official register do not list. |
@@ -143,7 +145,8 @@ Below each of these, pages are grouped by field.
   efforts in the same area (for integer sequences: Epoch AI's OEIS Open benchmark, Google DeepMind's
   formal-conjectures repository, the omega-institute project and Foundation-0's math0; for a variable
   star: its entry in the AAVSO index, the papers on the star, and other observatories' plate archives).
-  Ten results first taken to be new were filed under `independent-rediscovery/` because of this check.
+  For a new data release: the release's own contents and papers pages, and Zenodo, before anything else.
+  Eleven results first taken to be new were filed under `independent-rediscovery/` because of this check.
   It can still miss things.
 - **Sensitive locations are withheld.** Positions of possible archaeological sites or wrecks are not
   published here.
